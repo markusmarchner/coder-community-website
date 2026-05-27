@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Coder Community Edition: Videos taggen, Präsentationen analysieren, Panels auswerten und Projekte austauschen."
+    />
+    <title>Coder Community Edition</title>
+    <link rel="preload" href="assets/coder-hero.png" as="image" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Coder Startseite" data-i18n-attr="aria-label:brandAria">Coder</a>
+      <nav class="main-nav" aria-label="Hauptnavigation" data-i18n-attr="aria-label:mainNavAria">
+        <a href="#video" data-i18n="navVideo">Video</a>
+        <a href="#community" data-i18n="navCommunity">Community Edition</a>
+        <a href="#download" data-i18n="navDownload">Download</a>
+        <a href="#contact" data-i18n="navContact">Contact</a>
+      </nav>
+      <div class="language-switcher" aria-label="Sprache auswählen" data-i18n-attr="aria-label:languageAria">
+        <button class="language-option active" type="button" data-lang="de">DE</button>
+        <button class="language-option" type="button" data-lang="en">EN</button>
+        <button class="language-option" type="button" data-lang="fr">FR</button>
+        <button class="language-option" type="button" data-lang="es">ES</button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-media" role="img" aria-label="Coder Videoanalyse auf einem Desktop" data-i18n-attr="aria-label:heroImageAria"></div>
+        <div class="hero-overlay">
+          <p class="eyebrow" data-i18n="heroEyebrow">Community Launch</p>
+          <h1 id="hero-title" data-i18n="heroTitle">Coder Community Edition</h1>
+          <p data-i18n="heroText">
+            Ein einfacher Startpunkt für alle, die Videos taggen,
+            Präsentationen vergleichen, Analysen teilen und gemeinsam bessere
+            Workflows entwickeln wollen.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#download" data-i18n="heroDownload">Download</a>
+            <a class="button secondary" href="#video" data-i18n="heroVideos">Videos ansehen</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section intro-video" id="video" aria-labelledby="intro-video-title">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="introEyebrow">Vorstellungsvideo</p>
+          <h2 id="intro-video-title" data-i18n="introTitle">Ein schneller Rundgang durch Coder</h2>
+          <p data-i18n="introText">
+            Das Einführungsvideo erklärt den Community-Launch und zeigt, wie
+            Tagging, Präsentationen, Analysen und Austausch zusammenhängen.
+          </p>
+        </div>
+        <div class="video-frame">
+          <iframe
+            src="https://www.youtube-nocookie.com/embed/ysz5S6PUM-U"
+            title="Coder Vorstellungsvideo"
+            data-i18n-attr="title:introVideoTitle"
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+
+      <section class="section video-library" aria-labelledby="video-library-title">
+        <div class="section-heading compact">
+          <p class="eyebrow" data-i18n="libraryEyebrow">Video-Auswahl</p>
+          <h2 id="video-library-title" data-i18n="libraryTitle">Workflows gezielt ansehen</h2>
+        </div>
+
+        <div class="video-selector" aria-label="Videokategorien" data-i18n-attr="aria-label:videoCategoriesAria">
+          <button class="video-tab active" type="button" data-video="tagging"></button>
+          <button class="video-tab" type="button" data-video="presentations"></button>
+          <button class="video-tab" type="button" data-video="analysis"></button>
+          <button class="video-tab" type="button" data-video="panels"></button>
+          <button class="video-tab" type="button" data-video="importExport"></button>
+          <button class="video-tab" type="button" data-video="more"></button>
+        </div>
+
+        <div class="viewer-grid">
+          <div class="video-frame selected-video">
+            <iframe
+              id="feature-video"
+              src="https://www.youtube-nocookie.com/embed/ysz5S6PUM-U"
+              title="Coder Tagging Video"
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <aside class="viewer-copy" aria-live="polite">
+            <p class="eyebrow" id="feature-kicker">Tagging</p>
+            <h3 id="feature-title">Tags setzen, Szenen finden</h3>
+            <p id="feature-description">Markiere relevante Momente, strukturiere Videoabschnitte und finde Szenen später über Tags wieder.</p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section community" id="community" aria-labelledby="community-title">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="communityEyebrow">Community Edition</p>
+          <h2 id="community-title" data-i18n="communityTitle">Kostenlos starten, gemeinsam verbessern</h2>
+          <p data-i18n="communityText">
+            Die Community Edition ist für den frühen Austausch gedacht:
+            ausprobieren, Feedback geben, Beispielprojekte teilen und konkrete
+            Workflows für Lehre, Forschung, Training und Review entwickeln.
+          </p>
+        </div>
+        <div class="feature-list">
+          <article>
+            <h3 data-i18n="featureOneTitle">Videoanalyse</h3>
+            <p data-i18n="featureOneText">Tagging, Notizen und strukturierte Auswertung in einem ruhigen Workflow.</p>
+          </article>
+          <article>
+            <h3 data-i18n="featureTwoTitle">Präsentation & Panels</h3>
+            <p data-i18n="featureTwoText">Material vorbereiten, Ergebnisse zeigen und Diskussionen nachvollziehen.</p>
+          </article>
+          <article>
+            <h3 data-i18n="featureThreeTitle">Import & Export</h3>
+            <p data-i18n="featureThreeText">Projekte austauschen und Ergebnisse für weitere Auswertung exportieren.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section download" id="download" aria-labelledby="download-title">
+        <div>
+          <p class="eyebrow" data-i18n="downloadEyebrow">Download & Lizenzcode</p>
+          <h2 id="download-title" data-i18n="downloadTitle">Coder für macOS herunterladen</h2>
+          <p data-i18n="downloadText">
+            Der Download wird über GitHub Releases bereitgestellt. Für die
+            Nutzung der Community Edition kannst du unten einen Lizenzcode
+            anfragen.
+          </p>
+        </div>
+        <a
+          class="button primary download-button"
+          href="https://github.com/markusmarchner/coder-downloads/releases/download/v0.1.2/Coder.dmg"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span data-i18n="downloadButton">Coder.dmg herunterladen</span>
+        </a>
+      </section>
+
+      <section class="section contact" id="contact" aria-labelledby="contact-title">
+        <div class="section-heading">
+          <h2 id="contact-title" data-i18n="contactTitle">Lizenzcode anfragen</h2>
+          <p data-i18n="contactText">
+            Fordere hier deinen Lizenzcode für die Coder Community Edition an.
+          </p>
+        </div>
+        <div class="tally-panel">
+          <iframe
+            data-tally-src="https://tally.so/embed/ODoNRM?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+            loading="lazy"
+            width="100%"
+            height="420"
+            frameborder="0"
+            marginheight="0"
+            marginwidth="0"
+            title="Coder Lizenzcode-Anfrage"
+            data-i18n-attr="title:tallyTitle"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p data-i18n="footerCopyright">© 2026 Coder Community Edition</p>
+      <nav aria-label="Rechtliches" data-i18n-attr="aria-label:legalAria">
+        <a href="impressum.html" data-i18n="footerImprint">Impressum</a>
+        <a href="datenschutz.html" data-i18n="footerPrivacy">Datenschutz</a>
+        <a href="terms.html" data-i18n="footerTerms">Terms</a>
+        <a href="cookies.html" data-i18n="footerCookies">Cookies</a>
+      </nav>
+    </footer>
+
+    <script async src="https://tally.so/widgets/embed.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
