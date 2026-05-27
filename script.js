@@ -13,10 +13,10 @@ const translations = {
     navCommunity: "Community Edition",
     navDownload: "Download",
     navContact: "Contact",
-    heroEyebrow: "Community Launch",
+    heroEyebrow: "Community Edition",
     heroTitle: "Coder Community Edition",
     heroText:
-      "Ein einfacher Startpunkt für alle, die Videos taggen, Präsentationen vergleichen, Analysen teilen und gemeinsam bessere Workflows entwickeln wollen.",
+      "In Coder steckt die Erfahrung aus über 11 Jahren Analysearbeit im Nachwuchsleistungszentrum. Die App wurde entwickelt, um professionelle Video- und Datenanalyse einfacher zugänglich zu machen: intuitiv in der Bedienung, schnell im Workflow und umfassend genug, um den gesamten Prozess vom Tagging über Videoanalysen bis hin zu Datenanalyse und Dashboards in einem Tool abzubilden.",
     heroDownload: "Download",
     heroVideos: "Videos ansehen",
     youtubeNotice:
@@ -25,14 +25,14 @@ const translations = {
     introEyebrow: "Vorstellungsvideo",
     introTitle: "Ein schneller Rundgang durch Coder",
     introText:
-      "Das Einführungsvideo erklärt den Community-Launch und zeigt, wie Tagging, Präsentationen, Analysen und Austausch zusammenhängen.",
+      "Das Einführungsvideo erklärt die Community Edition und zeigt, wie einfach Tagging, Präsentationen, Analysen und Austausch zusammen arbeiten.",
     introVideoTitle: "Coder Vorstellungsvideo",
-    libraryEyebrow: "Video-Auswahl",
+    libraryEyebrow: "Kurze Demovideos",
     libraryTitle: "Workflows gezielt ansehen",
     communityEyebrow: "Community Edition",
     communityTitle: "Kostenlos starten, gemeinsam verbessern",
     communityText:
-      "Die Community Edition ist für den frühen Austausch gedacht: ausprobieren, Feedback geben, Beispielprojekte teilen und konkrete Workflows für Lehre, Forschung, Training und Review entwickeln.",
+      "Die Community Edition soll Analysearbeit zugänglicher machen und die Ausbildung junger Talente unterstützen. Deshalb kann Coder kostenlos ausprobiert werden und richtet sich an alle, die Training, Spielanalyse, Lehre oder Forschung verbessern wollen. Über integrierte Feedbackmöglichkeiten können Erfahrungen, Ideen und konkrete Workflows direkt zurückgespielt werden. So entwickeln wir die App gemeinsam Schritt für Schritt weiter. Wir haben uns das Ziel gesetzt, die Community Edition grundsätzlich immer kostenfrei zur Verfügung zu stellen.",
     featureOneTitle: "Videoanalyse",
     featureOneText:
       "Tagging, Notizen und strukturierte Auswertung in einem ruhigen Workflow.",
@@ -46,6 +46,8 @@ const translations = {
     downloadTitle: "Coder für macOS herunterladen",
     downloadText:
       "Der Download wird über GitHub Releases bereitgestellt. Für die Nutzung der Community Edition kannst du unten einen Lizenzcode anfragen.",
+    downloadCompatibility:
+      "Kompatibilität: Coder ist grundsätzlich mit macOS Tahoe sowie macOS Sonoma und macOS Sequoia kompatibel.",
     downloadButton: "Coder.dmg herunterladen",
     contactTitle: "Lizenzcode anfragen",
     contactText:
@@ -71,10 +73,10 @@ const translations = {
     navCommunity: "Community Edition",
     navDownload: "Download",
     navContact: "Contact",
-    heroEyebrow: "Community Launch",
+    heroEyebrow: "Community Edition",
     heroTitle: "Coder Community Edition",
     heroText:
-      "A simple starting point for everyone who wants to tag videos, compare presentations, share analyses, and develop better workflows together.",
+      "Coder is shaped by more than 11 years of analysis work in a youth academy environment. The app was built to make professional video and data analysis more accessible: intuitive to use, fast in daily workflows, and comprehensive enough to cover the full process from tagging and video analysis to data analysis and dashboards in one tool.",
     heroDownload: "Download",
     heroVideos: "Watch videos",
     youtubeNotice:
@@ -83,14 +85,14 @@ const translations = {
     introEyebrow: "Intro video",
     introTitle: "A quick tour of Coder",
     introText:
-      "The intro video explains the community launch and shows how tagging, presentations, analyses, and exchange fit together.",
+      "The intro video explains the Community Edition and shows how easily tagging, presentations, analyses, and exchange work together.",
     introVideoTitle: "Coder intro video",
-    libraryEyebrow: "Video selection",
+    libraryEyebrow: "Short demo videos",
     libraryTitle: "Watch focused workflows",
     communityEyebrow: "Community Edition",
     communityTitle: "Start free, improve together",
     communityText:
-      "The Community Edition is built for early exchange: try it, give feedback, share example projects, and develop practical workflows for teaching, research, training, and review.",
+      "The Community Edition is designed to make analysis work more accessible and support the development of young talent. That is why Coder can be tried for free and is aimed at everyone who wants to improve training, match analysis, teaching, or research. Integrated feedback options let users share experiences, ideas, and concrete workflows directly with us, so we can keep developing the app step by step together. Our goal is to keep the Community Edition generally available free of charge.",
     featureOneTitle: "Video analysis",
     featureOneText:
       "Tagging, notes, and structured evaluation in a calm workflow.",
@@ -104,6 +106,8 @@ const translations = {
     downloadTitle: "Download Coder for macOS",
     downloadText:
       "The download is provided through GitHub Releases. You can request a license code for the Community Edition below.",
+    downloadCompatibility:
+      "Compatibility: Coder is generally compatible with macOS Tahoe, macOS Sonoma and macOS Sequoia.",
     downloadButton: "Download Coder.dmg",
     contactTitle: "Request a license code",
     contactText: "Request your license code for the Coder Community Edition here.",
@@ -128,10 +132,10 @@ const translations = {
     navCommunity: "Community Edition",
     navDownload: "Téléchargement",
     navContact: "Contact",
-    heroEyebrow: "Lancement communautaire",
+    heroEyebrow: "Community Edition",
     heroTitle: "Coder Community Edition",
     heroText:
-      "Un point de départ simple pour annoter des vidéos, comparer des présentations, partager des analyses et améliorer les workflows ensemble.",
+      "Coder s’appuie sur plus de 11 ans d’expérience en analyse dans un centre de formation. L’app a été développée pour rendre l’analyse vidéo et l’analyse de données professionnelles plus accessibles : intuitive à utiliser, rapide dans les workflows quotidiens et assez complète pour couvrir tout le processus, du tagging et de l’analyse vidéo jusqu’à l’analyse de données et aux dashboards, dans un seul outil.",
     heroDownload: "Télécharger",
     heroVideos: "Voir les vidéos",
     youtubeNotice:
@@ -140,14 +144,14 @@ const translations = {
     introEyebrow: "Vidéo de présentation",
     introTitle: "Un rapide tour de Coder",
     introText:
-      "La vidéo de présentation explique le lancement communautaire et montre comment l’annotation, les présentations, les analyses et l’échange s’articulent.",
+      "La vidéo de présentation explique la Community Edition et montre avec quelle simplicité l’annotation, les présentations, les analyses et l’échange fonctionnent ensemble.",
     introVideoTitle: "Vidéo de présentation Coder",
-    libraryEyebrow: "Sélection vidéo",
+    libraryEyebrow: "Courtes vidéos démo",
     libraryTitle: "Voir les workflows ciblés",
     communityEyebrow: "Community Edition",
     communityTitle: "Commencer gratuitement, progresser ensemble",
     communityText:
-      "La Community Edition est pensée pour les premiers échanges : tester, donner du feedback, partager des projets d’exemple et développer des workflows concrets pour l’enseignement, la recherche, la formation et la revue.",
+      "La Community Edition vise à rendre le travail d’analyse plus accessible et à soutenir la formation de jeunes talents. C’est pourquoi Coder peut être essayé gratuitement et s’adresse à toutes les personnes qui souhaitent améliorer l’entraînement, l’analyse de match, l’enseignement ou la recherche. Grâce aux possibilités de feedback intégrées, les expériences, idées et workflows concrets peuvent nous être transmis directement afin de faire évoluer l’app ensemble, étape par étape. Notre objectif est de maintenir la Community Edition généralement disponible gratuitement.",
     featureOneTitle: "Analyse vidéo",
     featureOneText:
       "Annotation, notes et évaluation structurée dans un workflow fluide.",
@@ -161,6 +165,8 @@ const translations = {
     downloadTitle: "Télécharger Coder pour macOS",
     downloadText:
       "Le téléchargement est fourni via GitHub Releases. Vous pouvez demander ci-dessous un code de licence pour la Community Edition.",
+    downloadCompatibility:
+      "Compatibilité : Coder est généralement compatible avec macOS Tahoe, macOS Sonoma et macOS Sequoia.",
     downloadButton: "Télécharger Coder.dmg",
     contactTitle: "Demander un code de licence",
     contactText:
@@ -186,10 +192,10 @@ const translations = {
     navCommunity: "Community Edition",
     navDownload: "Descarga",
     navContact: "Contacto",
-    heroEyebrow: "Lanzamiento comunitario",
+    heroEyebrow: "Community Edition",
     heroTitle: "Coder Community Edition",
     heroText:
-      "Un punto de partida sencillo para etiquetar vídeos, comparar presentaciones, compartir análisis y desarrollar mejores flujos de trabajo en comunidad.",
+      "Coder reúne más de 11 años de experiencia en análisis dentro de una academia de formación. La app se desarrolló para hacer que el análisis profesional de vídeo y datos sea más accesible: intuitiva de usar, rápida en el flujo de trabajo diario y lo bastante completa para cubrir todo el proceso, desde el etiquetado y el análisis de vídeo hasta el análisis de datos y los dashboards, en una sola herramienta.",
     heroDownload: "Descargar",
     heroVideos: "Ver vídeos",
     youtubeNotice:
@@ -198,14 +204,14 @@ const translations = {
     introEyebrow: "Vídeo de presentación",
     introTitle: "Un recorrido rápido por Coder",
     introText:
-      "El vídeo de presentación explica el lanzamiento comunitario y muestra cómo se conectan el etiquetado, las presentaciones, los análisis y el intercambio.",
+      "El vídeo de presentación explica la Community Edition y muestra lo fácil que es combinar el etiquetado, las presentaciones, los análisis y el intercambio.",
     introVideoTitle: "Vídeo de presentación de Coder",
-    libraryEyebrow: "Selección de vídeos",
+    libraryEyebrow: "Vídeos demo breves",
     libraryTitle: "Ver flujos de trabajo concretos",
     communityEyebrow: "Community Edition",
     communityTitle: "Empieza gratis, mejora en comunidad",
     communityText:
-      "La Community Edition está pensada para el intercambio inicial: probar, dar feedback, compartir proyectos de ejemplo y desarrollar flujos de trabajo concretos para docencia, investigación, formación y revisión.",
+      "La Community Edition quiere hacer que el trabajo de análisis sea más accesible y apoyar la formación de jóvenes talentos. Por eso Coder puede probarse gratis y está dirigida a quienes quieren mejorar el entrenamiento, el análisis de partidos, la docencia o la investigación. Gracias a las opciones de feedback integradas, las experiencias, ideas y flujos de trabajo concretos pueden volver directamente a nosotros para seguir desarrollando la app paso a paso en conjunto. Nuestro objetivo es mantener la Community Edition generalmente disponible de forma gratuita.",
     featureOneTitle: "Análisis de vídeo",
     featureOneText:
       "Etiquetas, notas y evaluación estructurada en un flujo de trabajo tranquilo.",
@@ -219,6 +225,8 @@ const translations = {
     downloadTitle: "Descargar Coder para macOS",
     downloadText:
       "La descarga se proporciona a través de GitHub Releases. Abajo puedes solicitar un código de licencia para la Community Edition.",
+    downloadCompatibility:
+      "Compatibilidad: Coder es generalmente compatible con macOS Tahoe, macOS Sonoma y macOS Sequoia.",
     downloadButton: "Descargar Coder.dmg",
     contactTitle: "Solicitar código de licencia",
     contactText:
@@ -239,42 +247,42 @@ const videoContent = {
       label: "Tagging",
       title: "Tags setzen, Szenen finden",
       description:
-        "Markiere relevante Momente, strukturiere Videoabschnitte und finde Szenen später über Tags wieder.",
+        "Markiere relevante Momente, strukturiere dein Spiel und finde Szenen später über deine Tags wieder. So wird Analyse effektiv. Nutze diese Tags dann in weiteren Bereichen zum Präsentieren und generiere daraus Highlightvideos und Datenanalysen.",
     },
     presentations: {
       id: "ysz5S6PUM-U",
       label: "Präsentationen",
       title: "Ergebnisse klar präsentieren",
       description:
-        "Bereite Clips, Notizen und Analysepunkte so vor, dass sie in Reviews oder Lehrsituationen schnell verständlich sind.",
+        "Bereite Clips, Notizen und Analysepunkte so vor, dass du sie in Mannschafts-, Gruppen- und Individualanalysen gewinnbringend zur Spielerentwicklung einsetzen kannst.",
     },
     analysis: {
       id: "ysz5S6PUM-U",
       label: "Analysen",
       title: "Muster erkennen und belegen",
       description:
-        "Vergleiche markierte Stellen, sammle Beobachtungen und entwickle daraus belastbare Auswertungen.",
+        "Generiere auf Basis deiner Tags individuelle KPIs und Quoten. Analysiere diese direkt mit den passenden Videoszenen und generiere daraus Dashboards. Alles ganz individuell speziell für ein Spiel oder über die ganze Saison hinweg.",
     },
     panels: {
       id: "ysz5S6PUM-U",
       label: "Panels",
-      title: "Diskussionen gemeinsam auswerten",
+      title: "Individuelle Panels anlegen und mit anderen teilen",
       description:
-        "Nutze Panels, um mehrere Perspektiven zu strukturieren und Entscheidungen nachvollziehbar zu dokumentieren.",
+        "Panels sind die Basis für deine Analysen. Lege dir deine eigenen Panels an und tagge deine Spiele z.B. mit Spielerszenen und Spielphasen. Deiner Kreativität sind kaum Grenzen gesetzt.",
     },
     importExport: {
       id: "ysz5S6PUM-U",
       label: "Import/Export",
-      title: "Material hinein, Ergebnisse hinaus",
+      title: "Du kannst so gut wie alles importieren und exportieren",
       description:
-        "Starte mit bestehendem Material und exportiere Ergebnisse für Dokumentation, Austausch oder weitere Analyse.",
+        "Egal ob Projekt, Panels, Analysen oder Dashboards. Alles lässt sich importieren und auch exportieren. So kannst du mit anderen ganz einfach deine Ideen und Arbeiten austauschen.",
     },
     more: {
       id: "ysz5S6PUM-U",
       label: "More",
-      title: "Weitere Workflows folgen",
+      title: "Und es gibt noch viel mehr",
       description:
-        "Hier können später Spezialthemen, Community-Beispiele und neue Funktionen ergänzt werden.",
+        "Egal ob Cloud-Anbindung, Backup und erste KI-Chat-Funktionen. Mehr im Video.",
     },
   },
   en: {
@@ -283,42 +291,42 @@ const videoContent = {
       label: "Tagging",
       title: "Set tags, find scenes",
       description:
-        "Mark relevant moments, structure video sections, and find scenes again through tags.",
+        "Mark relevant moments, structure your match, and find scenes again later through your tags. This makes analysis effective. Then use these tags in other areas for presentations and generate highlight videos and data analyses from them.",
     },
     presentations: {
       id: "ysz5S6PUM-U",
       label: "Presentations",
       title: "Present results clearly",
       description:
-        "Prepare clips, notes, and analysis points so they are easy to understand in reviews or teaching settings.",
+        "Prepare clips, notes, and analysis points so you can use them effectively for player development in team, group, and individual analysis.",
     },
     analysis: {
       id: "ysz5S6PUM-U",
       label: "Analyses",
       title: "Recognize and support patterns",
       description:
-        "Compare tagged moments, collect observations, and turn them into reliable analyses.",
+        "Generate custom KPIs and rates based on your tags. Analyze them directly with the matching video scenes and turn them into dashboards. Everything can be tailored to a single match or tracked across the entire season.",
     },
     panels: {
       id: "ysz5S6PUM-U",
       label: "Panels",
-      title: "Evaluate discussions together",
+      title: "Create custom panels and share them with others",
       description:
-        "Use panels to structure multiple perspectives and document decisions clearly.",
+        "Panels are the foundation of your analyses. Create your own panels and tag your matches, for example with player scenes and game phases. There are hardly any limits to your creativity.",
     },
     importExport: {
       id: "ysz5S6PUM-U",
       label: "Import/Export",
-      title: "Bring material in, take results out",
+      title: "You can import and export almost anything",
       description:
-        "Start with existing material and export results for documentation, exchange, or further analysis.",
+        "Whether it is a project, panels, analyses, or dashboards, everything can be imported and exported. This makes it easy to exchange your ideas and work with others.",
     },
     more: {
       id: "ysz5S6PUM-U",
       label: "More",
-      title: "More workflows coming",
+      title: "And there is much more",
       description:
-        "Add special topics, community examples, and new features here later.",
+        "Whether it is cloud connectivity, backup, or first AI chat features, there is more in the video.",
     },
   },
   fr: {
@@ -327,42 +335,42 @@ const videoContent = {
       label: "Annotation",
       title: "Ajouter des tags, retrouver des scènes",
       description:
-        "Marquez les moments importants, structurez les passages vidéo et retrouvez ensuite les scènes grâce aux tags.",
+        "Marquez les moments importants, structurez votre match et retrouvez ensuite les scènes grâce à vos tags. L’analyse devient ainsi plus efficace. Utilisez ensuite ces tags dans d’autres espaces pour présenter vos contenus et générer des vidéos highlights ainsi que des analyses de données.",
     },
     presentations: {
       id: "ysz5S6PUM-U",
       label: "Présentations",
       title: "Présenter les résultats clairement",
       description:
-        "Préparez les extraits, notes et points d’analyse pour les rendre faciles à comprendre en revue ou en contexte pédagogique.",
+        "Préparez les extraits, notes et points d’analyse afin de les utiliser efficacement pour le développement des joueurs dans les analyses d’équipe, de groupe et individuelles.",
     },
     analysis: {
       id: "ysz5S6PUM-U",
       label: "Analyses",
       title: "Identifier et étayer les tendances",
       description:
-        "Comparez les passages annotés, rassemblez les observations et transformez-les en analyses solides.",
+        "Générez des KPI et des ratios personnalisés à partir de vos tags. Analysez-les directement avec les scènes vidéo correspondantes et transformez-les en dashboards. Tout peut être adapté à un match précis ou suivi sur toute la saison.",
     },
     panels: {
       id: "ysz5S6PUM-U",
       label: "Panels",
-      title: "Analyser les discussions ensemble",
+      title: "Créer des panels personnalisés et les partager",
       description:
-        "Utilisez les panels pour structurer plusieurs perspectives et documenter les décisions.",
+        "Les panels sont la base de vos analyses. Créez vos propres panels et taguez vos matchs, par exemple avec des scènes de joueurs et des phases de jeu. Votre créativité n’a presque pas de limites.",
     },
     importExport: {
       id: "ysz5S6PUM-U",
       label: "Import/Export",
-      title: "Importer le matériel, exporter les résultats",
+      title: "Vous pouvez presque tout importer et exporter",
       description:
-        "Commencez avec du matériel existant et exportez les résultats pour la documentation, l’échange ou une analyse ultérieure.",
+        "Qu’il s’agisse d’un projet, de panels, d’analyses ou de dashboards, tout peut être importé et exporté. Vous pouvez ainsi échanger facilement vos idées et vos travaux avec d’autres personnes.",
     },
     more: {
       id: "ysz5S6PUM-U",
       label: "Plus",
-      title: "D’autres workflows suivront",
+      title: "Et il y a encore beaucoup plus",
       description:
-        "Ajoutez ici plus tard des sujets spécialisés, des exemples communautaires et de nouvelles fonctions.",
+        "Qu’il s’agisse de connexion cloud, de sauvegarde ou de premières fonctions de chat IA, vous en verrez plus dans la vidéo.",
     },
   },
   es: {
@@ -371,42 +379,42 @@ const videoContent = {
       label: "Etiquetado",
       title: "Añadir etiquetas, encontrar escenas",
       description:
-        "Marca momentos relevantes, estructura secciones de vídeo y vuelve a encontrar escenas mediante etiquetas.",
+        "Marca momentos relevantes, estructura tu partido y vuelve a encontrar escenas más tarde mediante tus etiquetas. Así el análisis se vuelve efectivo. Después utiliza esas etiquetas en otras áreas para presentar y generar vídeos destacados y análisis de datos.",
     },
     presentations: {
       id: "ysz5S6PUM-U",
       label: "Presentaciones",
       title: "Presentar resultados con claridad",
       description:
-        "Prepara clips, notas y puntos de análisis para que sean fáciles de entender en revisiones o clases.",
+        "Prepara clips, notas y puntos de análisis para utilizarlos de forma efectiva en el desarrollo de jugadores dentro de análisis de equipo, grupales e individuales.",
     },
     analysis: {
       id: "ysz5S6PUM-U",
       label: "Análisis",
       title: "Reconocer y fundamentar patrones",
       description:
-        "Compara momentos etiquetados, reúne observaciones y conviértelas en análisis sólidos.",
+        "Genera KPIs y porcentajes personalizados a partir de tus etiquetas. Analízalos directamente con las escenas de vídeo correspondientes y conviértelos en dashboards. Todo puede adaptarse a un partido concreto o analizarse durante toda la temporada.",
     },
     panels: {
       id: "ysz5S6PUM-U",
       label: "Paneles",
-      title: "Evaluar discusiones en conjunto",
+      title: "Crear paneles personalizados y compartirlos",
       description:
-        "Usa paneles para estructurar varias perspectivas y documentar decisiones con claridad.",
+        "Los paneles son la base de tus análisis. Crea tus propios paneles y etiqueta tus partidos, por ejemplo con escenas de jugadores y fases del juego. Tu creatividad casi no tiene límites.",
     },
     importExport: {
       id: "ysz5S6PUM-U",
       label: "Importar/Exportar",
-      title: "Importar material, exportar resultados",
+      title: "Puedes importar y exportar casi todo",
       description:
-        "Empieza con material existente y exporta resultados para documentación, intercambio o análisis posteriores.",
+        "Ya sean proyectos, paneles, análisis o dashboards, todo se puede importar y exportar. Así puedes intercambiar fácilmente tus ideas y trabajos con otras personas.",
     },
     more: {
       id: "ysz5S6PUM-U",
       label: "Más",
-      title: "Habrá más flujos de trabajo",
+      title: "Y hay mucho más",
       description:
-        "Aquí se podrán añadir temas especiales, ejemplos de la comunidad y nuevas funciones.",
+        "Ya sea conexión cloud, copias de seguridad o primeras funciones de chat con IA, hay más en el vídeo.",
     },
   },
 };
