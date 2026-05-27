@@ -19,6 +19,9 @@ const translations = {
       "Ein einfacher Startpunkt für alle, die Videos taggen, Präsentationen vergleichen, Analysen teilen und gemeinsam bessere Workflows entwickeln wollen.",
     heroDownload: "Download",
     heroVideos: "Videos ansehen",
+    youtubeNotice:
+      "Dieses Video wird über YouTube eingebettet. Beim Laden des Videos können personenbezogene Daten an YouTube/Google übertragen werden. Bitte lade das Video nur, wenn du damit einverstanden bist.",
+    youtubeButton: "YouTube-Video laden",
     introEyebrow: "Vorstellungsvideo",
     introTitle: "Ein schneller Rundgang durch Coder",
     introText:
@@ -48,7 +51,7 @@ const translations = {
     contactText:
       "Fordere hier deinen Lizenzcode für die Coder Community Edition an.",
     tallyTitle: "Coder Lizenzcode-Anfrage",
-    footerCopyright: "© 2026 Coder Community Edition",
+    footerCopyright: "© 2026 Markus Marchner",
     footerImprint: "Impressum",
     footerPrivacy: "Datenschutz",
     footerTerms: "Terms",
@@ -74,6 +77,9 @@ const translations = {
       "A simple starting point for everyone who wants to tag videos, compare presentations, share analyses, and develop better workflows together.",
     heroDownload: "Download",
     heroVideos: "Watch videos",
+    youtubeNotice:
+      "This video is embedded via YouTube. Loading it may transfer personal data to YouTube/Google. Please load the video only if you agree.",
+    youtubeButton: "Load YouTube video",
     introEyebrow: "Intro video",
     introTitle: "A quick tour of Coder",
     introText:
@@ -102,7 +108,7 @@ const translations = {
     contactTitle: "Request a license code",
     contactText: "Request your license code for the Coder Community Edition here.",
     tallyTitle: "Coder license code request",
-    footerCopyright: "© 2026 Coder Community Edition",
+    footerCopyright: "© 2026 Markus Marchner",
     footerImprint: "Imprint",
     footerPrivacy: "Privacy",
     footerTerms: "Terms",
@@ -128,6 +134,9 @@ const translations = {
       "Un point de départ simple pour annoter des vidéos, comparer des présentations, partager des analyses et améliorer les workflows ensemble.",
     heroDownload: "Télécharger",
     heroVideos: "Voir les vidéos",
+    youtubeNotice:
+      "Cette vidéo est intégrée via YouTube. Son chargement peut transmettre des données personnelles à YouTube/Google. Chargez la vidéo uniquement si vous êtes d’accord.",
+    youtubeButton: "Charger la vidéo YouTube",
     introEyebrow: "Vidéo de présentation",
     introTitle: "Un rapide tour de Coder",
     introText:
@@ -157,7 +166,7 @@ const translations = {
     contactText:
       "Demandez ici votre code de licence pour la Coder Community Edition.",
     tallyTitle: "Demande de code de licence Coder",
-    footerCopyright: "© 2026 Coder Community Edition",
+    footerCopyright: "© 2026 Markus Marchner",
     footerImprint: "Mentions légales",
     footerPrivacy: "Confidentialité",
     footerTerms: "Conditions",
@@ -183,6 +192,9 @@ const translations = {
       "Un punto de partida sencillo para etiquetar vídeos, comparar presentaciones, compartir análisis y desarrollar mejores flujos de trabajo en comunidad.",
     heroDownload: "Descargar",
     heroVideos: "Ver vídeos",
+    youtubeNotice:
+      "Este vídeo está integrado mediante YouTube. Al cargarlo, pueden transferirse datos personales a YouTube/Google. Carga el vídeo solo si estás de acuerdo.",
+    youtubeButton: "Cargar vídeo de YouTube",
     introEyebrow: "Vídeo de presentación",
     introTitle: "Un recorrido rápido por Coder",
     introText:
@@ -212,7 +224,7 @@ const translations = {
     contactText:
       "Solicita aquí tu código de licencia para Coder Community Edition.",
     tallyTitle: "Solicitud de código de licencia de Coder",
-    footerCopyright: "© 2026 Coder Community Edition",
+    footerCopyright: "© 2026 Markus Marchner",
     footerImprint: "Aviso legal",
     footerPrivacy: "Privacidad",
     footerTerms: "Términos",
@@ -404,7 +416,7 @@ let currentLanguage = translations[localStorage.getItem("coder-language")]
   : "de";
 let currentVideo = "tagging";
 
-const iframe = document.querySelector("#feature-video");
+const featureVideoFrame = document.querySelector("#feature-video");
 const tabs = document.querySelectorAll(".video-tab");
 const languageButtons = document.querySelectorAll(".language-option");
 const kicker = document.querySelector("#feature-kicker");
@@ -440,18 +452,61 @@ function applyText(language) {
   });
 }
 
+function consentMarkup() {
+  const dictionary = translations[currentLanguage] || translations.de;
+
+  return `
+    <div class="video-consent-content">
+      <p>${dictionary.youtubeNotice}</p>
+      <button class="button primary" type="button" data-load-video>
+        ${dictionary.youtubeButton}
+      </button>
+    </div>
+  `;
+}
+
+function loadYouTubeVideo(frame) {
+  const videoId = frame.dataset.videoId;
+  const videoTitle = frame.dataset.videoTitle || "Coder Video";
+
+  if (!videoId) {
+    return;
+  }
+
+  frame.classList.remove("video-consent");
+  frame.innerHTML = `
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/${videoId}"
+      title="${videoTitle}"
+      loading="lazy"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
+  `;
+}
+
+function resetVideoFrame(frame, videoId, videoTitle) {
+  if (!frame) {
+    return;
+  }
+
+  frame.dataset.videoId = videoId;
+  frame.dataset.videoTitle = videoTitle;
+  frame.classList.add("video-consent");
+  frame.innerHTML = consentMarkup();
+}
+
 function selectVideo(key) {
   const videos = videoContent[currentLanguage] || videoContent.de;
   const video = videos[key] || videos.tagging;
 
   currentVideo = key;
 
-  if (!video || !iframe || !kicker || !title || !description) {
+  if (!video || !featureVideoFrame || !kicker || !title || !description) {
     return;
   }
 
-  iframe.src = `https://www.youtube-nocookie.com/embed/${video.id}`;
-  iframe.title = `Coder ${video.label} Video`;
+  resetVideoFrame(featureVideoFrame, video.id, `Coder ${video.label} Video`);
   kicker.textContent = video.label;
   title.textContent = video.title;
   description.textContent = video.description;
@@ -492,6 +547,18 @@ tabs.forEach((tab) => {
 
 languageButtons.forEach((button) => {
   button.addEventListener("click", () => setLanguage(button.dataset.lang));
+});
+
+document.addEventListener("click", (event) => {
+  const loadButton = event.target.closest("[data-load-video]");
+  if (!loadButton) {
+    return;
+  }
+
+  const frame = loadButton.closest("[data-youtube-frame]");
+  if (frame) {
+    loadYouTubeVideo(frame);
+  }
 });
 
 setLanguage(currentLanguage);

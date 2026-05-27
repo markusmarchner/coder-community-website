@@ -55,15 +55,23 @@
             Tagging, Präsentationen, Analysen und Austausch zusammenhängen.
           </p>
         </div>
-        <div class="video-frame">
-          <iframe
-            src="https://www.youtube-nocookie.com/embed/ysz5S6PUM-U"
-            title="Coder Vorstellungsvideo"
-            data-i18n-attr="title:introVideoTitle"
-            loading="lazy"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
+        <div
+          class="video-frame video-consent"
+          data-youtube-frame
+          data-video-id="ysz5S6PUM-U"
+          data-video-title="Coder Vorstellungsvideo"
+          data-i18n-attr="data-video-title:introVideoTitle"
+        >
+          <div class="video-consent-content">
+            <p data-i18n="youtubeNotice">
+              Dieses Video wird über YouTube eingebettet. Beim Laden des Videos
+              können personenbezogene Daten an YouTube/Google übertragen werden.
+              Bitte lade das Video nur, wenn du damit einverstanden bist.
+            </p>
+            <button class="button primary" type="button" data-load-video data-i18n="youtubeButton">
+              YouTube-Video laden
+            </button>
+          </div>
         </div>
       </section>
 
@@ -83,15 +91,24 @@
         </div>
 
         <div class="viewer-grid">
-          <div class="video-frame selected-video">
-            <iframe
-              id="feature-video"
-              src="https://www.youtube-nocookie.com/embed/ysz5S6PUM-U"
-              title="Coder Tagging Video"
-              loading="lazy"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe>
+          <div
+            class="video-frame selected-video video-consent"
+            id="feature-video"
+            data-youtube-frame
+            data-video-id="ysz5S6PUM-U"
+            data-video-title="Coder Tagging Video"
+          >
+            <div class="video-consent-content">
+              <p data-i18n="youtubeNotice">
+                Dieses Video wird über YouTube eingebettet. Beim Laden des
+                Videos können personenbezogene Daten an YouTube/Google
+                übertragen werden. Bitte lade das Video nur, wenn du damit
+                einverstanden bist.
+              </p>
+              <button class="button primary" type="button" data-load-video data-i18n="youtubeButton">
+                YouTube-Video laden
+              </button>
+            </div>
           </div>
           <aside class="viewer-copy" aria-live="polite">
             <p class="eyebrow" id="feature-kicker">Tagging</p>
@@ -171,7 +188,7 @@
     </main>
 
     <footer class="site-footer">
-      <p data-i18n="footerCopyright">© 2026 Coder Community Edition</p>
+      <p data-i18n="footerCopyright">© 2026 Markus Marchner</p>
       <nav aria-label="Rechtliches" data-i18n-attr="aria-label:legalAria">
         <a href="impressum.html" data-i18n="footerImprint">Impressum</a>
         <a href="datenschutz.html" data-i18n="footerPrivacy">Datenschutz</a>
