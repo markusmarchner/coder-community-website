@@ -58,6 +58,7 @@ const translations = {
     footerPrivacy: "Datenschutz",
     footerTerms: "Terms",
     footerCookies: "Cookies",
+    footerOpenSource: "Open Source",
   },
   en: {
     pageTitle: "Coder Community Edition",
@@ -117,6 +118,7 @@ const translations = {
     footerPrivacy: "Privacy",
     footerTerms: "Terms",
     footerCookies: "Cookies",
+    footerOpenSource: "Open Source",
   },
   fr: {
     pageTitle: "Coder Community Edition",
@@ -177,6 +179,7 @@ const translations = {
     footerPrivacy: "Confidentialité",
     footerTerms: "Conditions",
     footerCookies: "Cookies",
+    footerOpenSource: "Open Source",
   },
   es: {
     pageTitle: "Coder Community Edition",
@@ -237,6 +240,7 @@ const translations = {
     footerPrivacy: "Privacidad",
     footerTerms: "Términos",
     footerCookies: "Cookies",
+    footerOpenSource: "Open Source",
   },
 };
 

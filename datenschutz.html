@@ -9,7 +9,18 @@
   </head>
   <body>
     <main class="legal-page">
-      <p><a href="index.html">Zurück zur Startseite</a></p>
+      <div class="legal-top">
+        <a href="index.html" data-legal-i18n="back">Zurück zur Startseite</a>
+        <div class="legal-language-switcher" aria-label="Sprache auswählen">
+          <button type="button" data-legal-lang="de">DE</button>
+          <button type="button" data-legal-lang="en">EN</button>
+          <button type="button" data-legal-lang="fr">FR</button>
+          <button type="button" data-legal-lang="es">ES</button>
+        </div>
+      </div>
+      <p class="legal-note" data-legal-i18n="officialGerman">
+        Hinweis: Die deutsche Fassung ist maßgeblich. Übersetzungen dienen der besseren Verständlichkeit.
+      </p>
       <h1>Datenschutzhinweise</h1>
 
       <h2>1. Allgemeine Hinweise</h2>
@@ -333,6 +344,16 @@
         ändern.
       </p>
       <p>Stand: Mai 2026</p>
+      <footer class="legal-footer">
+        <nav aria-label="Rechtliches">
+          <a href="impressum.html" data-legal-i18n="imprint">Impressum</a>
+          <a href="datenschutz.html" data-legal-i18n="privacy">Datenschutz</a>
+          <a href="terms.html" data-legal-i18n="terms">Terms</a>
+          <a href="cookies.html" data-legal-i18n="cookies">Cookies</a>
+          <a href="opensource.html" data-legal-i18n="openSource">Open Source</a>
+        </nav>
+      </footer>
     </main>
+    <script src="legal.js"></script>
   </body>
 </html>
