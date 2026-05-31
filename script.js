@@ -1,8 +1,11 @@
 const translations = {
   de: {
     pageTitle: "Coder Community Edition",
+    mobilePageTitle: "Coder Mobile App",
     metaDescription:
-      "Coder Community Edition: Videos taggen, Präsentationen analysieren, Panels auswerten und Projekte austauschen.",
+      "Coder Community Edition: Videos taggen, Live Sports Tagging mit Coder Mobile, Präsentationen analysieren, Panels auswerten und Projekte austauschen.",
+    mobileMetaDescription:
+      "Coder Mobile App: iPad-first Live Sports Tagging am Spielfeldrand und im Training, kompatibel mit Coder für macOS.",
     brandAria: "Coder Startseite",
     mainNavAria: "Hauptnavigation",
     languageAria: "Sprache auswählen",
@@ -11,6 +14,7 @@ const translations = {
     legalAria: "Rechtliches",
     navVideo: "Video",
     navCommunity: "Community Edition",
+    navMobile: "Coder Mobile App",
     navDownload: "Download",
     navContact: "Contact",
     heroEyebrow: "Community Edition",
@@ -42,6 +46,70 @@ const translations = {
     featureThreeTitle: "Import & Export",
     featureThreeText:
       "Projekte austauschen und Ergebnisse für weitere Auswertung exportieren.",
+    mobileEyebrow: "Coder Mobile App",
+    mobileTitle: "Live Sports Tagging direkt am iPad",
+    mobileText:
+      "Coder Mobile bringt freie Tagging-Panels, Live-Erfassung und schnelle Projektübergabe auf iPadOS. Coaches und Analysten können Spielphasen, Aktionen und Labels während Training oder Spiel erfassen und die Ergebnisse anschließend im Coder Workflow weiterverwenden.",
+    mobilePitchText:
+      "Entwickelt für Live-Tagging am Spielfeldrand, Trainingsplätze und schnelle Analyse-Workflows direkt nach der Einheit.",
+    mobileDownloadCta: "iOS App herunterladen",
+    mobileTourCta: "Schneller Rundgang",
+    mobileVideoEyebrow: "Video",
+    mobileVideoTitle: "Coder Mobile in Aktion",
+    mobileVideoText:
+      "Hier wird später ein YouTube-Video eingebunden, das den Live-Tagging Workflow am Spielfeldrand und im Training zeigt.",
+    mobileVideoPlaceholder: "YouTube-Video folgt",
+    mobilePreviewAria: "Coder Mobile App Vorschau",
+    mobilePreviewSubtitle: "Live Tagging Session",
+    mobilePreviewStatus: "LIVE",
+    mobileHomeSubtitle: "Live-Sport-Tagging und Analyse",
+    mobileHomePanels: "Panels",
+    mobileHomePanelsText: "Freie Tagging-Panels erstellen",
+    mobileHomeProjects: "Projekte",
+    mobileHomeProjectsText: "Sessions starten und Tags prüfen",
+    mobileTourEyebrow: "Schneller Rundgang",
+    mobileTourTitle: "Vom Panel zur fertigen XML",
+    mobileTourIntro:
+      "Die App konzentriert sich auf das, was am Spielfeldrand zählt: Panels vorbereiten, live taggen, sauber speichern und direkt weitergeben.",
+    mobileTourSettingsAlt: "Tag-Button Einstellungen in Coder Mobile",
+    mobileTourLiveAlt: "Live Tagging Ansicht in Coder Mobile",
+    mobileTourExportAlt: "XML Export Menü in Coder Mobile",
+    mobileStepOneTitle: "Panels frei gestalten",
+    mobileStepOneText:
+      "Erstelle freie iPad-Tagging-Panels mit Codes, Labels, Farben, Größen, Gruppen und optionalen Spielfeld-Hintergründen.",
+    mobileStepTwoTitle: "Live taggen",
+    mobileStepTwoText:
+      "Starte Projekte, tagge live mit aktiven Codes und verknüpfe Labels automatisch mit den laufenden Spielszenen.",
+    mobileStepThreeTitle: "Exportieren & weiterarbeiten",
+    mobileStepThreeText:
+      "Speichere Projekte, exportiere XML-Dateien und tausche Panels über lokalen Ordner oder WebDAV mit anderen Analysten aus.",
+    mobileCompatEyebrow: "Kompatibilität",
+    mobileCompatTitle: "Voll kompatibel zu Coder für macOS",
+    mobileCompatText:
+      "Coder Mobile ist als mobile Ergänzung zum macOS Workflow gedacht: Tagging auf dem iPad, Analyse und weitere Auswertung am Mac. XML Export, Panel-Austausch und gemeinsame Speicherorte halten die Arbeit zwischen Spielfeld und Analyseplatz verbunden.",
+    mobileCompatOne: "XML-Exports kompatibel mit Sportscode/Hudl und SAP Sports One",
+    mobileCompatTwo: "Panel Import und Export für Team-Workflows",
+    mobileCompatThree: "Lokale Ordner und WebDAV/Nextcloud als Speicherziele",
+    mobileUseEyebrow: "Für die Praxis",
+    mobileUseTitle: "Gemacht für Spielfeldrand und Training",
+    mobileUsePitchTitle: "Am Spielfeldrand",
+    mobileUsePitchText:
+      "Tagge live während des Spiels, ohne einen kompletten Analyseplatz aufbauen zu müssen.",
+    mobileUseTrainingTitle: "Im Training",
+    mobileUseTrainingText:
+      "Erstelle schnelle Sessions für Übungen, Spielformen und individuelle Beobachtungen.",
+    mobileUseTeamTitle: "Für Analysten-Teams",
+    mobileUseTeamText:
+      "Tausche Panels, Hintergründe und XML-Exporte über lokale Ordner oder WebDAV/Nextcloud aus.",
+    mobileLanguagesEyebrow: "Mehrsprachig",
+    mobileLanguagesTitle: "Verfügbar in vier Sprachen",
+    mobileLanguagesText:
+      "Coder Mobile ist für internationale Trainer- und Analystenteams vorbereitet und unterstützt Deutsch, Englisch, Französisch und Spanisch.",
+    mobileDownloadEyebrow: "iOS Download",
+    mobileDownloadTitle: "Coder Mobile App für iOS herunterladen",
+    mobileDownloadText:
+      "Der App-Store-Link ist vorbereitet und führt vorerst zur offiziellen App-Store-Seite von Apple.",
+    mobileDownloadButton: "App Store öffnen",
     downloadEyebrow: "Download & Lizenzcode",
     downloadTitle: "Coder für macOS herunterladen",
     downloadText:
@@ -62,8 +130,11 @@ const translations = {
   },
   en: {
     pageTitle: "Coder Community Edition",
+    mobilePageTitle: "Coder Mobile App",
     metaDescription:
-      "Coder Community Edition: tag videos, analyze presentations, review panels, and share projects.",
+      "Coder Community Edition: tag videos, use live sports tagging with Coder Mobile, analyze presentations, review panels, and share projects.",
+    mobileMetaDescription:
+      "Coder Mobile App: iPad-first live sports tagging at pitch side and in training, compatible with Coder for macOS.",
     brandAria: "Coder homepage",
     mainNavAria: "Main navigation",
     languageAria: "Choose language",
@@ -72,6 +143,7 @@ const translations = {
     legalAria: "Legal links",
     navVideo: "Video",
     navCommunity: "Community Edition",
+    navMobile: "Coder Mobile App",
     navDownload: "Download",
     navContact: "Contact",
     heroEyebrow: "Community Edition",
@@ -103,6 +175,70 @@ const translations = {
     featureThreeTitle: "Import & export",
     featureThreeText:
       "Exchange projects and export results for further evaluation.",
+    mobileEyebrow: "Coder Mobile App",
+    mobileTitle: "Live sports tagging directly on iPad",
+    mobileText:
+      "Coder Mobile brings free-position tagging panels, live capture, and fast project handoff to iPadOS. Coaches and analysts can record phases, actions, and labels during training or matches and continue working with the results in the Coder workflow.",
+    mobilePitchText:
+      "Built for live tagging at pitch side, training grounds, and fast analysis workflows right after the session.",
+    mobileDownloadCta: "Download iOS app",
+    mobileTourCta: "Quick tour",
+    mobileVideoEyebrow: "Video",
+    mobileVideoTitle: "Coder Mobile in action",
+    mobileVideoText:
+      "A YouTube video will be embedded here later to show the live tagging workflow at pitch side and in training.",
+    mobileVideoPlaceholder: "YouTube video coming soon",
+    mobilePreviewAria: "Coder Mobile App preview",
+    mobilePreviewSubtitle: "Live tagging session",
+    mobilePreviewStatus: "LIVE",
+    mobileHomeSubtitle: "Live sports tagging and analysis",
+    mobileHomePanels: "Panels",
+    mobileHomePanelsText: "Create free-position tagging panels",
+    mobileHomeProjects: "Projects",
+    mobileHomeProjectsText: "Start sessions and review saved tags",
+    mobileTourEyebrow: "Quick tour",
+    mobileTourTitle: "From panel to finished XML",
+    mobileTourIntro:
+      "The app focuses on what matters at pitch side: prepare panels, tag live, save cleanly, and hand off immediately.",
+    mobileTourSettingsAlt: "Tag button settings in Coder Mobile",
+    mobileTourLiveAlt: "Live tagging view in Coder Mobile",
+    mobileTourExportAlt: "XML export menu in Coder Mobile",
+    mobileStepOneTitle: "Design free panels",
+    mobileStepOneText:
+      "Create free-position iPad tagging panels with codes, labels, colors, sizes, groups, and optional pitch backgrounds.",
+    mobileStepTwoTitle: "Tag live",
+    mobileStepTwoText:
+      "Start projects, tag live with active codes, and automatically attach labels to running scenes.",
+    mobileStepThreeTitle: "Export and continue",
+    mobileStepThreeText:
+      "Save projects, export XML files, and exchange panels via local folders or WebDAV with other analysts.",
+    mobileCompatEyebrow: "Compatibility",
+    mobileCompatTitle: "Fully compatible with Coder for macOS",
+    mobileCompatText:
+      "Coder Mobile is designed as the mobile companion for the macOS workflow: tagging on iPad, analysis and deeper review on Mac. XML export, panel exchange, and shared storage locations keep work connected from pitch side to the analysis desk.",
+    mobileCompatOne: "XML exports compatible with Sportscode/Hudl and SAP Sports One",
+    mobileCompatTwo: "Panel import and export for team workflows",
+    mobileCompatThree: "Local folders and WebDAV/Nextcloud as storage targets",
+    mobileUseEyebrow: "In practice",
+    mobileUseTitle: "Made for pitch side and training",
+    mobileUsePitchTitle: "At pitch side",
+    mobileUsePitchText:
+      "Tag live during the match without setting up a full analysis workstation.",
+    mobileUseTrainingTitle: "In training",
+    mobileUseTrainingText:
+      "Create quick sessions for drills, small-sided games, and individual observations.",
+    mobileUseTeamTitle: "For analyst teams",
+    mobileUseTeamText:
+      "Exchange panels, backgrounds, and XML exports via local folders or WebDAV/Nextcloud.",
+    mobileLanguagesEyebrow: "Multilingual",
+    mobileLanguagesTitle: "Available in four languages",
+    mobileLanguagesText:
+      "Coder Mobile is prepared for international coaching and analysis teams and supports German, English, French, and Spanish.",
+    mobileDownloadEyebrow: "iOS download",
+    mobileDownloadTitle: "Download Coder Mobile App for iOS",
+    mobileDownloadText:
+      "The App Store link is prepared and currently points to Apple’s official App Store page.",
+    mobileDownloadButton: "Open App Store",
     downloadEyebrow: "Download & license code",
     downloadTitle: "Download Coder for macOS",
     downloadText:
@@ -122,8 +258,11 @@ const translations = {
   },
   fr: {
     pageTitle: "Coder Community Edition",
+    mobilePageTitle: "Coder Mobile App",
     metaDescription:
-      "Coder Community Edition : annotez des vidéos, analysez des présentations, évaluez des panels et partagez des projets.",
+      "Coder Community Edition : annotez des vidéos, utilisez le tagging sportif en direct avec Coder Mobile, analysez des présentations, évaluez des panels et partagez des projets.",
+    mobileMetaDescription:
+      "Coder Mobile App : tagging sportif en direct sur iPad au bord du terrain et à l'entraînement, compatible avec Coder pour macOS.",
     brandAria: "Accueil Coder",
     mainNavAria: "Navigation principale",
     languageAria: "Choisir la langue",
@@ -132,6 +271,7 @@ const translations = {
     legalAria: "Liens juridiques",
     navVideo: "Vidéo",
     navCommunity: "Community Edition",
+    navMobile: "Coder Mobile App",
     navDownload: "Téléchargement",
     navContact: "Contact",
     heroEyebrow: "Community Edition",
@@ -163,6 +303,70 @@ const translations = {
     featureThreeTitle: "Import & export",
     featureThreeText:
       "Échangez des projets et exportez les résultats pour une analyse ultérieure.",
+    mobileEyebrow: "Coder Mobile App",
+    mobileTitle: "Tagging sportif en direct sur iPad",
+    mobileText:
+      "Coder Mobile apporte les panels de tagging libres, la saisie en direct et le transfert rapide de projets sur iPadOS. Les coachs et analystes peuvent saisir phases de jeu, actions et labels pendant l’entraînement ou le match, puis poursuivre le travail dans le workflow Coder.",
+    mobilePitchText:
+      "Conçue pour le tagging en direct au bord du terrain, sur les terrains d'entraînement et pour des workflows d'analyse rapides juste après la séance.",
+    mobileDownloadCta: "Télécharger l’app iOS",
+    mobileTourCta: "Tour rapide",
+    mobileVideoEyebrow: "Vidéo",
+    mobileVideoTitle: "Coder Mobile en action",
+    mobileVideoText:
+      "Une vidéo YouTube sera intégrée ici plus tard pour montrer le workflow de tagging en direct au bord du terrain et à l'entraînement.",
+    mobileVideoPlaceholder: "Vidéo YouTube à venir",
+    mobilePreviewAria: "Aperçu de Coder Mobile App",
+    mobilePreviewSubtitle: "Session de tagging en direct",
+    mobilePreviewStatus: "LIVE",
+    mobileHomeSubtitle: "Tagging sportif en direct et analyse",
+    mobileHomePanels: "Panels",
+    mobileHomePanelsText: "Créer des panels de tagging libres",
+    mobileHomeProjects: "Projets",
+    mobileHomeProjectsText: "Lancer des sessions et vérifier les tags",
+    mobileTourEyebrow: "Tour rapide",
+    mobileTourTitle: "Du panel au XML final",
+    mobileTourIntro:
+      "L'app se concentre sur l'essentiel au bord du terrain : préparer les panels, tagger en direct, enregistrer proprement et transmettre rapidement.",
+    mobileTourSettingsAlt: "Réglages de bouton de tag dans Coder Mobile",
+    mobileTourLiveAlt: "Vue de tagging en direct dans Coder Mobile",
+    mobileTourExportAlt: "Menu d'export XML dans Coder Mobile",
+    mobileStepOneTitle: "Créer des panels libres",
+    mobileStepOneText:
+      "Créez des panels de tagging iPad libres avec codes, labels, couleurs, tailles, groupes et fonds de terrain optionnels.",
+    mobileStepTwoTitle: "Tagger en direct",
+    mobileStepTwoText:
+      "Lancez des projets, taggez en direct avec des codes actifs et liez automatiquement les labels aux scènes en cours.",
+    mobileStepThreeTitle: "Exporter et continuer",
+    mobileStepThreeText:
+      "Enregistrez les projets, exportez des fichiers XML et échangez des panels via un dossier local ou WebDAV avec d’autres analystes.",
+    mobileCompatEyebrow: "Compatibilité",
+    mobileCompatTitle: "Entièrement compatible avec Coder pour macOS",
+    mobileCompatText:
+      "Coder Mobile est pensé comme le complément mobile du workflow macOS : tagging sur iPad, analyse et exploitation avancée sur Mac. L’export XML, l’échange de panels et les emplacements de stockage partagés relient le terrain au poste d’analyse.",
+    mobileCompatOne: "Exports XML compatibles avec Sportscode/Hudl et SAP Sports One",
+    mobileCompatTwo: "Import et export de panels pour les workflows d’équipe",
+    mobileCompatThree: "Dossiers locaux et WebDAV/Nextcloud comme destinations de stockage",
+    mobileUseEyebrow: "En pratique",
+    mobileUseTitle: "Pensée pour le bord du terrain et l'entraînement",
+    mobileUsePitchTitle: "Au bord du terrain",
+    mobileUsePitchText:
+      "Taggez en direct pendant le match sans installer un poste d'analyse complet.",
+    mobileUseTrainingTitle: "À l'entraînement",
+    mobileUseTrainingText:
+      "Créez rapidement des sessions pour les exercices, formes de jeu et observations individuelles.",
+    mobileUseTeamTitle: "Pour les équipes d'analystes",
+    mobileUseTeamText:
+      "Échangez panels, arrière-plans et exports XML via dossiers locaux ou WebDAV/Nextcloud.",
+    mobileLanguagesEyebrow: "Multilingue",
+    mobileLanguagesTitle: "Disponible en quatre langues",
+    mobileLanguagesText:
+      "Coder Mobile est préparée pour les équipes de coachs et d'analystes internationales et prend en charge l'allemand, l'anglais, le français et l'espagnol.",
+    mobileDownloadEyebrow: "Téléchargement iOS",
+    mobileDownloadTitle: "Télécharger Coder Mobile App pour iOS",
+    mobileDownloadText:
+      "Le lien App Store est préparé et pointe pour l'instant vers la page officielle de l’App Store d’Apple.",
+    mobileDownloadButton: "Ouvrir l'App Store",
     downloadEyebrow: "Téléchargement & code de licence",
     downloadTitle: "Télécharger Coder pour macOS",
     downloadText:
@@ -183,8 +387,11 @@ const translations = {
   },
   es: {
     pageTitle: "Coder Community Edition",
+    mobilePageTitle: "Coder Mobile App",
     metaDescription:
-      "Coder Community Edition: etiqueta vídeos, analiza presentaciones, revisa paneles y comparte proyectos.",
+      "Coder Community Edition: etiqueta vídeos, usa etiquetado deportivo en directo con Coder Mobile, analiza presentaciones, revisa paneles y comparte proyectos.",
+    mobileMetaDescription:
+      "Coder Mobile App: etiquetado deportivo en directo para iPad junto al campo y en entrenamientos, compatible con Coder para macOS.",
     brandAria: "Página de inicio de Coder",
     mainNavAria: "Navegación principal",
     languageAria: "Elegir idioma",
@@ -193,6 +400,7 @@ const translations = {
     legalAria: "Enlaces legales",
     navVideo: "Vídeo",
     navCommunity: "Community Edition",
+    navMobile: "Coder Mobile App",
     navDownload: "Descarga",
     navContact: "Contacto",
     heroEyebrow: "Community Edition",
@@ -224,6 +432,70 @@ const translations = {
     featureThreeTitle: "Importar & exportar",
     featureThreeText:
       "Intercambia proyectos y exporta resultados para análisis posteriores.",
+    mobileEyebrow: "Coder Mobile App",
+    mobileTitle: "Etiquetado deportivo en directo desde el iPad",
+    mobileText:
+      "Coder Mobile lleva paneles de etiquetado libres, captura en directo y transferencia rápida de proyectos a iPadOS. Entrenadores y analistas pueden registrar fases, acciones y etiquetas durante entrenamientos o partidos y continuar trabajando con los resultados en el flujo de Coder.",
+    mobilePitchText:
+      "Creada para etiquetar en directo junto al campo, en entrenamientos y para flujos de análisis rápidos justo después de la sesión.",
+    mobileDownloadCta: "Descargar app iOS",
+    mobileTourCta: "Recorrido rápido",
+    mobileVideoEyebrow: "Vídeo",
+    mobileVideoTitle: "Coder Mobile en acción",
+    mobileVideoText:
+      "Más adelante se integrará aquí un vídeo de YouTube que mostrará el flujo de etiquetado en directo junto al campo y en entrenamientos.",
+    mobileVideoPlaceholder: "Vídeo de YouTube próximamente",
+    mobilePreviewAria: "Vista previa de Coder Mobile App",
+    mobilePreviewSubtitle: "Sesión de etiquetado en directo",
+    mobilePreviewStatus: "LIVE",
+    mobileHomeSubtitle: "Etiquetado deportivo en directo y análisis",
+    mobileHomePanels: "Paneles",
+    mobileHomePanelsText: "Crear paneles de etiquetado libres",
+    mobileHomeProjects: "Proyectos",
+    mobileHomeProjectsText: "Iniciar sesiones y revisar etiquetas",
+    mobileTourEyebrow: "Recorrido rápido",
+    mobileTourTitle: "Del panel al XML final",
+    mobileTourIntro:
+      "La app se centra en lo importante junto al campo: preparar paneles, etiquetar en directo, guardar correctamente y compartir de inmediato.",
+    mobileTourSettingsAlt: "Ajustes de botón de etiqueta en Coder Mobile",
+    mobileTourLiveAlt: "Vista de etiquetado en directo en Coder Mobile",
+    mobileTourExportAlt: "Menú de exportación XML en Coder Mobile",
+    mobileStepOneTitle: "Diseñar paneles libres",
+    mobileStepOneText:
+      "Crea paneles de etiquetado libres para iPad con códigos, etiquetas, colores, tamaños, grupos y fondos de campo opcionales.",
+    mobileStepTwoTitle: "Etiquetar en directo",
+    mobileStepTwoText:
+      "Inicia proyectos, etiqueta en directo con códigos activos y vincula automáticamente las etiquetas a las escenas en curso.",
+    mobileStepThreeTitle: "Exportar y continuar",
+    mobileStepThreeText:
+      "Guarda proyectos, exporta archivos XML e intercambia paneles mediante carpetas locales o WebDAV con otros analistas.",
+    mobileCompatEyebrow: "Compatibilidad",
+    mobileCompatTitle: "Totalmente compatible con Coder para macOS",
+    mobileCompatText:
+      "Coder Mobile está pensada como complemento móvil del flujo de macOS: etiquetado en iPad, análisis y revisión avanzada en Mac. La exportación XML, el intercambio de paneles y los espacios de almacenamiento compartidos conectan el trabajo entre el campo y el puesto de análisis.",
+    mobileCompatOne: "Exportaciones XML compatibles con Sportscode/Hudl y SAP Sports One",
+    mobileCompatTwo: "Importación y exportación de paneles para flujos de equipo",
+    mobileCompatThree: "Carpetas locales y WebDAV/Nextcloud como destinos de almacenamiento",
+    mobileUseEyebrow: "En la práctica",
+    mobileUseTitle: "Hecha para el campo y el entrenamiento",
+    mobileUsePitchTitle: "Junto al campo",
+    mobileUsePitchText:
+      "Etiqueta en directo durante el partido sin montar una estación completa de análisis.",
+    mobileUseTrainingTitle: "En entrenamiento",
+    mobileUseTrainingText:
+      "Crea sesiones rápidas para ejercicios, juegos reducidos y observaciones individuales.",
+    mobileUseTeamTitle: "Para equipos de analistas",
+    mobileUseTeamText:
+      "Intercambia paneles, fondos y exportaciones XML mediante carpetas locales o WebDAV/Nextcloud.",
+    mobileLanguagesEyebrow: "Multilingüe",
+    mobileLanguagesTitle: "Disponible en cuatro idiomas",
+    mobileLanguagesText:
+      "Coder Mobile está preparada para equipos internacionales de entrenadores y analistas y admite alemán, inglés, francés y español.",
+    mobileDownloadEyebrow: "Descarga iOS",
+    mobileDownloadTitle: "Descargar Coder Mobile App para iOS",
+    mobileDownloadText:
+      "El enlace de App Store está preparado y por ahora apunta a la página oficial de App Store de Apple.",
+    mobileDownloadButton: "Abrir App Store",
     downloadEyebrow: "Descarga & código de licencia",
     downloadTitle: "Descargar Coder para macOS",
     downloadText:
@@ -438,12 +710,18 @@ const metaDescription = document.querySelector('meta[name="description"]');
 
 function applyText(language) {
   const dictionary = translations[language] || translations.de;
+  const pageTitleKey = document.body.dataset.pageTitleKey || "pageTitle";
+  const metaDescriptionKey =
+    document.body.dataset.metaDescriptionKey || "metaDescription";
 
   document.documentElement.lang = language;
-  document.title = dictionary.pageTitle;
+  document.title = dictionary[pageTitleKey] || dictionary.pageTitle;
 
   if (metaDescription) {
-    metaDescription.setAttribute("content", dictionary.metaDescription);
+    metaDescription.setAttribute(
+      "content",
+      dictionary[metaDescriptionKey] || dictionary.metaDescription,
+    );
   }
 
   document.querySelectorAll("[data-i18n]").forEach((element) => {
