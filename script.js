@@ -109,7 +109,7 @@ const translations = {
     mobileDownloadEyebrow: "iOS Download",
     mobileDownloadTitle: "Coder Mobile App für iOS herunterladen",
     mobileDownloadText:
-      "Der App-Store-Link ist vorbereitet und führt vorerst zur offiziellen App-Store-Seite von Apple.",
+      "Coder Mobile ist jetzt im App Store verfügbar.",
     mobileDownloadButton: "App Store öffnen",
     downloadEyebrow: "Download & Lizenzcode",
     downloadTitle: "Coder für macOS herunterladen",
@@ -239,7 +239,7 @@ const translations = {
     mobileDownloadEyebrow: "iOS download",
     mobileDownloadTitle: "Download Coder Mobile App for iOS",
     mobileDownloadText:
-      "The App Store link is prepared and currently points to Apple’s official App Store page.",
+      "Coder Mobile is now available on the App Store.",
     mobileDownloadButton: "Open App Store",
     downloadEyebrow: "Download & license code",
     downloadTitle: "Download Coder for macOS",
@@ -368,7 +368,7 @@ const translations = {
     mobileDownloadEyebrow: "Téléchargement iOS",
     mobileDownloadTitle: "Télécharger Coder Mobile App pour iOS",
     mobileDownloadText:
-      "Le lien App Store est préparé et pointe pour l'instant vers la page officielle de l’App Store d’Apple.",
+      "Coder Mobile est maintenant disponible sur l’App Store.",
     mobileDownloadButton: "Ouvrir l'App Store",
     downloadEyebrow: "Téléchargement & code de licence",
     downloadTitle: "Télécharger Coder pour macOS",
@@ -498,7 +498,7 @@ const translations = {
     mobileDownloadEyebrow: "Descarga iOS",
     mobileDownloadTitle: "Descargar Coder Mobile App para iOS",
     mobileDownloadText:
-      "El enlace de App Store está preparado y por ahora apunta a la página oficial de App Store de Apple.",
+      "Coder Mobile ya está disponible en el App Store.",
     mobileDownloadButton: "Abrir App Store",
     downloadEyebrow: "Descarga & código de licencia",
     downloadTitle: "Descargar Coder para macOS",
@@ -519,6 +519,265 @@ const translations = {
     footerOpenSource: "Open Source",
   },
 };
+
+const phoneTranslations = {
+  de: {
+    navPhone: "Coder Phone App",
+    phonePageTitle: "Coder Phone App",
+    phoneMetaDescription:
+      "Coder Phone App: iPhone-first Live Sports Tagging am Spielfeldrand und im Training, kompatibel mit Coder für macOS.",
+    phoneEyebrow: "Coder Phone App",
+    phoneTitle: "Live Sports Tagging direkt am iPhone",
+    phoneText:
+      "Coder Phone bringt kompakte Tagging-Panels, Live-Erfassung und schnelle Projektübergabe auf iOS. Coaches und Analysten können Spielphasen, Aktionen und Labels während Training oder Spiel direkt auf dem iPhone erfassen.",
+    phonePitchText:
+      "Entwickelt für schnelle Live-Tagging-Workflows am Spielfeldrand, im Training und unterwegs.",
+    phoneDownloadCta: "iPhone App herunterladen",
+    phoneTourCta: "Schneller Rundgang",
+    phoneVideoEyebrow: "Video",
+    phoneVideoTitle: "Coder Phone in Aktion",
+    phoneVideoText:
+      "Das Overview Video zeigt den kompakten Live-Tagging Workflow auf dem iPhone.",
+    phoneVideoFrameTitle: "Coder Phone Overview Video",
+    phonePreviewAria: "Coder Phone App Vorschau",
+    phoneTourEyebrow: "Schneller Rundgang",
+    phoneTourTitle: "Vom Grid zur fertigen XML",
+    phoneTourIntro:
+      "Coder Phone konzentriert sich auf die schnelle iPhone-Bedienung: Panels im Grid vorbereiten, live taggen, sauber speichern und weitergeben.",
+    phoneTourSettingsAlt: "Tag-Button Einstellungen in Coder Phone",
+    phoneTourLiveAlt: "Live Tagging Ansicht in Coder Phone",
+    phoneTourExportAlt: "XML Export Menü in Coder Phone",
+    phoneStepOneTitle: "Panels im Grid aufbauen",
+    phoneStepOneText:
+      "Erstelle iPhone-Tagging-Panels mit ein- oder zweispaltigen Button-Grids, Codes, Labels, Farben und Timing.",
+    phoneStepTwoTitle: "Live taggen",
+    phoneStepTwoText:
+      "Starte Projekte, tagge live mit großen Buttons und verknüpfe Labels mit laufenden Spielszenen.",
+    phoneStepThreeTitle: "Exportieren & weiterarbeiten",
+    phoneStepThreeText:
+      "Speichere Projekte, exportiere XML-Dateien und nutze sie im weiteren Coder Workflow.",
+    phoneCompatEyebrow: "Kompatibilität",
+    phoneCompatTitle: "Kompakte Ergänzung zu Coder für macOS",
+    phoneCompatText:
+      "Coder Phone ist als iPhone-Ergänzung zum macOS Workflow gedacht: schnelles Tagging auf dem iPhone, Analyse und weitere Auswertung am Mac.",
+    phoneCompatOne: "XML-Exports kompatibel mit Sportscode/Hudl und SAP Sports One",
+    phoneCompatTwo: "Panel Import und Export für Team-Workflows",
+    phoneCompatThree: "Lokale Ordner und WebDAV/Nextcloud als Speicherziele",
+    phoneUseEyebrow: "Für die Praxis",
+    phoneUseTitle: "Gemacht für schnelle iPhone-Bedienung",
+    phoneUsePitchTitle: "Am Spielfeldrand",
+    phoneUsePitchText:
+      "Tagge live während des Spiels, wenn ein iPad oder Analyseplatz zu groß ist.",
+    phoneUseTrainingTitle: "Im Training",
+    phoneUseTrainingText:
+      "Erstelle schnelle Sessions für Übungen, Spielformen und individuelle Beobachtungen.",
+    phoneUseTeamTitle: "Für Analysten-Teams",
+    phoneUseTeamText:
+      "Tausche Panels und XML-Exporte über lokale Ordner oder WebDAV/Nextcloud aus.",
+    phoneLanguagesEyebrow: "Mehrsprachig",
+    phoneLanguagesTitle: "Verfügbar in vier Sprachen",
+    phoneLanguagesText:
+      "Coder Phone ist für internationale Trainer- und Analystenteams vorbereitet und unterstützt Deutsch, Englisch, Französisch und Spanisch.",
+    phoneDownloadEyebrow: "iPhone Download",
+    phoneDownloadTitle: "Coder Phone App für iOS herunterladen",
+    phoneDownloadText:
+      "Coder Phone ist vorbereitet und wird nach der App-Store-Freigabe direkt verlinkt.",
+    phoneDownloadButton: "App Store öffnen",
+  },
+  en: {
+    navPhone: "Coder Phone App",
+    phonePageTitle: "Coder Phone App",
+    phoneMetaDescription:
+      "Coder Phone App: iPhone-first live sports tagging at pitch side and in training, compatible with Coder for macOS.",
+    phoneEyebrow: "Coder Phone App",
+    phoneTitle: "Live sports tagging directly on iPhone",
+    phoneText:
+      "Coder Phone brings compact tagging panels, live capture, and fast project handoff to iOS. Coaches and analysts can record phases, actions, and labels during training or matches directly on iPhone.",
+    phonePitchText:
+      "Built for fast live tagging workflows at pitch side, in training, and on the move.",
+    phoneDownloadCta: "Download iPhone app",
+    phoneTourCta: "Quick tour",
+    phoneVideoEyebrow: "Video",
+    phoneVideoTitle: "Coder Phone in action",
+    phoneVideoText:
+      "The overview video shows the compact live tagging workflow on iPhone.",
+    phoneVideoFrameTitle: "Coder Phone Overview Video",
+    phonePreviewAria: "Coder Phone App preview",
+    phoneTourEyebrow: "Quick tour",
+    phoneTourTitle: "From grid to finished XML",
+    phoneTourIntro:
+      "Coder Phone focuses on fast iPhone use: prepare grid panels, tag live, save cleanly, and hand off the results.",
+    phoneTourSettingsAlt: "Tag button settings in Coder Phone",
+    phoneTourLiveAlt: "Live tagging view in Coder Phone",
+    phoneTourExportAlt: "XML export menu in Coder Phone",
+    phoneStepOneTitle: "Build grid panels",
+    phoneStepOneText:
+      "Create iPhone tagging panels with one- or two-column button grids, codes, labels, colors, and timing.",
+    phoneStepTwoTitle: "Tag live",
+    phoneStepTwoText:
+      "Start projects, tag live with large buttons, and link labels to active scenes.",
+    phoneStepThreeTitle: "Export and continue",
+    phoneStepThreeText:
+      "Save projects, export XML files, and continue in the broader Coder workflow.",
+    phoneCompatEyebrow: "Compatibility",
+    phoneCompatTitle: "Compact companion to Coder for macOS",
+    phoneCompatText:
+      "Coder Phone is designed as the iPhone companion to the macOS workflow: quick tagging on iPhone, analysis and deeper review on Mac.",
+    phoneCompatOne: "XML exports compatible with Sportscode/Hudl and SAP Sports One",
+    phoneCompatTwo: "Panel import and export for team workflows",
+    phoneCompatThree: "Local folders and WebDAV/Nextcloud as storage targets",
+    phoneUseEyebrow: "In practice",
+    phoneUseTitle: "Made for fast iPhone use",
+    phoneUsePitchTitle: "At pitch side",
+    phoneUsePitchText:
+      "Tag live during matches when an iPad or analysis desk is too much.",
+    phoneUseTrainingTitle: "In training",
+    phoneUseTrainingText:
+      "Create quick sessions for drills, small-sided games, and individual observations.",
+    phoneUseTeamTitle: "For analyst teams",
+    phoneUseTeamText:
+      "Exchange panels and XML exports through local folders or WebDAV/Nextcloud.",
+    phoneLanguagesEyebrow: "Multilingual",
+    phoneLanguagesTitle: "Available in four languages",
+    phoneLanguagesText:
+      "Coder Phone is prepared for international coaching and analysis teams and supports German, English, French, and Spanish.",
+    phoneDownloadEyebrow: "iPhone download",
+    phoneDownloadTitle: "Download Coder Phone App for iOS",
+    phoneDownloadText:
+      "Coder Phone is prepared and will be linked directly after App Store approval.",
+    phoneDownloadButton: "Open App Store",
+  },
+  fr: {
+    navPhone: "Coder Phone App",
+    phonePageTitle: "Coder Phone App",
+    phoneMetaDescription:
+      "Coder Phone App : tagging sportif en direct sur iPhone au bord du terrain et à l'entraînement, compatible avec Coder pour macOS.",
+    phoneEyebrow: "Coder Phone App",
+    phoneTitle: "Tagging sportif en direct sur iPhone",
+    phoneText:
+      "Coder Phone apporte des panels de tagging compacts, la saisie en direct et le transfert rapide de projets sur iOS.",
+    phonePitchText:
+      "Pensée pour des workflows de tagging rapides au bord du terrain, à l'entraînement et en déplacement.",
+    phoneDownloadCta: "Télécharger l’app iPhone",
+    phoneTourCta: "Tour rapide",
+    phoneVideoEyebrow: "Vidéo",
+    phoneVideoTitle: "Coder Phone en action",
+    phoneVideoText:
+      "La vidéo d’aperçu montre le workflow de tagging compact sur iPhone.",
+    phoneVideoFrameTitle: "Vidéo d’aperçu de Coder Phone",
+    phonePreviewAria: "Aperçu de Coder Phone App",
+    phoneTourEyebrow: "Tour rapide",
+    phoneTourTitle: "De la grille au XML final",
+    phoneTourIntro:
+      "Coder Phone se concentre sur l’utilisation rapide de l’iPhone : préparer des panels en grille, taguer en direct, enregistrer et transmettre.",
+    phoneTourSettingsAlt: "Réglages de bouton de tag dans Coder Phone",
+    phoneTourLiveAlt: "Vue de tagging en direct dans Coder Phone",
+    phoneTourExportAlt: "Menu d'export XML dans Coder Phone",
+    phoneStepOneTitle: "Créer des panels en grille",
+    phoneStepOneText:
+      "Créez des panels de tagging iPhone avec des grilles à une ou deux colonnes, codes, labels, couleurs et timing.",
+    phoneStepTwoTitle: "Taguer en direct",
+    phoneStepTwoText:
+      "Lancez des projets, taguez en direct avec de grands boutons et liez les labels aux scènes actives.",
+    phoneStepThreeTitle: "Exporter et continuer",
+    phoneStepThreeText:
+      "Enregistrez les projets, exportez des fichiers XML et poursuivez dans le workflow Coder.",
+    phoneCompatEyebrow: "Compatibilité",
+    phoneCompatTitle: "Compagnon compact de Coder pour macOS",
+    phoneCompatText:
+      "Coder Phone est le complément iPhone du workflow macOS : tagging rapide sur iPhone, analyse et revue approfondie sur Mac.",
+    phoneCompatOne: "Exports XML compatibles avec Sportscode/Hudl et SAP Sports One",
+    phoneCompatTwo: "Import et export de panels pour les workflows d’équipe",
+    phoneCompatThree: "Dossiers locaux et WebDAV/Nextcloud comme destinations de stockage",
+    phoneUseEyebrow: "En pratique",
+    phoneUseTitle: "Pensée pour une utilisation rapide sur iPhone",
+    phoneUsePitchTitle: "Au bord du terrain",
+    phoneUsePitchText:
+      "Taguez en direct lorsqu’un iPad ou un poste d’analyse est trop encombrant.",
+    phoneUseTrainingTitle: "À l'entraînement",
+    phoneUseTrainingText:
+      "Créez des sessions rapides pour exercices, jeux réduits et observations individuelles.",
+    phoneUseTeamTitle: "Pour les équipes d'analystes",
+    phoneUseTeamText:
+      "Échangez panels et exports XML via dossiers locaux ou WebDAV/Nextcloud.",
+    phoneLanguagesEyebrow: "Multilingue",
+    phoneLanguagesTitle: "Disponible en quatre langues",
+    phoneLanguagesText:
+      "Coder Phone est préparée pour les équipes internationales et prend en charge l'allemand, l'anglais, le français et l'espagnol.",
+    phoneDownloadEyebrow: "Téléchargement iPhone",
+    phoneDownloadTitle: "Télécharger Coder Phone App pour iOS",
+    phoneDownloadText:
+      "Coder Phone est préparée et sera liée directement après validation sur l’App Store.",
+    phoneDownloadButton: "Ouvrir l'App Store",
+  },
+  es: {
+    navPhone: "Coder Phone App",
+    phonePageTitle: "Coder Phone App",
+    phoneMetaDescription:
+      "Coder Phone App: etiquetado deportivo en directo para iPhone junto al campo y en entrenamientos, compatible con Coder para macOS.",
+    phoneEyebrow: "Coder Phone App",
+    phoneTitle: "Etiquetado deportivo en directo desde el iPhone",
+    phoneText:
+      "Coder Phone lleva paneles de etiquetado compactos, captura en directo y transferencia rápida de proyectos a iOS.",
+    phonePitchText:
+      "Diseñada para workflows rápidos de etiquetado junto al campo, en entrenamientos y en movimiento.",
+    phoneDownloadCta: "Descargar app iPhone",
+    phoneTourCta: "Recorrido rápido",
+    phoneVideoEyebrow: "Vídeo",
+    phoneVideoTitle: "Coder Phone en acción",
+    phoneVideoText:
+      "El vídeo general muestra el workflow compacto de etiquetado en iPhone.",
+    phoneVideoFrameTitle: "Vídeo general de Coder Phone",
+    phonePreviewAria: "Vista previa de Coder Phone App",
+    phoneTourEyebrow: "Recorrido rápido",
+    phoneTourTitle: "Del grid al XML final",
+    phoneTourIntro:
+      "Coder Phone se centra en el uso rápido del iPhone: preparar paneles en grid, etiquetar en directo, guardar y compartir.",
+    phoneTourSettingsAlt: "Ajustes de botón de etiqueta en Coder Phone",
+    phoneTourLiveAlt: "Vista de etiquetado en directo en Coder Phone",
+    phoneTourExportAlt: "Menú de exportación XML en Coder Phone",
+    phoneStepOneTitle: "Crear paneles en grid",
+    phoneStepOneText:
+      "Crea paneles de etiquetado para iPhone con grids de una o dos columnas, códigos, etiquetas, colores y timing.",
+    phoneStepTwoTitle: "Etiquetar en directo",
+    phoneStepTwoText:
+      "Inicia proyectos, etiqueta en directo con botones grandes y enlaza etiquetas a escenas activas.",
+    phoneStepThreeTitle: "Exportar y continuar",
+    phoneStepThreeText:
+      "Guarda proyectos, exporta XML y continúa en el workflow de Coder.",
+    phoneCompatEyebrow: "Compatibilidad",
+    phoneCompatTitle: "Compañera compacta de Coder para macOS",
+    phoneCompatText:
+      "Coder Phone es el complemento iPhone del workflow macOS: etiquetado rápido en iPhone, análisis y revisión en Mac.",
+    phoneCompatOne: "Exportaciones XML compatibles con Sportscode/Hudl y SAP Sports One",
+    phoneCompatTwo: "Importación y exportación de paneles para flujos de equipo",
+    phoneCompatThree: "Carpetas locales y WebDAV/Nextcloud como destinos de almacenamiento",
+    phoneUseEyebrow: "En la práctica",
+    phoneUseTitle: "Hecha para uso rápido en iPhone",
+    phoneUsePitchTitle: "Junto al campo",
+    phoneUsePitchText:
+      "Etiqueta en directo cuando un iPad o puesto de análisis resulta demasiado grande.",
+    phoneUseTrainingTitle: "En entrenamiento",
+    phoneUseTrainingText:
+      "Crea sesiones rápidas para ejercicios, juegos reducidos y observaciones individuales.",
+    phoneUseTeamTitle: "Para equipos de analistas",
+    phoneUseTeamText:
+      "Intercambia paneles y exportaciones XML mediante carpetas locales o WebDAV/Nextcloud.",
+    phoneLanguagesEyebrow: "Multilingüe",
+    phoneLanguagesTitle: "Disponible en cuatro idiomas",
+    phoneLanguagesText:
+      "Coder Phone está preparada para equipos internacionales y admite alemán, inglés, francés y español.",
+    phoneDownloadEyebrow: "Descarga iPhone",
+    phoneDownloadTitle: "Descargar Coder Phone App para iOS",
+    phoneDownloadText:
+      "Coder Phone está preparada y se enlazará directamente tras la aprobación en el App Store.",
+    phoneDownloadButton: "Abrir App Store",
+  },
+};
+
+Object.entries(phoneTranslations).forEach(([language, values]) => {
+  Object.assign(translations[language], values);
+});
 
 const videoContent = {
   de: {
