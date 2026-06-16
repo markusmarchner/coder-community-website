@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Coder Watch: Apple-Watch-Erweiterung für Coder Phone mit Vorlagen-Sync, Live-Tagging am Handgelenk und XML-Export zurück zum iPhone."
+    />
+    <title>Coder Watch</title>
+    <link rel="icon" type="image/png" href="../assets/coder-icon.png" />
+    <link rel="preload" href="../assets/watch/watch-live-spiel.png" as="image" />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body data-page-title-key="watchPageTitle" data-meta-description-key="watchMetaDescription">
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Coder Startseite" data-i18n-attr="aria-label:brandAria">
+        <img class="brand-icon" src="../assets/coder-icon.png" width="56" height="56" alt="" aria-hidden="true" />
+        <span class="brand-copy">
+          <span class="brand-kicker">Videoanalyse App</span>
+          <span class="brand-title">Coder</span>
+        </span>
+      </a>
+      <nav class="main-nav" aria-label="Hauptnavigation" data-i18n-attr="aria-label:mainNavAria">
+        <a href="/#video" data-i18n="navVideo">Video</a>
+        <a href="/#community" data-i18n="navCommunity">Community Edition</a>
+        <a href="/mobile/" data-i18n="navMobile">Coder Mobile App</a>
+        <a href="/phone/" data-i18n="navPhone">Coder Phone App</a>
+        <a href="/watch/" data-i18n="navWatch">Coder Watch</a>
+        <a href="/#download" data-i18n="navDownload">Download</a>
+        <a href="/#contact" data-i18n="navContact">Contact</a>
+      </nav>
+      <div class="language-switcher" aria-label="Sprache auswählen" data-i18n-attr="aria-label:languageAria">
+        <button class="language-option active" type="button" data-lang="de">DE</button>
+        <button class="language-option" type="button" data-lang="en">EN</button>
+        <button class="language-option" type="button" data-lang="fr">FR</button>
+        <button class="language-option" type="button" data-lang="es">ES</button>
+      </div>
+    </header>
+
+    <main id="top" class="watch-page">
+      <section class="section watch-hero-section" aria-labelledby="watch-title">
+        <div class="watch-hero">
+          <div class="mobile-copy">
+            <p class="eyebrow" data-i18n="watchEyebrow">Coder Watch</p>
+            <h1 id="watch-title" data-i18n="watchTitle">Live-Tagging direkt am Handgelenk</h1>
+            <p data-i18n="watchText">
+              Coder Watch erweitert Coder Phone um schnelles Tagging auf der Apple Watch.
+              Vorlagen werden am iPhone vorbereitet, an die Watch gesendet und dort
+              als reduzierte, klare Button-Flächen für Training und Spiel genutzt.
+            </p>
+            <p class="mobile-hero-note" data-i18n="watchPitchText">
+              Für Situationen, in denen ein iPhone zu groß ist: ein Blick, ein Tap,
+              ein sauberer Tag.
+            </p>
+            <div class="mobile-actions">
+              <a class="button primary" href="#watch-tour" data-i18n="watchTourCta">Watch Workflow ansehen</a>
+              <a class="button neutral" href="/phone/" data-i18n="watchPhoneCta">Coder Phone entdecken</a>
+            </div>
+          </div>
+          <figure class="watch-hero-visual" aria-label="Coder Watch Live-Tagging" data-i18n-attr="aria-label:watchHeroAria">
+            <img class="watch-hero-mockup" src="../assets/watch/coder-phone-watch-mockups.png" alt="" aria-hidden="true" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="section watch-flow-section" aria-labelledby="watch-flow-title">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="watchFlowEyebrow">Watch Connect</p>
+          <h2 id="watch-flow-title" data-i18n="watchFlowTitle">Vorlagen am iPhone, Tagging auf der Watch</h2>
+          <p data-i18n="watchFlowText">
+            Coder Phone bleibt die Schaltzentrale: Vorlagen anlegen, auswählen und
+            an die Watch senden. Coder Watch zeigt nur die ausgewählten Templates
+            und speichert Sessions zurück für Export und weitere Analyse.
+          </p>
+        </div>
+        <div class="watch-device-grid">
+          <article class="watch-device-card">
+            <img src="../assets/watch/phone-watch-connect-templates.png" alt="Watch Connect Vorlagen in Coder Phone" data-i18n-attr="alt:watchPhoneTemplatesAlt" />
+            <h3 data-i18n="watchFlowOneTitle">Vorlagen gezielt senden</h3>
+            <p data-i18n="watchFlowOneText">
+              Wähle in Coder Phone aus, welche Vorlagen auf der Apple Watch
+              verfügbar sein sollen. So bleibt die Watch fokussiert und schnell.
+            </p>
+          </article>
+          <article class="watch-device-card">
+            <img src="../assets/watch/phone-template-editor.png" alt="Watch-Vorlage im iPhone Editor" data-i18n-attr="alt:watchPhoneEditorAlt" />
+            <h3 data-i18n="watchFlowTwoTitle">Templates bearbeiten</h3>
+            <p data-i18n="watchFlowTwoText">
+              Farben, Spalten, leere Slots, Pre-Roll und Post-Roll werden auf dem
+              iPhone gepflegt und dann an die Watch übertragen.
+            </p>
+          </article>
+          <article class="watch-device-card">
+            <img src="../assets/watch/phone-watch-connect-sessions.png" alt="Watch Sessions in Coder Phone" data-i18n-attr="alt:watchPhoneSessionsAlt" />
+            <h3 data-i18n="watchFlowThreeTitle">Sessions empfangen</h3>
+            <p data-i18n="watchFlowThreeText">
+              Aufgezeichnete Watch-Sessions erscheinen wieder in Coder Phone und
+              können dort geprüft oder exportiert werden.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section watch-tour-section" id="watch-tour" aria-labelledby="watch-tour-title">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="watchTourEyebrow">Schneller Rundgang</p>
+          <h2 id="watch-tour-title" data-i18n="watchTourTitle">Vom Template zum XML-Export</h2>
+          <p data-i18n="watchTourIntro">
+            Der Watch-Workflow ist bewusst klein gehalten: Vorlage wählen,
+            live taggen, Session speichern und als XML zurück in den Coder-Workflow
+            bringen.
+          </p>
+        </div>
+        <div class="watch-screen-strip">
+          <article class="watch-screen-card">
+            <img src="../assets/watch/watch-home.png" alt="Coder Watch Startseite" data-i18n-attr="alt:watchHomeAlt" />
+            <h3 data-i18n="watchStepOneTitle">Start auf der Watch</h3>
+            <p data-i18n="watchStepOneText">Neue Session starten oder bestehende Sessions öffnen.</p>
+          </article>
+          <article class="watch-screen-card">
+            <img src="../assets/watch/watch-new-session.png" alt="Vorlagenauswahl auf Coder Watch" data-i18n-attr="alt:watchSessionAlt" />
+            <h3 data-i18n="watchStepTwoTitle">Vorlage wählen</h3>
+            <p data-i18n="watchStepTwoText">Nur die vom iPhone gesendeten Templates erscheinen auf der Watch.</p>
+          </article>
+          <article class="watch-screen-card">
+            <img src="../assets/watch/watch-live-spiel.png" alt="Live-Tagging auf Coder Watch" data-i18n-attr="alt:watchLiveAlt" />
+            <h3 data-i18n="watchStepThreeTitle">Live taggen</h3>
+            <p data-i18n="watchStepThreeText">Große Buttons, klare Farben und kurze Wege für schnelle Tags.</p>
+          </article>
+          <article class="watch-screen-card">
+            <img src="../assets/watch/watch-export.png" alt="XML Export auf Coder Watch" data-i18n-attr="alt:watchExportAlt" />
+            <h3 data-i18n="watchStepFourTitle">Export vorbereiten</h3>
+            <p data-i18n="watchStepFourText">Gespeicherte Sessions können als XML in den weiteren Coder-Workflow.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section mobile-use-section" aria-labelledby="watch-use-title">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="watchUseEyebrow">Für die Praxis</p>
+          <h2 id="watch-use-title" data-i18n="watchUseTitle">Wenn Tagging nebenbei passieren muss</h2>
+        </div>
+        <div class="feature-list">
+          <article>
+            <h3 data-i18n="watchUsePitchTitle">Am Spielfeldrand</h3>
+            <p data-i18n="watchUsePitchText">
+              Markiere Aktionen schnell, ohne das iPhone ständig in der Hand zu halten.
+            </p>
+          </article>
+          <article>
+            <h3 data-i18n="watchUseTrainingTitle">Im Training</h3>
+            <p data-i18n="watchUseTrainingText">
+              Nutze kleine Template-Sets für Übungen, Belastungssteuerung oder Coaching-Beobachtungen.
+            </p>
+          </article>
+          <article>
+            <h3 data-i18n="watchUseWorkflowTitle">Im Coder Workflow</h3>
+            <p data-i18n="watchUseWorkflowText">
+              Sessions werden zurück an Coder Phone übergeben und bleiben mit dem macOS-Workflow kompatibel.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section mobile-compat-section" aria-labelledby="watch-compat-title">
+        <div class="mobile-compatibility">
+          <div>
+            <p class="eyebrow" data-i18n="watchCompatEyebrow">Kompatibilität</p>
+            <h2 id="watch-compat-title" data-i18n="watchCompatTitle">Ergänzung zu Coder Phone</h2>
+            <p data-i18n="watchCompatText">
+              Coder Watch ist als Companion für Coder Phone gedacht. Das iPhone
+              verwaltet Templates und Sprache, die Watch übernimmt das schnelle
+              Tagging und synchronisiert Sessions zurück.
+            </p>
+          </div>
+          <ul class="compatibility-list">
+            <li data-i18n="watchCompatOne">Template-Sync von Coder Phone zur Apple Watch</li>
+            <li data-i18n="watchCompatTwo">Mehrsprachige Watch-Oberfläche passend zur Phone-Einstellung</li>
+            <li data-i18n="watchCompatThree">XML-Export für die weitere Analyse</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p data-i18n="footerCopyright">© 2026 Markus Marchner</p>
+      <nav aria-label="Rechtliches" data-i18n-attr="aria-label:legalAria">
+        <a href="../impressum.html" data-i18n="footerImprint">Impressum</a>
+        <a href="../datenschutz.html" data-i18n="footerPrivacy">Datenschutz</a>
+        <a href="../terms.html" data-i18n="footerTerms">Terms</a>
+        <a href="../cookies.html" data-i18n="footerCookies">Cookies</a>
+        <a href="../opensource.html" data-i18n="footerOpenSource">Open Source</a>
+      </nav>
+    </footer>
+
+    <script src="../script.js"></script>
+  </body>
+</html>

@@ -779,6 +779,270 @@ Object.entries(phoneTranslations).forEach(([language, values]) => {
   Object.assign(translations[language], values);
 });
 
+const watchTranslations = {
+  de: {
+    navWatch: "Coder Watch",
+    watchPageTitle: "Coder Watch",
+    watchMetaDescription:
+      "Coder Watch: Apple-Watch-Erweiterung für Coder Phone mit Vorlagen-Sync, Live-Tagging am Handgelenk und XML-Export zurück zum iPhone.",
+    watchEyebrow: "Coder Watch",
+    watchTitle: "Live-Tagging direkt am Handgelenk",
+    watchText:
+      "Coder Watch erweitert Coder Phone um schnelles Tagging auf der Apple Watch. Vorlagen werden am iPhone vorbereitet, an die Watch gesendet und dort als reduzierte, klare Button-Flächen für Training und Spiel genutzt.",
+    watchPitchText:
+      "Für Situationen, in denen ein iPhone zu groß ist: ein Blick, ein Tap, ein sauberer Tag.",
+    watchTourCta: "Watch Workflow ansehen",
+    watchPhoneCta: "Coder Phone entdecken",
+    watchHeroAria: "Coder Watch Live-Tagging Vorschau",
+    watchFlowEyebrow: "Watch Connect",
+    watchFlowTitle: "Vorlagen am iPhone, Tagging auf der Watch",
+    watchFlowText:
+      "Coder Phone bleibt die Schaltzentrale: Vorlagen anlegen, auswählen und an die Watch senden. Coder Watch zeigt nur die ausgewählten Templates und speichert Sessions zurück für Export und weitere Analyse.",
+    watchPhoneTemplatesAlt: "Watch Connect Vorlagen in Coder Phone",
+    watchPhoneEditorAlt: "Watch-Vorlage im iPhone Editor",
+    watchPhoneSessionsAlt: "Watch Sessions in Coder Phone",
+    watchFlowOneTitle: "Vorlagen gezielt senden",
+    watchFlowOneText:
+      "Wähle in Coder Phone aus, welche Vorlagen auf der Apple Watch verfügbar sein sollen. So bleibt die Watch fokussiert und schnell.",
+    watchFlowTwoTitle: "Templates bearbeiten",
+    watchFlowTwoText:
+      "Farben, Spalten, leere Slots, Pre-Roll und Post-Roll werden auf dem iPhone gepflegt und dann an die Watch übertragen.",
+    watchFlowThreeTitle: "Sessions empfangen",
+    watchFlowThreeText:
+      "Aufgezeichnete Watch-Sessions erscheinen wieder in Coder Phone und können dort geprüft oder exportiert werden.",
+    watchTourEyebrow: "Schneller Rundgang",
+    watchTourTitle: "Vom Template zum XML-Export",
+    watchTourIntro:
+      "Der Watch-Workflow ist bewusst klein gehalten: Vorlage wählen, live taggen, Session speichern und als XML zurück in den Coder-Workflow bringen.",
+    watchHomeAlt: "Coder Watch Startseite",
+    watchSessionAlt: "Vorlagenauswahl auf Coder Watch",
+    watchLiveAlt: "Live-Tagging auf Coder Watch",
+    watchExportAlt: "XML Export auf Coder Watch",
+    watchStepOneTitle: "Start auf der Watch",
+    watchStepOneText: "Neue Session starten oder bestehende Sessions öffnen.",
+    watchStepTwoTitle: "Vorlage wählen",
+    watchStepTwoText: "Nur die vom iPhone gesendeten Templates erscheinen auf der Watch.",
+    watchStepThreeTitle: "Live taggen",
+    watchStepThreeText: "Große Buttons, klare Farben und kurze Wege für schnelle Tags.",
+    watchStepFourTitle: "Export vorbereiten",
+    watchStepFourText: "Gespeicherte Sessions können als XML in den weiteren Coder-Workflow.",
+    watchUseEyebrow: "Für die Praxis",
+    watchUseTitle: "Wenn Tagging nebenbei passieren muss",
+    watchUsePitchTitle: "Am Spielfeldrand",
+    watchUsePitchText:
+      "Markiere Aktionen schnell, ohne das iPhone ständig in der Hand zu halten.",
+    watchUseTrainingTitle: "Im Training",
+    watchUseTrainingText:
+      "Nutze kleine Template-Sets für Übungen, Belastungssteuerung oder Coaching-Beobachtungen.",
+    watchUseWorkflowTitle: "Im Coder Workflow",
+    watchUseWorkflowText:
+      "Sessions werden zurück an Coder Phone übergeben und bleiben mit dem macOS-Workflow kompatibel.",
+    watchCompatEyebrow: "Kompatibilität",
+    watchCompatTitle: "Ergänzung zu Coder Phone",
+    watchCompatText:
+      "Coder Watch ist als Companion für Coder Phone gedacht. Das iPhone verwaltet Templates und Sprache, die Watch übernimmt das schnelle Tagging und synchronisiert Sessions zurück.",
+    watchCompatOne: "Template-Sync von Coder Phone zur Apple Watch",
+    watchCompatTwo: "Mehrsprachige Watch-Oberfläche passend zur Phone-Einstellung",
+    watchCompatThree: "XML-Export für die weitere Analyse",
+  },
+  en: {
+    navWatch: "Coder Watch",
+    watchPageTitle: "Coder Watch",
+    watchMetaDescription:
+      "Coder Watch: Apple Watch companion for Coder Phone with template sync, live tagging on the wrist, and XML export back to iPhone.",
+    watchEyebrow: "Coder Watch",
+    watchTitle: "Live tagging directly on your wrist",
+    watchText:
+      "Coder Watch extends Coder Phone with fast tagging on Apple Watch. Templates are prepared on iPhone, sent to the Watch, and used there as focused button layouts for training and matches.",
+    watchPitchText:
+      "For moments when an iPhone is too much: one glance, one tap, one clean tag.",
+    watchTourCta: "View Watch workflow",
+    watchPhoneCta: "Explore Coder Phone",
+    watchHeroAria: "Coder Watch live tagging preview",
+    watchFlowEyebrow: "Watch Connect",
+    watchFlowTitle: "Templates on iPhone, tagging on Watch",
+    watchFlowText:
+      "Coder Phone remains the control center: create templates, choose what to send, and sync them to the Watch. Coder Watch shows only selected templates and returns sessions for export and further analysis.",
+    watchPhoneTemplatesAlt: "Watch Connect templates in Coder Phone",
+    watchPhoneEditorAlt: "Watch template editor on iPhone",
+    watchPhoneSessionsAlt: "Watch sessions in Coder Phone",
+    watchFlowOneTitle: "Send selected templates",
+    watchFlowOneText:
+      "Choose which templates should be available on Apple Watch. This keeps the Watch focused and fast.",
+    watchFlowTwoTitle: "Edit templates",
+    watchFlowTwoText:
+      "Colors, columns, empty slots, pre-roll and post-roll are maintained on iPhone and then transferred to Watch.",
+    watchFlowThreeTitle: "Receive sessions",
+    watchFlowThreeText:
+      "Recorded Watch sessions appear back in Coder Phone, ready to review or export.",
+    watchTourEyebrow: "Quick tour",
+    watchTourTitle: "From template to XML export",
+    watchTourIntro:
+      "The Watch workflow stays intentionally small: choose a template, tag live, save the session, and bring it back into the Coder workflow as XML.",
+    watchHomeAlt: "Coder Watch home screen",
+    watchSessionAlt: "Template selection on Coder Watch",
+    watchLiveAlt: "Live tagging on Coder Watch",
+    watchExportAlt: "XML export on Coder Watch",
+    watchStepOneTitle: "Start on Watch",
+    watchStepOneText: "Start a new session or open existing sessions.",
+    watchStepTwoTitle: "Choose a template",
+    watchStepTwoText: "Only templates sent from iPhone appear on the Watch.",
+    watchStepThreeTitle: "Tag live",
+    watchStepThreeText: "Large buttons, clear colors, and short paths for quick tags.",
+    watchStepFourTitle: "Prepare export",
+    watchStepFourText: "Saved sessions can move into the broader Coder workflow as XML.",
+    watchUseEyebrow: "In practice",
+    watchUseTitle: "When tagging needs to happen on the side",
+    watchUsePitchTitle: "At pitch side",
+    watchUsePitchText: "Mark actions quickly without holding the iPhone all the time.",
+    watchUseTrainingTitle: "In training",
+    watchUseTrainingText:
+      "Use small template sets for drills, workload tracking, or coaching observations.",
+    watchUseWorkflowTitle: "In the Coder workflow",
+    watchUseWorkflowText:
+      "Sessions are passed back to Coder Phone and remain compatible with the macOS workflow.",
+    watchCompatEyebrow: "Compatibility",
+    watchCompatTitle: "Companion to Coder Phone",
+    watchCompatText:
+      "Coder Watch is designed as a companion for Coder Phone. iPhone manages templates and language, Watch handles quick tagging and syncs sessions back.",
+    watchCompatOne: "Template sync from Coder Phone to Apple Watch",
+    watchCompatTwo: "Multilingual Watch interface matching the Phone setting",
+    watchCompatThree: "XML export for further analysis",
+  },
+  fr: {
+    navWatch: "Coder Watch",
+    watchPageTitle: "Coder Watch",
+    watchMetaDescription:
+      "Coder Watch : compagnon Apple Watch de Coder Phone avec synchronisation de modèles, tagging en direct au poignet et export XML vers l’iPhone.",
+    watchEyebrow: "Coder Watch",
+    watchTitle: "Tagging en direct au poignet",
+    watchText:
+      "Coder Watch complète Coder Phone avec un tagging rapide sur Apple Watch. Les modèles sont préparés sur iPhone, envoyés vers la Watch puis utilisés comme boutons clairs pour l’entraînement et le match.",
+    watchPitchText:
+      "Pour les moments où l’iPhone est trop encombrant : un regard, un tap, un tag propre.",
+    watchTourCta: "Voir le workflow Watch",
+    watchPhoneCta: "Découvrir Coder Phone",
+    watchHeroAria: "Aperçu du tagging en direct Coder Watch",
+    watchFlowEyebrow: "Watch Connect",
+    watchFlowTitle: "Modèles sur iPhone, tagging sur Watch",
+    watchFlowText:
+      "Coder Phone reste le centre de contrôle : créer les modèles, choisir ceux à envoyer et les synchroniser avec la Watch. Coder Watch affiche uniquement les modèles sélectionnés et renvoie les sessions pour l’export.",
+    watchPhoneTemplatesAlt: "Modèles Watch Connect dans Coder Phone",
+    watchPhoneEditorAlt: "Éditeur de modèle Watch sur iPhone",
+    watchPhoneSessionsAlt: "Sessions Watch dans Coder Phone",
+    watchFlowOneTitle: "Envoyer les modèles choisis",
+    watchFlowOneText:
+      "Choisissez les modèles disponibles sur Apple Watch pour garder l’interface concentrée et rapide.",
+    watchFlowTwoTitle: "Modifier les modèles",
+    watchFlowTwoText:
+      "Couleurs, colonnes, emplacements vides, pre-roll et post-roll sont réglés sur iPhone puis transférés.",
+    watchFlowThreeTitle: "Recevoir les sessions",
+    watchFlowThreeText:
+      "Les sessions enregistrées sur Watch réapparaissent dans Coder Phone pour vérification ou export.",
+    watchTourEyebrow: "Tour rapide",
+    watchTourTitle: "Du modèle à l’export XML",
+    watchTourIntro:
+      "Le workflow Watch reste volontairement réduit : choisir un modèle, taguer en direct, enregistrer la session et la ramener en XML.",
+    watchHomeAlt: "Écran d’accueil Coder Watch",
+    watchSessionAlt: "Sélection de modèle sur Coder Watch",
+    watchLiveAlt: "Tagging en direct sur Coder Watch",
+    watchExportAlt: "Export XML sur Coder Watch",
+    watchStepOneTitle: "Démarrer sur Watch",
+    watchStepOneText: "Lancez une nouvelle session ou ouvrez les sessions existantes.",
+    watchStepTwoTitle: "Choisir un modèle",
+    watchStepTwoText: "Seuls les modèles envoyés depuis l’iPhone apparaissent sur la Watch.",
+    watchStepThreeTitle: "Taguer en direct",
+    watchStepThreeText: "Grands boutons, couleurs claires et accès rapide aux tags.",
+    watchStepFourTitle: "Préparer l’export",
+    watchStepFourText: "Les sessions enregistrées peuvent rejoindre le workflow Coder en XML.",
+    watchUseEyebrow: "En pratique",
+    watchUseTitle: "Quand le tagging doit se faire en parallèle",
+    watchUsePitchTitle: "Au bord du terrain",
+    watchUsePitchText: "Marquez rapidement les actions sans garder l’iPhone en main.",
+    watchUseTrainingTitle: "À l’entraînement",
+    watchUseTrainingText:
+      "Utilisez de petits ensembles de modèles pour les exercices, la charge ou les observations.",
+    watchUseWorkflowTitle: "Dans le workflow Coder",
+    watchUseWorkflowText:
+      "Les sessions reviennent dans Coder Phone et restent compatibles avec le workflow macOS.",
+    watchCompatEyebrow: "Compatibilité",
+    watchCompatTitle: "Compagnon de Coder Phone",
+    watchCompatText:
+      "Coder Watch est le compagnon de Coder Phone. L’iPhone gère les modèles et la langue, la Watch assure le tagging rapide et synchronise les sessions.",
+    watchCompatOne: "Synchronisation des modèles de Coder Phone vers Apple Watch",
+    watchCompatTwo: "Interface Watch multilingue alignée sur le réglage Phone",
+    watchCompatThree: "Export XML pour l’analyse suivante",
+  },
+  es: {
+    navWatch: "Coder Watch",
+    watchPageTitle: "Coder Watch",
+    watchMetaDescription:
+      "Coder Watch: complemento de Apple Watch para Coder Phone con sincronización de plantillas, etiquetado en directo en la muñeca y exportación XML al iPhone.",
+    watchEyebrow: "Coder Watch",
+    watchTitle: "Etiquetado en directo desde la muñeca",
+    watchText:
+      "Coder Watch amplía Coder Phone con etiquetado rápido en Apple Watch. Las plantillas se preparan en iPhone, se envían al Watch y se usan allí como botones claros para entrenamientos y partidos.",
+    watchPitchText:
+      "Para momentos en los que el iPhone es demasiado: una mirada, un toque, una etiqueta limpia.",
+    watchTourCta: "Ver flujo Watch",
+    watchPhoneCta: "Explorar Coder Phone",
+    watchHeroAria: "Vista previa de etiquetado en directo Coder Watch",
+    watchFlowEyebrow: "Watch Connect",
+    watchFlowTitle: "Plantillas en iPhone, etiquetado en Watch",
+    watchFlowText:
+      "Coder Phone sigue siendo el centro de control: crear plantillas, elegir cuáles enviar y sincronizarlas con el Watch. Coder Watch muestra solo las plantillas seleccionadas y devuelve sesiones para exportar.",
+    watchPhoneTemplatesAlt: "Plantillas Watch Connect en Coder Phone",
+    watchPhoneEditorAlt: "Editor de plantillas Watch en iPhone",
+    watchPhoneSessionsAlt: "Sesiones Watch en Coder Phone",
+    watchFlowOneTitle: "Enviar plantillas elegidas",
+    watchFlowOneText:
+      "Elige qué plantillas estarán disponibles en Apple Watch para mantenerlo rápido y enfocado.",
+    watchFlowTwoTitle: "Editar plantillas",
+    watchFlowTwoText:
+      "Colores, columnas, espacios vacíos, pre-roll y post-roll se gestionan en iPhone y luego se transfieren.",
+    watchFlowThreeTitle: "Recibir sesiones",
+    watchFlowThreeText:
+      "Las sesiones grabadas en Watch aparecen de nuevo en Coder Phone para revisar o exportar.",
+    watchTourEyebrow: "Recorrido rápido",
+    watchTourTitle: "De plantilla a exportación XML",
+    watchTourIntro:
+      "El flujo Watch se mantiene pequeño a propósito: elegir plantilla, etiquetar en directo, guardar la sesión y devolverla como XML.",
+    watchHomeAlt: "Pantalla inicial de Coder Watch",
+    watchSessionAlt: "Selección de plantilla en Coder Watch",
+    watchLiveAlt: "Etiquetado en directo en Coder Watch",
+    watchExportAlt: "Exportación XML en Coder Watch",
+    watchStepOneTitle: "Inicio en Watch",
+    watchStepOneText: "Inicia una sesión nueva o abre sesiones existentes.",
+    watchStepTwoTitle: "Elegir plantilla",
+    watchStepTwoText: "Solo aparecen en el Watch las plantillas enviadas desde iPhone.",
+    watchStepThreeTitle: "Etiquetar en directo",
+    watchStepThreeText: "Botones grandes, colores claros y caminos cortos para etiquetas rápidas.",
+    watchStepFourTitle: "Preparar exportación",
+    watchStepFourText: "Las sesiones guardadas pueden entrar al flujo de Coder como XML.",
+    watchUseEyebrow: "En la práctica",
+    watchUseTitle: "Cuando el etiquetado debe ocurrir en paralelo",
+    watchUsePitchTitle: "Junto al campo",
+    watchUsePitchText: "Marca acciones rápidamente sin tener siempre el iPhone en la mano.",
+    watchUseTrainingTitle: "En entrenamiento",
+    watchUseTrainingText:
+      "Usa pequeños conjuntos de plantillas para ejercicios, carga o observaciones de coaching.",
+    watchUseWorkflowTitle: "En el flujo Coder",
+    watchUseWorkflowText:
+      "Las sesiones vuelven a Coder Phone y siguen siendo compatibles con el flujo de macOS.",
+    watchCompatEyebrow: "Compatibilidad",
+    watchCompatTitle: "Complemento de Coder Phone",
+    watchCompatText:
+      "Coder Watch está pensado como complemento de Coder Phone. El iPhone gestiona plantillas e idioma; el Watch etiqueta rápido y sincroniza sesiones.",
+    watchCompatOne: "Sincronización de plantillas de Coder Phone a Apple Watch",
+    watchCompatTwo: "Interfaz Watch multilingüe según el ajuste del Phone",
+    watchCompatThree: "Exportación XML para análisis posterior",
+  },
+};
+
+Object.entries(watchTranslations).forEach(([language, values]) => {
+  Object.assign(translations[language], values);
+});
+
 const videoContent = {
   de: {
     tagging: {
