@@ -14,6 +14,7 @@ const translations = {
     legalAria: "Rechtliches",
     navVideo: "Video",
     navCommunity: "Community Edition",
+    navPerformance: "Coder Performance",
     navMobile: "Coder Mobile App",
     navDownload: "Download",
     navContact: "Contact",
@@ -111,23 +112,26 @@ const translations = {
     mobileDownloadText:
       "Coder Mobile ist jetzt im App Store verfügbar.",
     mobileDownloadButton: "App Store öffnen",
-    downloadEyebrow: "Download & Lizenzcode",
-    downloadTitle: "Coder für macOS herunterladen",
+    downloadEyebrow: "Mac App Store",
+    downloadTitle: "Coder Performance Analysis kaufen",
     downloadText:
-      "Der Download wird über GitHub Releases bereitgestellt. Für die Nutzung der Community Edition kannst du unten einen Lizenzcode anfragen.",
+      "Coder Performance Analysis wird über den Mac App Store vertrieben. Die App wird als Einmalkauf angeboten, ohne Abo und ohne laufende Lizenzgebühren.",
     downloadCompatibility:
-      "Kompatibilität: Coder ist grundsätzlich mit macOS Tahoe sowie macOS Sonoma und macOS Sequoia kompatibel.",
-    downloadButton: "Coder.dmg herunterladen",
-    contactTitle: "Lizenzcode anfragen",
+      "Updates innerhalb der gekauften Version sind kostenfrei enthalten. Der finale App-Store-Link wird hier hinterlegt, sobald die Produktseite verfügbar ist.",
+    downloadButton: "Im Mac App Store öffnen",
+    contactTitle: "Kontakt",
     contactText:
-      "Fordere hier deinen Lizenzcode für die Coder Community Edition an.",
-    tallyTitle: "Coder Lizenzcode-Anfrage",
+      "Fragen zu Coder, App-Store-Versionen, Bundles oder individuellen Anpassungen kannst du direkt per E-Mail stellen.",
+    contactEyebrow: "E-Mail",
+    contactPanelTitle: "Markus Marchner",
+    contactPanelText:
+      "Für Support, Feedback, App-Store-Fragen und individuelle Bundles für Nachwuchsleistungszentren.",
+    contactButton: "E-Mail schreiben",
     footerCopyright: "© 2026 Markus Marchner",
     footerImprint: "Impressum",
     footerPrivacy: "Datenschutz",
     footerTerms: "Terms",
     footerCookies: "Cookies",
-    footerOpenSource: "Open Source",
   },
   en: {
     pageTitle: "Coder Community Edition",
@@ -144,6 +148,7 @@ const translations = {
     legalAria: "Legal links",
     navVideo: "Video",
     navCommunity: "Community Edition",
+    navPerformance: "Coder Performance",
     navMobile: "Coder Mobile App",
     navDownload: "Download",
     navContact: "Contact",
@@ -241,22 +246,26 @@ const translations = {
     mobileDownloadText:
       "Coder Mobile is now available on the App Store.",
     mobileDownloadButton: "Open App Store",
-    downloadEyebrow: "Download & license code",
-    downloadTitle: "Download Coder for macOS",
+    downloadEyebrow: "Mac App Store",
+    downloadTitle: "Buy Coder Performance Analysis",
     downloadText:
-      "The download is provided through GitHub Releases. You can request a license code for the Community Edition below.",
+      "Coder Performance Analysis is distributed through the Mac App Store. The app is offered as a one-time purchase, with no subscription and no recurring license fees.",
     downloadCompatibility:
-      "Compatibility: Coder is generally compatible with macOS Tahoe, macOS Sonoma and macOS Sequoia.",
-    downloadButton: "Download Coder.dmg",
-    contactTitle: "Request a license code",
-    contactText: "Request your license code for the Coder Community Edition here.",
-    tallyTitle: "Coder license code request",
+      "Updates within the purchased version are included free of charge. The final App Store link will be added here once the product page is available.",
+    downloadButton: "Open Mac App Store",
+    contactTitle: "Contact",
+    contactText:
+      "Questions about Coder, App Store versions, bundles, or custom adjustments can be sent directly by email.",
+    contactEyebrow: "Email",
+    contactPanelTitle: "Markus Marchner",
+    contactPanelText:
+      "For support, feedback, App Store questions, and individual bundles for youth academies.",
+    contactButton: "Write an email",
     footerCopyright: "© 2026 Markus Marchner",
     footerImprint: "Imprint",
     footerPrivacy: "Privacy",
     footerTerms: "Terms",
     footerCookies: "Cookies",
-    footerOpenSource: "Open Source",
   },
   fr: {
     pageTitle: "Coder Community Edition",
@@ -273,6 +282,7 @@ const translations = {
     legalAria: "Liens juridiques",
     navVideo: "Vidéo",
     navCommunity: "Community Edition",
+    navPerformance: "Coder Performance",
     navMobile: "Coder Mobile App",
     navDownload: "Téléchargement",
     navContact: "Contact",
@@ -370,23 +380,26 @@ const translations = {
     mobileDownloadText:
       "Coder Mobile est maintenant disponible sur l’App Store.",
     mobileDownloadButton: "Ouvrir l'App Store",
-    downloadEyebrow: "Téléchargement & code de licence",
-    downloadTitle: "Télécharger Coder pour macOS",
+    downloadEyebrow: "Mac App Store",
+    downloadTitle: "Acheter Coder Performance Analysis",
     downloadText:
-      "Le téléchargement est fourni via GitHub Releases. Vous pouvez demander ci-dessous un code de licence pour la Community Edition.",
+      "Coder Performance Analysis est distribué via le Mac App Store. L’app est proposée en achat unique, sans abonnement ni frais de licence récurrents.",
     downloadCompatibility:
-      "Compatibilité : Coder est généralement compatible avec macOS Tahoe, macOS Sonoma et macOS Sequoia.",
-    downloadButton: "Télécharger Coder.dmg",
-    contactTitle: "Demander un code de licence",
+      "Les mises à jour de la version achetée sont incluses gratuitement. Le lien final de l’App Store sera ajouté ici dès que la page produit sera disponible.",
+    downloadButton: "Ouvrir le Mac App Store",
+    contactTitle: "Contact",
     contactText:
-      "Demandez ici votre code de licence pour la Coder Community Edition.",
-    tallyTitle: "Demande de code de licence Coder",
+      "Les questions sur Coder, les versions App Store, les bundles ou les adaptations individuelles peuvent être envoyées directement par e-mail.",
+    contactEyebrow: "E-mail",
+    contactPanelTitle: "Markus Marchner",
+    contactPanelText:
+      "Pour le support, les retours, les questions App Store et les bundles individuels pour centres de formation.",
+    contactButton: "Écrire un e-mail",
     footerCopyright: "© 2026 Markus Marchner",
     footerImprint: "Mentions légales",
     footerPrivacy: "Confidentialité",
     footerTerms: "Conditions",
     footerCookies: "Cookies",
-    footerOpenSource: "Open Source",
   },
   es: {
     pageTitle: "Coder Community Edition",
@@ -403,6 +416,7 @@ const translations = {
     legalAria: "Enlaces legales",
     navVideo: "Vídeo",
     navCommunity: "Community Edition",
+    navPerformance: "Coder Performance",
     navMobile: "Coder Mobile App",
     navDownload: "Descarga",
     navContact: "Contacto",
@@ -500,23 +514,26 @@ const translations = {
     mobileDownloadText:
       "Coder Mobile ya está disponible en el App Store.",
     mobileDownloadButton: "Abrir App Store",
-    downloadEyebrow: "Descarga & código de licencia",
-    downloadTitle: "Descargar Coder para macOS",
+    downloadEyebrow: "Mac App Store",
+    downloadTitle: "Comprar Coder Performance Analysis",
     downloadText:
-      "La descarga se proporciona a través de GitHub Releases. Abajo puedes solicitar un código de licencia para la Community Edition.",
+      "Coder Performance Analysis se distribuye a través del Mac App Store. La app se ofrece como compra única, sin suscripción ni costes de licencia recurrentes.",
     downloadCompatibility:
-      "Compatibilidad: Coder es generalmente compatible con macOS Tahoe, macOS Sonoma y macOS Sequoia.",
-    downloadButton: "Descargar Coder.dmg",
-    contactTitle: "Solicitar código de licencia",
+      "Las actualizaciones dentro de la versión comprada están incluidas gratis. El enlace final del App Store se añadirá aquí cuando la página del producto esté disponible.",
+    downloadButton: "Abrir Mac App Store",
+    contactTitle: "Contacto",
     contactText:
-      "Solicita aquí tu código de licencia para Coder Community Edition.",
-    tallyTitle: "Solicitud de código de licencia de Coder",
+      "Las preguntas sobre Coder, versiones del App Store, bundles o ajustes individuales se pueden enviar directamente por correo electrónico.",
+    contactEyebrow: "Correo electrónico",
+    contactPanelTitle: "Markus Marchner",
+    contactPanelText:
+      "Para soporte, feedback, preguntas del App Store y bundles individuales para academias juveniles.",
+    contactButton: "Escribir email",
     footerCopyright: "© 2026 Markus Marchner",
     footerImprint: "Aviso legal",
     footerPrivacy: "Privacidad",
     footerTerms: "Términos",
     footerCookies: "Cookies",
-    footerOpenSource: "Open Source",
   },
 };
 
@@ -581,7 +598,7 @@ const phoneTranslations = {
     phoneDownloadEyebrow: "iPhone Download",
     phoneDownloadTitle: "Coder Phone App für iOS herunterladen",
     phoneDownloadText:
-      "Coder Phone ist vorbereitet und wird nach der App-Store-Freigabe direkt verlinkt.",
+      "Coder Phone ist jetzt im App Store verfügbar.",
     phoneDownloadButton: "App Store öffnen",
   },
   en: {
@@ -644,7 +661,7 @@ const phoneTranslations = {
     phoneDownloadEyebrow: "iPhone download",
     phoneDownloadTitle: "Download Coder Phone App for iOS",
     phoneDownloadText:
-      "Coder Phone is prepared and will be linked directly after App Store approval.",
+      "Coder Phone is now available on the App Store.",
     phoneDownloadButton: "Open App Store",
   },
   fr: {
@@ -707,7 +724,7 @@ const phoneTranslations = {
     phoneDownloadEyebrow: "Téléchargement iPhone",
     phoneDownloadTitle: "Télécharger Coder Phone App pour iOS",
     phoneDownloadText:
-      "Coder Phone est préparée et sera liée directement après validation sur l’App Store.",
+      "Coder Phone est maintenant disponible sur l’App Store.",
     phoneDownloadButton: "Ouvrir l'App Store",
   },
   es: {
@@ -770,7 +787,7 @@ const phoneTranslations = {
     phoneDownloadEyebrow: "Descarga iPhone",
     phoneDownloadTitle: "Descargar Coder Phone App para iOS",
     phoneDownloadText:
-      "Coder Phone está preparada y se enlazará directamente tras la aprobación en el App Store.",
+      "Coder Phone ya está disponible en el App Store.",
     phoneDownloadButton: "Abrir App Store",
   },
 };
@@ -1043,6 +1060,389 @@ Object.entries(watchTranslations).forEach(([language, values]) => {
   Object.assign(translations[language], values);
 });
 
+const performanceTranslations = {
+  de: {
+    performancePageTitle: "Coder Performance",
+    performanceMetaDescription:
+      "Coder Performance Analysis: Videoanalyse, Projektverwaltung, Highlights, Präsentationen, Exporte und Auswertungen in einem macOS-Workflow.",
+    performanceEyebrow: "Coder Performance",
+    performanceTitle: "Videoanalyse ohne Abo",
+    performanceText:
+      "Coder Performance Analysis bündelt Projektverwaltung, Videoplayer, Tagging, Highlights, Präsentationen, Exporte und Analyseansichten in einem macOS-Workflow. Die App ist bewusst zugänglich für Einsteiger und gleichzeitig belastbar genug für professionelle Analysearbeit.",
+    performancePitchText:
+      "Für Trainer, Analysten, Lehrende, Vereine, Akademien und professionelle Umgebungen, die Video, Daten und Kommunikation an einem Ort zusammenführen wollen.",
+    performanceTourCta: "Module ansehen",
+    performanceDownloadCta: "Preis & Lizenz",
+    performanceHeroAria: "Coder Performance Software-Screenshot",
+    performanceHeroAlt:
+      "Coder Performance Analysis Software-Screenshot mit Videoplayer, Tagging und Timeline",
+    performancePlaceholderHero: "Coder Performance Analysis Preview",
+    performanceAudienceEyebrow: "Zielgruppe",
+    performanceAudienceTitle: "Für alle, die Analyse praktisch nutzbar machen wollen",
+    performanceAudienceText:
+      "Coder Performance Analysis soll nicht nur Spezialisten vorbehalten sein. Die Oberfläche bleibt ruhig und verständlich, während die Werkzeuge genug Tiefe für ambitionierte und professionelle Anwender bieten.",
+    performanceAudienceCoachTitle: "Trainer & Coaches",
+    performanceAudienceCoachText:
+      "Spielszenen sammeln, Feedback vorbereiten und Inhalte schnell in Besprechungen einsetzen.",
+    performanceAudienceAnalystTitle: "Analysten",
+    performanceAudienceAnalystText:
+      "Projekte, Videos, XML-Daten, Highlights und Auswertungen in einem sauberen Arbeitsfluss halten.",
+    performanceAudienceAcademyTitle: "Akademien & Vereine",
+    performanceAudienceAcademyText:
+      "Wiederkehrende Spielanalysen, Präsentationen und Team-Workflows verlässlich strukturieren.",
+    performanceAudienceEducationTitle: "Lehre & Entwicklung",
+    performanceAudienceEducationText:
+      "Analyseprozesse nachvollziehbar erklären und junge Analysten an professionelle Abläufe heranführen.",
+    performanceWorkflowEyebrow: "Workflow",
+    performanceWorkflowTitle: "Vom Video zum verwertbaren Feedback",
+    performanceWorkflowText:
+      "Die App führt typische Analysearbeit in einem klaren Ablauf zusammen: Projekte anlegen, Videos importieren, Szenen markieren, Highlights filtern, Präsentationen bauen und Daten exportieren.",
+    performancePlaceholderProject: "Projektbereich Platzhalter",
+    performancePlaceholderVideo: "Videoplayer Platzhalter",
+    performancePlaceholderAnalysis: "Analyse Platzhalter",
+    performanceStepOneTitle: "Projekte organisieren",
+    performanceStepOneText:
+      "Spiele, Videos, XML-Daten und Analyseinhalte bleiben pro Projekt strukturiert zusammen.",
+    performanceStepTwoTitle: "Szenen finden",
+    performanceStepTwoText:
+      "Tagging, Highlight-Filter und Wiedergabe helfen dabei, relevante Momente schnell wiederzufinden.",
+    performanceStepThreeTitle: "Auswerten und präsentieren",
+    performanceStepThreeText:
+      "Ergebnisse können für Meetings, Feedback und weiterführende Auswertungen vorbereitet werden.",
+    performanceUseEyebrow: "Module",
+    performanceUseTitle: "Ein Arbeitsplatz für Analysearbeit",
+    performanceUseIntro:
+      "Die Module sind so aufgebaut, dass einzelne Anwender sofort starten können und professionelle Teams trotzdem eine belastbare Struktur für wiederkehrende Analyseprozesse erhalten.",
+    performanceUseProjectTitle: "Projektverwaltung",
+    performanceUseProjectText:
+      "Projektdateien, Videos und Exporte sind im Finder-ähnlichen Arbeitsbereich gebündelt.",
+    performanceUsePresentationTitle: "Präsentationen",
+    performanceUsePresentationText:
+      "Szenen können vorbereitet und für Team- oder Spielerfeedback strukturiert gezeigt werden.",
+    performanceUseAnalysisTitle: "Datenanalyse",
+    performanceUseAnalysisText:
+      "Tagging-Informationen und Leistungsdaten werden für Auswertungen und Dashboards nutzbar.",
+    performanceUseVideoTitle: "Videoplayer & Tagging",
+    performanceUseVideoText:
+      "Videos, Szenen, Tags und Wiedergabe bleiben eng miteinander verbunden.",
+    performanceUseHighlightsTitle: "Highlights",
+    performanceUseHighlightsText:
+      "Gefilterte Szenen können als Highlight-Sammlung vorbereitet und weiterverwendet werden.",
+    performanceUseExportTitle: "Import & Export",
+    performanceUseExportText:
+      "XML-Workflows und Projektexporte schaffen Anschluss an bestehende Analyseumgebungen.",
+    performanceLicenseEyebrow: "Preis & Lizenz",
+    performanceLicenseTitle: "Einmal kaufen, dauerhaft nutzen",
+    performanceLicenseText:
+      "Coder Performance Analysis wird im App Store für 149 Euro verfügbar sein. Es gibt kein Abo und keine laufenden Lizenzgebühren. Innerhalb der gekauften Version sind alle Updates kostenfrei enthalten. Bezug und reguläre Updates laufen über den App Store.",
+    performancePriceLabel: "App Store Preis",
+    performancePriceValue: "149 €",
+    performancePriceText: "Einmalzahlung, kein Abo",
+    performanceStoreEyebrow: "Mac App Store",
+    performanceStoreTitle: "Coder Performance Analysis kaufen",
+    performanceStoreText:
+      "Die reguläre Version wird über den Mac App Store bereitgestellt. Der finale Produktlink wird hier hinterlegt, sobald die App-Store-Seite verfügbar ist.",
+    performanceStoreAria: "Mac App Store öffnen",
+    performanceBundleTitle: "Bundles für Nachwuchsleistungszentren",
+    performanceBundleText:
+      "Für Nachwuchsleistungszentren und größere Ausbildungsstrukturen kann es außerhalb des App Store individuelle Bundles mit Anpassungen und abweichenden Konditionen geben.",
+    performanceCompatEyebrow: "Kompatibilität",
+    performanceCompatTitle: "Verbunden mit dem Coder Workflow",
+    performanceCompatText:
+      "Coder Performance ist die macOS-Zentrale für Projekte, die aus Coder Mobile, Coder Phone oder anderen Analysequellen kommen.",
+    performanceCompatOne: "Import und Export von Projekt- und XML-Daten",
+    performanceCompatTwo: "Highlights, Präsentationen und Analyseansichten pro Projekt",
+    performanceCompatThree: "Vorbereitet für Team-Workflows und wiederkehrende Spielanalysen",
+    performanceCompatFour: "Mehrsprachig: Deutsch, Englisch, Spanisch und Französisch",
+  },
+  en: {
+    performancePageTitle: "Coder Performance",
+    performanceMetaDescription:
+      "Coder Performance Analysis: video analysis, project management, highlights, presentations, exports, and evaluation in one macOS workflow.",
+    performanceEyebrow: "Coder Performance",
+    performanceTitle: "Video analysis without a subscription",
+    performanceText:
+      "Coder Performance Analysis combines project management, video playback, tagging, highlights, presentations, exports, and analysis views in one macOS workflow. The app is intentionally approachable for beginners while remaining robust enough for professional analysis work.",
+    performancePitchText:
+      "For coaches, analysts, educators, clubs, academies, and professional environments that want to bring video, data, and communication together in one place.",
+    performanceTourCta: "View modules",
+    performanceDownloadCta: "Price & license",
+    performanceHeroAria: "Coder Performance software screenshot",
+    performanceHeroAlt:
+      "Coder Performance Analysis software screenshot with video player, tagging, and timeline",
+    performancePlaceholderHero: "Coder Performance Analysis Preview",
+    performanceAudienceEyebrow: "Audience",
+    performanceAudienceTitle: "For everyone who wants to make analysis practical",
+    performanceAudienceText:
+      "Coder Performance Analysis is not meant only for specialists. The interface stays calm and understandable, while the tools offer enough depth for ambitious and professional users.",
+    performanceAudienceCoachTitle: "Trainers & coaches",
+    performanceAudienceCoachText:
+      "Collect match scenes, prepare feedback, and use content quickly in meetings.",
+    performanceAudienceAnalystTitle: "Analysts",
+    performanceAudienceAnalystText:
+      "Projects, videos, XML data, highlights, and evaluations stay in a clean workflow.",
+    performanceAudienceAcademyTitle: "Academies & clubs",
+    performanceAudienceAcademyText:
+      "Structure recurring match analysis, presentations, and team workflows reliably.",
+    performanceAudienceEducationTitle: "Education & development",
+    performanceAudienceEducationText:
+      "Explain analysis processes clearly and introduce young analysts to professional workflows.",
+    performanceWorkflowEyebrow: "Workflow",
+    performanceWorkflowTitle: "From video to usable feedback",
+    performanceWorkflowText:
+      "The app brings typical analysis work into a clear flow: create projects, import videos, mark scenes, filter highlights, build presentations, and export data.",
+    performancePlaceholderProject: "Project area placeholder",
+    performancePlaceholderVideo: "Video player placeholder",
+    performancePlaceholderAnalysis: "Analysis placeholder",
+    performanceStepOneTitle: "Organize projects",
+    performanceStepOneText:
+      "Matches, videos, XML data, and analysis content stay structured together per project.",
+    performanceStepTwoTitle: "Find scenes",
+    performanceStepTwoText:
+      "Tagging, highlight filters, and playback help retrieve relevant moments quickly.",
+    performanceStepThreeTitle: "Evaluate and present",
+    performanceStepThreeText:
+      "Results can be prepared for meetings, feedback, and deeper analysis.",
+    performanceUseEyebrow: "Modules",
+    performanceUseTitle: "One workspace for analysis work",
+    performanceUseIntro:
+      "The modules are designed so individual users can start quickly while professional teams still get a reliable structure for recurring analysis processes.",
+    performanceUseProjectTitle: "Project management",
+    performanceUseProjectText:
+      "Project files, videos, and exports are bundled in a Finder-like workspace.",
+    performanceUsePresentationTitle: "Presentations",
+    performanceUsePresentationText:
+      "Scenes can be prepared and shown in a structured way for team or player feedback.",
+    performanceUseAnalysisTitle: "Data analysis",
+    performanceUseAnalysisText:
+      "Tagging information and performance data become usable for evaluations and dashboards.",
+    performanceUseVideoTitle: "Video player & tagging",
+    performanceUseVideoText:
+      "Videos, scenes, tags, and playback stay tightly connected.",
+    performanceUseHighlightsTitle: "Highlights",
+    performanceUseHighlightsText:
+      "Filtered scenes can be prepared as highlight collections and reused.",
+    performanceUseExportTitle: "Import & export",
+    performanceUseExportText:
+      "XML workflows and project exports connect to existing analysis environments.",
+    performanceLicenseEyebrow: "Price & license",
+    performanceLicenseTitle: "Buy once, use permanently",
+    performanceLicenseText:
+      "Coder Performance Analysis will be available in the App Store for 149 euros. There is no subscription and no recurring license fee. All updates within the purchased version are included free of charge. Distribution and regular updates run through the App Store.",
+    performancePriceLabel: "App Store price",
+    performancePriceValue: "149 €",
+    performancePriceText: "One-time purchase, no subscription",
+    performanceStoreEyebrow: "Mac App Store",
+    performanceStoreTitle: "Buy Coder Performance Analysis",
+    performanceStoreText:
+      "The regular version is distributed through the Mac App Store. The final product link will be added here once the App Store page is available.",
+    performanceStoreAria: "Open Mac App Store",
+    performanceBundleTitle: "Bundles for youth academies",
+    performanceBundleText:
+      "For youth academies and larger development structures, individual bundles with custom adjustments and different conditions may be available outside the App Store.",
+    performanceCompatEyebrow: "Compatibility",
+    performanceCompatTitle: "Connected to the Coder workflow",
+    performanceCompatText:
+      "Coder Performance is the macOS hub for projects coming from Coder Mobile, Coder Phone, or other analysis sources.",
+    performanceCompatOne: "Import and export of project and XML data",
+    performanceCompatTwo: "Highlights, presentations, and analysis views per project",
+    performanceCompatThree: "Prepared for team workflows and recurring match analysis",
+    performanceCompatFour: "Multilingual: German, English, Spanish, and French",
+  },
+  fr: {
+    performancePageTitle: "Coder Performance",
+    performanceMetaDescription:
+      "Coder Performance Analysis : analyse vidéo, gestion de projets, highlights, présentations, exports et évaluations dans un workflow macOS.",
+    performanceEyebrow: "Coder Performance",
+    performanceTitle: "Analyse vidéo sans abonnement",
+    performanceText:
+      "Coder Performance Analysis regroupe gestion de projets, lecteur vidéo, tagging, highlights, présentations, exports et vues d’analyse dans un workflow macOS. L’app reste accessible aux débutants tout en étant assez solide pour le travail d’analyse professionnel.",
+    performancePitchText:
+      "Pour coachs, analystes, enseignants, clubs, académies et environnements professionnels qui veulent réunir vidéo, données et communication au même endroit.",
+    performanceTourCta: "Voir les modules",
+    performanceDownloadCta: "Prix & licence",
+    performanceHeroAria: "Capture d’écran du logiciel Coder Performance",
+    performanceHeroAlt:
+      "Capture d’écran de Coder Performance Analysis avec lecteur vidéo, tagging et timeline",
+    performancePlaceholderHero: "Aperçu Coder Performance Analysis",
+    performanceAudienceEyebrow: "Public cible",
+    performanceAudienceTitle: "Pour tous ceux qui veulent rendre l’analyse utilisable",
+    performanceAudienceText:
+      "Coder Performance Analysis n’est pas réservé aux spécialistes. L’interface reste calme et compréhensible, tandis que les outils offrent assez de profondeur pour les utilisateurs ambitieux et professionnels.",
+    performanceAudienceCoachTitle: "Entraîneurs & coachs",
+    performanceAudienceCoachText:
+      "Collecter des scènes de match, préparer le feedback et utiliser rapidement les contenus en réunion.",
+    performanceAudienceAnalystTitle: "Analystes",
+    performanceAudienceAnalystText:
+      "Garder projets, vidéos, données XML, highlights et évaluations dans un flux de travail propre.",
+    performanceAudienceAcademyTitle: "Académies & clubs",
+    performanceAudienceAcademyText:
+      "Structurer de manière fiable les analyses récurrentes, présentations et workflows d’équipe.",
+    performanceAudienceEducationTitle: "Formation & développement",
+    performanceAudienceEducationText:
+      "Expliquer clairement les processus d’analyse et former les jeunes analystes aux workflows professionnels.",
+    performanceWorkflowEyebrow: "Workflow",
+    performanceWorkflowTitle: "De la vidéo au feedback exploitable",
+    performanceWorkflowText:
+      "L’app réunit le travail d’analyse typique dans un flux clair : créer des projets, importer des vidéos, marquer des scènes, filtrer les highlights, créer des présentations et exporter les données.",
+    performancePlaceholderProject: "Placeholder zone projet",
+    performancePlaceholderVideo: "Placeholder lecteur vidéo",
+    performancePlaceholderAnalysis: "Placeholder analyse",
+    performanceStepOneTitle: "Organiser les projets",
+    performanceStepOneText:
+      "Matchs, vidéos, données XML et contenus d’analyse restent structurés par projet.",
+    performanceStepTwoTitle: "Trouver les scènes",
+    performanceStepTwoText:
+      "Le tagging, les filtres de highlights et la lecture aident à retrouver rapidement les moments importants.",
+    performanceStepThreeTitle: "Évaluer et présenter",
+    performanceStepThreeText:
+      "Les résultats peuvent être préparés pour les réunions, le feedback et les analyses approfondies.",
+    performanceUseEyebrow: "Modules",
+    performanceUseTitle: "Un espace de travail pour l’analyse",
+    performanceUseIntro:
+      "Les modules permettent aux utilisateurs individuels de démarrer rapidement tout en offrant aux équipes professionnelles une structure fiable pour les processus d’analyse récurrents.",
+    performanceUseProjectTitle: "Gestion de projets",
+    performanceUseProjectText:
+      "Fichiers projet, vidéos et exports sont regroupés dans un espace proche du Finder.",
+    performanceUsePresentationTitle: "Présentations",
+    performanceUsePresentationText:
+      "Les scènes peuvent être préparées et montrées de manière structurée pour le feedback d’équipe ou joueur.",
+    performanceUseAnalysisTitle: "Analyse de données",
+    performanceUseAnalysisText:
+      "Les informations de tagging et données de performance deviennent exploitables pour évaluations et dashboards.",
+    performanceUseVideoTitle: "Lecteur vidéo & tagging",
+    performanceUseVideoText:
+      "Vidéos, scènes, tags et lecture restent étroitement connectés.",
+    performanceUseHighlightsTitle: "Highlights",
+    performanceUseHighlightsText:
+      "Les scènes filtrées peuvent être préparées comme collections de highlights et réutilisées.",
+    performanceUseExportTitle: "Import & export",
+    performanceUseExportText:
+      "Les workflows XML et exports de projets s’intègrent aux environnements d’analyse existants.",
+    performanceLicenseEyebrow: "Prix & licence",
+    performanceLicenseTitle: "Acheter une fois, utiliser durablement",
+    performanceLicenseText:
+      "Coder Performance Analysis sera disponible sur l’App Store pour 149 euros. Il n’y a pas d’abonnement ni de frais de licence récurrents. Toutes les mises à jour de la version achetée sont incluses gratuitement. La distribution et les mises à jour régulières passent par l’App Store.",
+    performancePriceLabel: "Prix App Store",
+    performancePriceValue: "149 €",
+    performancePriceText: "Paiement unique, pas d’abonnement",
+    performanceStoreEyebrow: "Mac App Store",
+    performanceStoreTitle: "Acheter Coder Performance Analysis",
+    performanceStoreText:
+      "La version régulière est distribuée via le Mac App Store. Le lien final du produit sera ajouté ici dès que la page App Store sera disponible.",
+    performanceStoreAria: "Ouvrir le Mac App Store",
+    performanceBundleTitle: "Bundles pour centres de formation",
+    performanceBundleText:
+      "Pour les centres de formation et grandes structures de développement, des bundles individuels avec adaptations et conditions différentes peuvent être proposés hors App Store.",
+    performanceCompatEyebrow: "Compatibilité",
+    performanceCompatTitle: "Connecté au workflow Coder",
+    performanceCompatText:
+      "Coder Performance est le centre macOS pour les projets venant de Coder Mobile, Coder Phone ou d’autres sources d’analyse.",
+    performanceCompatOne: "Import et export de données projet et XML",
+    performanceCompatTwo: "Highlights, présentations et vues d’analyse par projet",
+    performanceCompatThree: "Préparé pour les workflows d’équipe et les analyses de match récurrentes",
+    performanceCompatFour: "Multilingue : allemand, anglais, espagnol et français",
+  },
+  es: {
+    performancePageTitle: "Coder Performance",
+    performanceMetaDescription:
+      "Coder Performance Analysis: análisis de vídeo, gestión de proyectos, highlights, presentaciones, exportaciones y evaluaciones en un workflow macOS.",
+    performanceEyebrow: "Coder Performance",
+    performanceTitle: "Análisis de vídeo sin suscripción",
+    performanceText:
+      "Coder Performance Analysis reúne gestión de proyectos, reproductor de vídeo, etiquetado, highlights, presentaciones, exportaciones y vistas de análisis en un workflow macOS. La app es accesible para principiantes y a la vez suficientemente robusta para el trabajo profesional.",
+    performancePitchText:
+      "Para entrenadores, analistas, docentes, clubes, academias y entornos profesionales que quieren reunir vídeo, datos y comunicación en un solo lugar.",
+    performanceTourCta: "Ver módulos",
+    performanceDownloadCta: "Precio y licencia",
+    performanceHeroAria: "Captura del software Coder Performance",
+    performanceHeroAlt:
+      "Captura de Coder Performance Analysis con reproductor de vídeo, etiquetado y timeline",
+    performancePlaceholderHero: "Vista previa de Coder Performance Analysis",
+    performanceAudienceEyebrow: "Público objetivo",
+    performanceAudienceTitle: "Para todos los que quieren hacer útil el análisis",
+    performanceAudienceText:
+      "Coder Performance Analysis no está pensada solo para especialistas. La interfaz se mantiene clara y comprensible, mientras las herramientas ofrecen suficiente profundidad para usuarios ambiciosos y profesionales.",
+    performanceAudienceCoachTitle: "Entrenadores & coaches",
+    performanceAudienceCoachText:
+      "Recopilar escenas de partido, preparar feedback y usar contenido rápidamente en reuniones.",
+    performanceAudienceAnalystTitle: "Analistas",
+    performanceAudienceAnalystText:
+      "Mantener proyectos, vídeos, datos XML, highlights y evaluaciones en un flujo limpio.",
+    performanceAudienceAcademyTitle: "Academias & clubes",
+    performanceAudienceAcademyText:
+      "Estructurar análisis recurrentes, presentaciones y workflows de equipo de forma fiable.",
+    performanceAudienceEducationTitle: "Formación & desarrollo",
+    performanceAudienceEducationText:
+      "Explicar procesos de análisis y acercar a jóvenes analistas a flujos profesionales.",
+    performanceWorkflowEyebrow: "Workflow",
+    performanceWorkflowTitle: "Del vídeo al feedback utilizable",
+    performanceWorkflowText:
+      "La app une el trabajo de análisis típico en un flujo claro: crear proyectos, importar vídeos, marcar escenas, filtrar highlights, crear presentaciones y exportar datos.",
+    performancePlaceholderProject: "Placeholder de proyectos",
+    performancePlaceholderVideo: "Placeholder del reproductor",
+    performancePlaceholderAnalysis: "Placeholder de análisis",
+    performanceStepOneTitle: "Organizar proyectos",
+    performanceStepOneText:
+      "Partidos, vídeos, datos XML y contenido de análisis quedan estructurados por proyecto.",
+    performanceStepTwoTitle: "Encontrar escenas",
+    performanceStepTwoText:
+      "El etiquetado, los filtros de highlights y la reproducción ayudan a recuperar momentos relevantes rápidamente.",
+    performanceStepThreeTitle: "Evaluar y presentar",
+    performanceStepThreeText:
+      "Los resultados pueden prepararse para reuniones, feedback y análisis posteriores.",
+    performanceUseEyebrow: "Módulos",
+    performanceUseTitle: "Un espacio de trabajo para el análisis",
+    performanceUseIntro:
+      "Los módulos permiten que usuarios individuales empiecen rápido y que equipos profesionales tengan una estructura fiable para procesos recurrentes.",
+    performanceUseProjectTitle: "Gestión de proyectos",
+    performanceUseProjectText:
+      "Archivos de proyecto, vídeos y exportaciones se agrupan en un espacio similar al Finder.",
+    performanceUsePresentationTitle: "Presentaciones",
+    performanceUsePresentationText:
+      "Las escenas pueden prepararse y mostrarse de forma estructurada para feedback de equipo o jugadores.",
+    performanceUseAnalysisTitle: "Análisis de datos",
+    performanceUseAnalysisText:
+      "La información de etiquetas y los datos de rendimiento se vuelven utilizables para evaluaciones y dashboards.",
+    performanceUseVideoTitle: "Reproductor & etiquetado",
+    performanceUseVideoText:
+      "Vídeos, escenas, etiquetas y reproducción permanecen estrechamente conectados.",
+    performanceUseHighlightsTitle: "Highlights",
+    performanceUseHighlightsText:
+      "Las escenas filtradas pueden prepararse como colecciones de highlights y reutilizarse.",
+    performanceUseExportTitle: "Importar & exportar",
+    performanceUseExportText:
+      "Los workflows XML y exportaciones de proyecto conectan con entornos de análisis existentes.",
+    performanceLicenseEyebrow: "Precio y licencia",
+    performanceLicenseTitle: "Comprar una vez, usar de forma permanente",
+    performanceLicenseText:
+      "Coder Performance Analysis estará disponible en el App Store por 149 euros. No hay suscripción ni costes de licencia recurrentes. Todas las actualizaciones dentro de la versión comprada están incluidas gratis. La distribución y las actualizaciones regulares se realizan a través del App Store.",
+    performancePriceLabel: "Precio App Store",
+    performancePriceValue: "149 €",
+    performancePriceText: "Pago único, sin suscripción",
+    performanceStoreEyebrow: "Mac App Store",
+    performanceStoreTitle: "Comprar Coder Performance Analysis",
+    performanceStoreText:
+      "La versión regular se distribuye a través del Mac App Store. El enlace final del producto se añadirá aquí cuando la página del App Store esté disponible.",
+    performanceStoreAria: "Abrir Mac App Store",
+    performanceBundleTitle: "Bundles para academias juveniles",
+    performanceBundleText:
+      "Para centros de formación y estructuras de desarrollo más grandes, pueden existir bundles individuales fuera del App Store con adaptaciones y condiciones distintas.",
+    performanceCompatEyebrow: "Compatibilidad",
+    performanceCompatTitle: "Conectado al workflow de Coder",
+    performanceCompatText:
+      "Coder Performance es el centro macOS para proyectos que vienen de Coder Mobile, Coder Phone u otras fuentes de análisis.",
+    performanceCompatOne: "Importación y exportación de datos de proyecto y XML",
+    performanceCompatTwo: "Highlights, presentaciones y vistas de análisis por proyecto",
+    performanceCompatThree: "Preparado para workflows de equipo y análisis recurrente de partidos",
+    performanceCompatFour: "Multilingüe: alemán, inglés, español y francés",
+  },
+};
+
+Object.entries(performanceTranslations).forEach(([language, values]) => {
+  Object.assign(translations[language], values);
+});
+
 const videoContent = {
   de: {
     tagging: {
@@ -1082,7 +1482,7 @@ const videoContent = {
     },
     more: {
       id: "ysz5S6PUM-U",
-      label: "More",
+      label: "Mehr",
       title: "Und es gibt noch viel mehr",
       description:
         "Egal ob Cloud-Anbindung, Backup und erste KI-Chat-Funktionen. Mehr im Video.",

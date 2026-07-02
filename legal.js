@@ -5,9 +5,8 @@ const legalSharedTranslations = {
     legalAria: "Rechtliches",
     imprint: "Impressum",
     privacy: "Datenschutz",
-    terms: "Terms",
+    terms: "Nutzungsbedingungen",
     cookies: "Cookies",
-    openSource: "Open Source",
     officialGerman:
       "Hinweis: Die deutsche Fassung ist maßgeblich. Übersetzungen dienen der besseren Verständlichkeit.",
   },
@@ -19,7 +18,6 @@ const legalSharedTranslations = {
     privacy: "Privacy",
     terms: "Terms",
     cookies: "Cookies",
-    openSource: "Open Source",
     officialGerman:
       "Note: The German version is authoritative. Translations are provided for convenience.",
   },
@@ -31,7 +29,6 @@ const legalSharedTranslations = {
     privacy: "Confidentialité",
     terms: "Conditions",
     cookies: "Cookies",
-    openSource: "Open Source",
     officialGerman:
       "Remarque : la version allemande fait foi. Les traductions sont fournies à titre informatif.",
   },
@@ -43,7 +40,6 @@ const legalSharedTranslations = {
     privacy: "Privacidad",
     terms: "Términos",
     cookies: "Cookies",
-    openSource: "Open Source",
     officialGerman:
       "Nota: la versión alemana es la vinculante. Las traducciones se ofrecen para facilitar la comprensión.",
   },
@@ -67,6 +63,14 @@ function applyLegalLanguage(language) {
     const key = element.dataset.legalI18n;
     const text = legalSharedTranslations[lang]?.[key] || legalSharedTranslations.de[key];
     if (text) element.textContent = text;
+  });
+
+  document.querySelectorAll("[data-legal-i18n-attr]").forEach((element) => {
+    element.dataset.legalI18nAttr.split(",").forEach((entry) => {
+      const [attribute, key] = entry.split(":").map((value) => value.trim());
+      const text = legalSharedTranslations[lang]?.[key] || legalSharedTranslations.de[key];
+      if (attribute && text) element.setAttribute(attribute, text);
+    });
   });
 
   document.querySelectorAll("[data-legal-section]").forEach((section) => {
