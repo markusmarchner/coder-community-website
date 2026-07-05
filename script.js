@@ -1073,9 +1073,9 @@ const performanceTranslations = {
       "Für Trainer, Analysten, Lehrende, Vereine, Akademien und professionelle Umgebungen, die Video, Daten und Kommunikation an einem Ort zusammenführen wollen.",
     performanceTourCta: "Module ansehen",
     performanceDownloadCta: "Preis & Lizenz",
-    performanceHeroAria: "Coder Performance Software-Screenshot",
+    performanceHeroAria: "Coder Performance MacBook Pro Mockup",
     performanceHeroAlt:
-      "Coder Performance Analysis Software-Screenshot mit Videoplayer, Tagging und Timeline",
+      "Coder Performance Analysis auf einem MacBook Pro Display mit Videoplayer, Tagging und Timeline",
     performancePlaceholderHero: "Coder Performance Analysis Preview",
     performanceAudienceEyebrow: "Zielgruppe",
     performanceAudienceTitle: "Für alle, die Analyse praktisch nutzbar machen wollen",
@@ -1097,8 +1097,10 @@ const performanceTranslations = {
     performanceWorkflowTitle: "Vom Video zum verwertbaren Feedback",
     performanceWorkflowText:
       "Die App führt typische Analysearbeit in einem klaren Ablauf zusammen: Projekte anlegen, Videos importieren, Szenen markieren, Highlights filtern, Präsentationen bauen und Daten exportieren.",
-    performancePlaceholderProject: "Projektbereich Platzhalter",
-    performancePlaceholderVideo: "Videoplayer Platzhalter",
+    performancePlaceholderProject:
+      "Coder Performance Projektverwaltung mit gespeicherten Projekten und Projektdateien",
+    performancePlaceholderVideo:
+      "Coder Performance Filteransicht zum Finden gespeicherter Szenen",
     performancePlaceholderAnalysis: "Analyse Platzhalter",
     performanceStepOneTitle: "Projekte organisieren",
     performanceStepOneText:
@@ -1167,9 +1169,9 @@ const performanceTranslations = {
       "For coaches, analysts, educators, clubs, academies, and professional environments that want to bring video, data, and communication together in one place.",
     performanceTourCta: "View modules",
     performanceDownloadCta: "Price & license",
-    performanceHeroAria: "Coder Performance software screenshot",
+    performanceHeroAria: "Coder Performance MacBook Pro mockup",
     performanceHeroAlt:
-      "Coder Performance Analysis software screenshot with video player, tagging, and timeline",
+      "Coder Performance Analysis on a MacBook Pro display with video player, tagging, and timeline",
     performancePlaceholderHero: "Coder Performance Analysis Preview",
     performanceAudienceEyebrow: "Audience",
     performanceAudienceTitle: "For everyone who wants to make analysis practical",
@@ -1191,8 +1193,10 @@ const performanceTranslations = {
     performanceWorkflowTitle: "From video to usable feedback",
     performanceWorkflowText:
       "The app brings typical analysis work into a clear flow: create projects, import videos, mark scenes, filter highlights, build presentations, and export data.",
-    performancePlaceholderProject: "Project area placeholder",
-    performancePlaceholderVideo: "Video player placeholder",
+    performancePlaceholderProject:
+      "Coder Performance project management with saved projects and project files",
+    performancePlaceholderVideo:
+      "Coder Performance filter view for finding saved scenes",
     performancePlaceholderAnalysis: "Analysis placeholder",
     performanceStepOneTitle: "Organize projects",
     performanceStepOneText:
@@ -1261,9 +1265,9 @@ const performanceTranslations = {
       "Pour coachs, analystes, enseignants, clubs, académies et environnements professionnels qui veulent réunir vidéo, données et communication au même endroit.",
     performanceTourCta: "Voir les modules",
     performanceDownloadCta: "Prix & licence",
-    performanceHeroAria: "Capture d’écran du logiciel Coder Performance",
+    performanceHeroAria: "Mockup MacBook Pro de Coder Performance",
     performanceHeroAlt:
-      "Capture d’écran de Coder Performance Analysis avec lecteur vidéo, tagging et timeline",
+      "Coder Performance Analysis sur un écran MacBook Pro avec lecteur vidéo, tagging et timeline",
     performancePlaceholderHero: "Aperçu Coder Performance Analysis",
     performanceAudienceEyebrow: "Public cible",
     performanceAudienceTitle: "Pour tous ceux qui veulent rendre l’analyse utilisable",
@@ -1285,8 +1289,10 @@ const performanceTranslations = {
     performanceWorkflowTitle: "De la vidéo au feedback exploitable",
     performanceWorkflowText:
       "L’app réunit le travail d’analyse typique dans un flux clair : créer des projets, importer des vidéos, marquer des scènes, filtrer les highlights, créer des présentations et exporter les données.",
-    performancePlaceholderProject: "Placeholder zone projet",
-    performancePlaceholderVideo: "Placeholder lecteur vidéo",
+    performancePlaceholderProject:
+      "Gestion de projets Coder Performance avec projets enregistrés et fichiers de projet",
+    performancePlaceholderVideo:
+      "Vue de filtres Coder Performance pour retrouver des scènes enregistrées",
     performancePlaceholderAnalysis: "Placeholder analyse",
     performanceStepOneTitle: "Organiser les projets",
     performanceStepOneText:
@@ -1355,9 +1361,9 @@ const performanceTranslations = {
       "Para entrenadores, analistas, docentes, clubes, academias y entornos profesionales que quieren reunir vídeo, datos y comunicación en un solo lugar.",
     performanceTourCta: "Ver módulos",
     performanceDownloadCta: "Precio y licencia",
-    performanceHeroAria: "Captura del software Coder Performance",
+    performanceHeroAria: "Mockup de Coder Performance en MacBook Pro",
     performanceHeroAlt:
-      "Captura de Coder Performance Analysis con reproductor de vídeo, etiquetado y timeline",
+      "Coder Performance Analysis en una pantalla de MacBook Pro con reproductor de vídeo, etiquetado y timeline",
     performancePlaceholderHero: "Vista previa de Coder Performance Analysis",
     performanceAudienceEyebrow: "Público objetivo",
     performanceAudienceTitle: "Para todos los que quieren hacer útil el análisis",
@@ -1379,8 +1385,10 @@ const performanceTranslations = {
     performanceWorkflowTitle: "Del vídeo al feedback utilizable",
     performanceWorkflowText:
       "La app une el trabajo de análisis típico en un flujo claro: crear proyectos, importar vídeos, marcar escenas, filtrar highlights, crear presentaciones y exportar datos.",
-    performancePlaceholderProject: "Placeholder de proyectos",
-    performancePlaceholderVideo: "Placeholder del reproductor",
+    performancePlaceholderProject:
+      "Gestión de proyectos de Coder Performance con proyectos guardados y archivos de proyecto",
+    performancePlaceholderVideo:
+      "Vista de filtros de Coder Performance para encontrar escenas guardadas",
     performancePlaceholderAnalysis: "Placeholder de análisis",
     performanceStepOneTitle: "Organizar proyectos",
     performanceStepOneText:
@@ -1629,6 +1637,8 @@ let currentVideo = "tagging";
 
 const featureVideoFrame = document.querySelector("#feature-video");
 const tabs = document.querySelectorAll(".video-tab");
+const moduleVideoFrame = document.querySelector("#module-video");
+const moduleCards = document.querySelectorAll("[data-module-video]");
 const languageButtons = document.querySelectorAll(".language-option");
 const kicker = document.querySelector("#feature-kicker");
 const title = document.querySelector("#feature-title");
@@ -1741,6 +1751,28 @@ function selectVideo(key) {
   });
 }
 
+function selectModuleVideo(card) {
+  if (!card || !moduleVideoFrame) {
+    return;
+  }
+
+  const dictionary = translations[currentLanguage] || translations.de;
+  const titleText =
+    dictionary[card.dataset.titleKey] ||
+    card.querySelector("h3")?.textContent ||
+    "Coder Performance";
+  const videoTitle =
+    dictionary[card.dataset.videoTitleKey] || titleText;
+
+  resetVideoFrame(moduleVideoFrame, card.dataset.videoId, `Coder ${videoTitle} Video`);
+
+  moduleCards.forEach((moduleCard) => {
+    const isActive = moduleCard === card;
+    moduleCard.classList.toggle("active", isActive);
+    moduleCard.setAttribute("aria-pressed", String(isActive));
+  });
+}
+
 function setLanguage(language) {
   if (!translations[language]) {
     return;
@@ -1750,6 +1782,9 @@ function setLanguage(language) {
   localStorage.setItem("coder-language", language);
   applyText(language);
   selectVideo(currentVideo);
+  selectModuleVideo(
+    document.querySelector("[data-module-video].active") || moduleCards[0],
+  );
 
   languageButtons.forEach((button) => {
     const isActive = button.dataset.lang === language;
@@ -1760,6 +1795,11 @@ function setLanguage(language) {
 
 tabs.forEach((tab) => {
   tab.addEventListener("click", () => selectVideo(tab.dataset.video));
+});
+
+moduleCards.forEach((card) => {
+  card.setAttribute("aria-pressed", String(card.classList.contains("active")));
+  card.addEventListener("click", () => selectModuleVideo(card));
 });
 
 languageButtons.forEach((button) => {
