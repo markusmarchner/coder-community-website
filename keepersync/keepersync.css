@@ -49,6 +49,10 @@
 /* Enlarge the two previews and the complete virtual timeline together. */
 .keepersync-preview-focus { display: block; position: relative; overflow: hidden; aspect-ratio: 67 / 58; background: #242526; }
 .keepersync-tour .keepersync-preview-focus img { position: absolute; width: 191.044776%; max-width: none; height: auto; left: 0; top: 0; transform: translate(-21.875%, -15%); }
+/* Keep all export settings visible, enlarged within the card. */
+.keepersync-export-focus { display: block; position: relative; overflow: hidden; aspect-ratio: 67 / 58; background: #242526; }
+.keepersync-export-focus > span { display: block; position: relative; overflow: hidden; width: 55.255637%; height: 100%; margin: auto; }
+.keepersync-tour .keepersync-export-focus img { position: absolute; width: 426.666667%; max-width: none; height: auto; left: 0; top: 0; transform: translate(-74.21875%, -10.625%); }
 .keepersync-tour article > div { padding: 26px; }
 .keepersync-tour article p:not(.eyebrow) { color: var(--muted); }
 .keepersync-caption { color: var(--muted); font-size: .8rem; text-align: center; margin-top: 24px; }
