@@ -124,3 +124,13 @@
   .keepersync-analysis-software li, .keepersync-analysis-software a, .keepersync-analysis-software li > span { width: 100%; }
   .keepersync-analysis-software a, .keepersync-analysis-software li > span { justify-content: space-between; text-align: left; }
 }
+
+/* Separate camera examples retain their full image and rounded frame. */
+.keepersync-perspectives { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 22px; max-width: 1320px; margin: 38px auto 0; }
+.keepersync-perspectives figure { min-width: 0; margin: 0; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; background: #303133; }
+.keepersync-perspectives figcaption { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 6px 14px; padding: 15px 18px; font-size: .85rem; font-weight: 650; }
+.keepersync-perspectives figcaption span + span { color: var(--muted); font-size: .78rem; font-weight: 400; }
+.keepersync-perspectives a { display: block; overflow: hidden; border-radius: 0 0 9px 9px; }
+.keepersync-perspectives img { display: block; width: 100%; height: auto; }
+.keepersync-perspectives a:focus-visible { outline-offset: -4px; }
+@media (max-width: 760px) { .keepersync-perspectives { grid-template-columns: 1fr; } }
