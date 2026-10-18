@@ -21,9 +21,6 @@
 .keepersync-theme .mobile-page-hero { padding: clamp(56px,7vw,100px) clamp(18px,4vw,56px); }
 .keepersync-theme .mobile-hero { width: min(1560px,100%); grid-template-columns: minmax(0,.85fr) minmax(0,1.25fr); gap: clamp(28px,4vw,64px); }
 .keepersync-theme .mobile-page-hero h1 { font-size: clamp(2.5rem,4.1vw,4.5rem); line-height: 1.08; margin: 22px 0; }
-.keepersync-identity { display: flex; gap: 14px; align-items: center; }
-.keepersync-identity .eyebrow { margin: 0; }
-.keepersync-identity img { flex-shrink: 0; }
 .keepersync-theme .mobile-copy .keepersync-availability { font-size: .84rem; margin-top: 24px; }
 .keepersync-showcase { margin: 0; min-width: 0; }
 /* Crop the screenshot to the actual app window and clip all four corners. */
