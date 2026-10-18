@@ -99,3 +99,28 @@
   .keepersync-theme .main-nav { font-size: .85rem; gap: 12px 18px; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+/* Explain the action-camera workflow before the individual app features. */
+.keepersync-analysis { background: #252628; border-top: 1px solid #ffffff09; scroll-margin-top: 150px; }
+.keepersync-analysis .section-heading { max-width: 920px; }
+.keepersync-analysis-flow { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 0; max-width: 1320px; padding: 0; margin: 46px auto 0; list-style: none; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; background: #303133; }
+.keepersync-analysis-flow li { position: relative; padding: clamp(24px,3vw,38px); }
+.keepersync-analysis-flow li + li { border-left: 1px solid var(--line); }
+.keepersync-analysis-flow h3, .keepersync-usecases h3 { line-height: 1.35; }
+.keepersync-analysis-flow p, .keepersync-analysis-software p, .keepersync-usecases p:not(.eyebrow) { color: var(--muted); }
+.keepersync-analysis-flow .keepersync-number { margin-bottom: 22px; }
+.keepersync-analysis-software { max-width: 1000px; margin: 36px auto 46px; text-align: center; }
+.keepersync-analysis-software ul { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin: 24px 0 18px; padding: 0; list-style: none; }
+.keepersync-analysis-software a { display: inline-flex; align-items: center; gap: 20px; padding: 13px 18px; border: 1px solid var(--line); border-radius: 7px; background: #303133; font-weight: 650; }
+.keepersync-analysis-software a:hover { background: #3b3d40; border-color: #a5a8ac; }
+.keepersync-analysis-software a span { color: #b9c8d8; }
+.keepersync-import-note { font-size: .83rem; }
+.keepersync-usecases { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 22px; max-width: 1320px; margin: auto; }
+.keepersync-usecases article { padding: clamp(24px,3vw,38px); border: 1px solid var(--line); border-radius: 10px; background: linear-gradient(135deg,#353739,#2c2d2f); }
+.keepersync-usecases h3 { font-size: clamp(1.3rem,2vw,1.8rem); }
+@media (max-width: 760px) {
+  .keepersync-analysis-flow, .keepersync-usecases { grid-template-columns: 1fr; }
+  .keepersync-analysis-flow li + li { border-left: 0; border-top: 1px solid var(--line); }
+  .keepersync-analysis-software li, .keepersync-analysis-software a { width: 100%; }
+  .keepersync-analysis-software a { justify-content: space-between; text-align: left; }
+}
