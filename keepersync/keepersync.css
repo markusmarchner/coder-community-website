@@ -44,10 +44,10 @@
 .keepersync-tour { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 22px; max-width: 1320px; margin: auto; }
 .keepersync-tour article { border: 1px solid var(--line); border-radius: 10px; overflow: hidden; background: var(--surface); }
 .keepersync-tour img { width: 100%; height: auto; display: block; }
-/* Focus the audio card on the inspector; the link opens the full screenshot. */
-.keepersync-audio-focus { display: block; position: relative; overflow: hidden; aspect-ratio: 8 / 5; background: #242526; }
-.keepersync-audio-focus > span { display: block; position: relative; overflow: hidden; width: 50%; height: 100%; margin: auto; }
-.keepersync-tour .keepersync-audio-focus img { position: absolute; width: 457.142857%; max-width: none; height: auto; left: 0; top: 0; transform: translate(-74.84375%, -10.875%); }
+/* Show the complete image inspector, including per-half adjustments. */
+.keepersync-picture-focus { display: block; position: relative; overflow: hidden; aspect-ratio: 67 / 58; background: #242526; }
+.keepersync-picture-focus > span { display: block; position: relative; overflow: hidden; width: 51.571928%; height: 100%; margin: auto; }
+.keepersync-tour .keepersync-picture-focus img { position: absolute; width: 457.142857%; max-width: none; height: auto; left: 0; top: 0; transform: translate(-74.84375%, -10.875%); }
 /* Enlarge the two previews and the complete virtual timeline together. */
 .keepersync-preview-focus { display: block; position: relative; overflow: hidden; aspect-ratio: 67 / 58; background: #242526; }
 .keepersync-tour .keepersync-preview-focus img { position: absolute; width: 191.044776%; max-width: none; height: auto; left: 0; top: 0; transform: translate(-21.875%, -15%); }
