@@ -1912,3 +1912,9 @@ h3 {
     filter: drop-shadow(0 18px 30px rgba(42, 40, 36, 0.14));
   }
 }
+
+/* Keep the product navigation readable with KeeperSync Studio included. */
+@media (min-width: 861px) and (max-width: 1550px) {
+  .site-header { flex-wrap: wrap; gap: 16px 24px; }
+  .site-header .main-nav { order: 3; flex-basis: 100%; flex-wrap: wrap; justify-content: center; }
+}

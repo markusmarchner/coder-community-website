@@ -1,0 +1,88 @@
+.keepersync-theme {
+  color-scheme: dark;
+  --bg: #242526;
+  --surface: #303133;
+  --surface-strong: #393a3c;
+  --surface-soft: #292a2c;
+  --ink: #f2f2f3;
+  --muted: #bfc0c3;
+  --line: #494a4d;
+  --graphite: #a5a8ac;
+  --graphite-dark: #ffffff;
+  --accent: #b9c8d8;
+  --inset: inset 0 1px 0 rgba(255,255,255,.04);
+  --shadow: 0 24px 64px rgba(0,0,0,.3);
+}
+.keepersync-theme .site-header { background: rgba(36,37,38,.94); border-color: var(--line); }
+.keepersync-theme .brand-kicker { color: var(--muted); }
+.keepersync-theme .main-nav a[aria-current] { color: var(--ink); }
+.keepersync-theme .main-nav { flex-wrap: wrap; }
+.keepersync-theme .mobile-page { background: linear-gradient(180deg,#2d2e30 0%,#242526 33%,#292a2c 100%); }
+.keepersync-theme .mobile-page-hero { padding: clamp(56px,7vw,100px) clamp(18px,4vw,56px); }
+.keepersync-theme .mobile-hero { width: min(1560px,100%); grid-template-columns: minmax(0,.85fr) minmax(0,1.25fr); gap: clamp(28px,4vw,64px); }
+.keepersync-theme .mobile-page-hero h1 { font-size: clamp(2.5rem,4.1vw,4.5rem); line-height: 1.08; margin: 22px 0; }
+.keepersync-identity { display: flex; gap: 14px; align-items: center; }
+.keepersync-identity .eyebrow { margin: 0; }
+.keepersync-identity img { flex-shrink: 0; }
+.keepersync-theme .mobile-copy .keepersync-availability { font-size: .84rem; margin-top: 24px; }
+.keepersync-showcase { margin: 0; min-width: 0; }
+.keepersync-showcase img { width: 100%; height: auto; display: block; border: 1px solid #55565a; border-radius: 10px; box-shadow: var(--shadow); }
+.keepersync-showcase figcaption { margin-top: 20px; color: #e1e2e4; text-align: center; font-size: .88rem; }
+.keepersync-showcase figcaption span { display: block; margin-top: 5px; color: var(--muted); font-size: .75rem; }
+.keepersync-theme .button.primary { background: linear-gradient(180deg,#ededee,#c9cbce); color: #202123; border: 1px solid #e0e1e3; box-shadow: 0 5px 16px #0003; }
+.keepersync-theme .button.primary:hover { background: #fff; }
+.keepersync-theme .button.neutral { background: #37383b; color: var(--ink); }
+.keepersync-theme .button.neutral:hover { background: #45474a; }
+.keepersync-features { background: #292a2c; border-block: 1px solid #ffffff09; }
+.keepersync-theme .section-heading h2 { color: var(--ink); }
+.keepersync-number { display: block; margin-bottom: 28px; font-size: .85rem; color: #a9bdd2; font-variant-numeric: tabular-nums; }
+.keepersync-theme .performance-card-grid { width: min(1320px,100%); }
+.keepersync-theme .performance-card-grid article { background: linear-gradient(150deg,#343537,#2e2f31); }
+.keepersync-theme .performance-card-grid h3 { line-height: 1.35; }
+.keepersync-tour { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 22px; max-width: 1320px; margin: auto; }
+.keepersync-tour article { border: 1px solid var(--line); border-radius: 10px; overflow: hidden; background: var(--surface); }
+.keepersync-tour img { width: 100%; height: auto; display: block; }
+.keepersync-tour article > div { padding: 26px; }
+.keepersync-tour article p:not(.eyebrow) { color: var(--muted); }
+.keepersync-caption { color: var(--muted); font-size: .8rem; text-align: center; margin-top: 24px; }
+.keepersync-download { background: #202123; }
+.keepersync-download-panel { display: grid; grid-template-columns: minmax(0,1.5fr) minmax(0,.65fr); gap: 60px; align-items: center; max-width: 1100px; margin: auto; padding: clamp(24px,5vw,56px); border: 1px solid var(--line); border-radius: 12px; background: linear-gradient(120deg,#353638,#292a2c); }
+.keepersync-download-panel h2 { font-size: clamp(2rem,3vw,3.3rem); }
+.keepersync-download-panel p { color: var(--muted); }
+.keepersync-status { display: flex; align-items: center; gap: 10px; font-weight: 650; }
+.keepersync-status span { width: 8px; height: 8px; border-radius: 50%; background: #d8bd80; flex-shrink: 0; }
+.keepersync-price { display: flex; flex-direction: column; align-items: center; text-align: center; border-left: 1px solid var(--line); padding-left: 35px; }
+.keepersync-price > span { margin-top: 20px; color: var(--muted); }
+.keepersync-price strong { font-size: clamp(1.8rem,2.8vw,2.7rem); }
+.keepersync-text-link { text-decoration: underline; text-underline-offset: 5px; }
+.keepersync-faq { max-width: 920px; margin: auto; }
+.keepersync-faq details { border-bottom: 1px solid var(--line); }
+.keepersync-faq summary { cursor: pointer; padding: 23px 4px; font-size: 1.08rem; font-weight: 650; }
+.keepersync-faq details > div { color: var(--muted); padding: 0 4px 18px; max-width: 820px; }
+.keepersync-faq li { margin-bottom: 12px; }
+.keepersync-theme .contact { background: #2d2e30; }
+.keepersync-theme .contact-panel { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; }
+.keepersync-theme .contact-panel .button { flex-shrink: 0; }
+.keepersync-theme .site-footer { background: #222325; border-color: var(--line); }
+.keepersync-theme .site-footer nav { flex-wrap: wrap; }
+.keepersync-theme :focus-visible { outline: 2px solid #b7d6f5; outline-offset: 5px; }
+.skip-link { position: fixed; top: -100px; left: 16px; padding: 12px 20px; z-index: 100; background: #f2f2f3; color: #202123; }
+.skip-link:focus { top: 12px; }
+@media (max-width: 1100px) {
+  .keepersync-theme .mobile-hero { grid-template-columns: 1fr; }
+  .keepersync-theme .mobile-copy { max-width: 780px; }
+  .keepersync-theme .performance-card-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .keepersync-showcase { max-width: 1000px; }
+}
+@media (max-width: 760px) {
+  .keepersync-tour, .keepersync-download-panel { grid-template-columns: 1fr; }
+  .keepersync-download-panel { gap: 35px; }
+  .keepersync-price { border-left: 0; border-top: 1px solid var(--line); padding: 28px 0 0; }
+  .keepersync-theme .site-header { position: relative; }
+}
+@media (max-width: 520px) {
+  .keepersync-theme .performance-card-grid { grid-template-columns: 1fr; }
+  .keepersync-theme .mobile-page-hero h1 { font-size: 2.45rem; }
+  .keepersync-theme .main-nav { font-size: .85rem; gap: 12px 18px; }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
