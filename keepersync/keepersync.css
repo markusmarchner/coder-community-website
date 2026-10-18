@@ -46,8 +46,8 @@
 .keepersync-tour img { width: 100%; height: auto; display: block; }
 /* Focus the audio card on the inspector; the link opens the full screenshot. */
 .keepersync-audio-focus { display: block; position: relative; overflow: hidden; aspect-ratio: 8 / 5; background: #242526; }
-.keepersync-audio-focus > span { display: block; position: relative; overflow: hidden; width: 57.142857%; height: 100%; margin: auto; }
-.keepersync-tour .keepersync-audio-focus img { position: absolute; width: 400%; max-width: none; height: auto; left: 0; top: 0; transform: translate(-73.046875%, -10.625%); }
+.keepersync-audio-focus > span { display: block; position: relative; overflow: hidden; width: 50%; height: 100%; margin: auto; }
+.keepersync-tour .keepersync-audio-focus img { position: absolute; width: 457.142857%; max-width: none; height: auto; left: 0; top: 0; transform: translate(-74.84375%, -10.875%); }
 /* Enlarge the two previews and the complete virtual timeline together. */
 .keepersync-preview-focus { display: block; position: relative; overflow: hidden; aspect-ratio: 67 / 58; background: #242526; }
 .keepersync-tour .keepersync-preview-focus img { position: absolute; width: 191.044776%; max-width: none; height: auto; left: 0; top: 0; transform: translate(-21.875%, -15%); }
