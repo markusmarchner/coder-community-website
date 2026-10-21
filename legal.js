@@ -45,18 +45,30 @@ const legalSharedTranslations = {
   },
 };
 
+const legalAppTranslations = {
+  de: { backKeeper: "Zu KeeperSync Studio", backLight: "Zu Coder light", support: "Support", websitePrivacy: "Website-Datenschutz" },
+  en: { backKeeper: "Back to KeeperSync Studio", backLight: "Back to Coder light", support: "Support", websitePrivacy: "Website privacy" },
+  fr: { backKeeper: "Retour à KeeperSync Studio", backLight: "Retour à Coder light", support: "Assistance", websitePrivacy: "Confidentialité du site" },
+  es: { backKeeper: "Volver a KeeperSync Studio", backLight: "Volver a Coder light", support: "Soporte", websitePrivacy: "Privacidad del sitio" },
+};
+Object.keys(legalAppTranslations).forEach((lang) => Object.assign(legalSharedTranslations[lang], legalAppTranslations[lang]));
+
 const supportedLegalLanguages = ["de", "en", "fr", "es"];
 
 function storedLegalLanguage() {
-  const stored = localStorage.getItem("coder-language");
-  if (supportedLegalLanguages.includes(stored)) return stored;
-  const browser = navigator.language?.slice(0, 2);
+  const linkedLanguage = location.hash.slice(1);
+  if (supportedLegalLanguages.includes(linkedLanguage) && document.getElementById(linkedLanguage)) return linkedLanguage;
+  try {
+    const stored = localStorage.getItem("coder-language");
+    if (supportedLegalLanguages.includes(stored)) return stored;
+  } catch { /* Optional preference storage. */ }
+  const browser = navigator.language?.slice(0, 2).toLowerCase();
   return supportedLegalLanguages.includes(browser) ? browser : "de";
 }
 
 function applyLegalLanguage(language) {
   const lang = supportedLegalLanguages.includes(language) ? language : "de";
-  localStorage.setItem("coder-language", lang);
+  try { localStorage.setItem("coder-language", lang); } catch { /* Optional preference storage. */ }
   document.documentElement.lang = lang;
 
   document.querySelectorAll("[data-legal-i18n]").forEach((element) => {
@@ -77,13 +89,29 @@ function applyLegalLanguage(language) {
     section.hidden = section.dataset.legalSection !== lang;
   });
 
+  const activeSection = document.querySelector(`[data-legal-section="${lang}"]`);
+  const heading = activeSection?.querySelector("h1");
+  if (heading) document.title = `${heading.textContent} | Coder`;
+  const description = document.querySelector('meta[name="description"]');
+  if (description && activeSection?.dataset.description) description.content = activeSection.dataset.description;
+
   document.querySelectorAll("[data-legal-lang]").forEach((button) => {
-    button.classList.toggle("active", button.dataset.legalLang === lang);
+    const active = button.dataset.legalLang === lang;
+    button.classList.toggle("active", active);
+    button.setAttribute("aria-pressed", String(active));
   });
 }
 
 document.querySelectorAll("[data-legal-lang]").forEach((button) => {
-  button.addEventListener("click", () => applyLegalLanguage(button.dataset.legalLang));
+  button.addEventListener("click", () => {
+    const lang = button.dataset.legalLang;
+    if (supportedLegalLanguages.includes(location.hash.slice(1)) && document.getElementById(lang)) {
+      history.replaceState(null, "", `#${lang}`);
+    }
+    applyLegalLanguage(lang);
+  });
 });
 
 applyLegalLanguage(storedLegalLanguage());
+
+window.addEventListener("hashchange", () => applyLegalLanguage(storedLegalLanguage()));

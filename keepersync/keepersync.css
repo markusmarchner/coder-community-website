@@ -27,7 +27,7 @@
 .keepersync-showcase > a { display: block; position: relative; aspect-ratio: 598 / 383; overflow: hidden; border: 1px solid #55565a; border-radius: 12px; background: #242526; box-shadow: var(--shadow); isolation: isolate; }
 .keepersync-showcase img { position: absolute; display: block; width: 107.023411%; max-width: none; height: auto; left: 0; top: 0; transform: translate(-3.28125%, -2.125%); }
 .keepersync-showcase figcaption { margin-top: 20px; color: #e1e2e4; text-align: center; font-size: .88rem; }
-.keepersync-showcase figcaption span { display: block; margin-top: 5px; color: var(--muted); font-size: .75rem; }
+.keepersync-showcase figcaption span:not(.keepersync-caption-title) { display: block; margin-top: 5px; color: var(--muted); font-size: .75rem; }
 .keepersync-theme .button.primary { background: linear-gradient(180deg,#ededee,#c9cbce); color: #202123; border: 1px solid #e0e1e3; box-shadow: 0 5px 16px #0003; }
 .keepersync-theme .button.primary:hover { background: #fff; }
 .keepersync-theme .button.neutral { background: #37383b; color: var(--ink); }
@@ -60,7 +60,7 @@
 .keepersync-download-panel h2 { font-size: clamp(2rem,3vw,3.3rem); }
 .keepersync-download-panel p { color: var(--muted); }
 .keepersync-status { display: flex; align-items: center; gap: 10px; font-weight: 650; }
-.keepersync-status span { width: 8px; height: 8px; border-radius: 50%; background: #d8bd80; flex-shrink: 0; }
+.keepersync-status span[aria-hidden] { width: 8px; height: 8px; border-radius: 50%; background: #d8bd80; flex-shrink: 0; }
 .keepersync-price { display: flex; flex-direction: column; align-items: center; text-align: center; border-left: 1px solid var(--line); padding-left: 35px; }
 .keepersync-price > span { margin-top: 20px; color: var(--muted); }
 .keepersync-price strong { font-size: clamp(1.8rem,2.8vw,2.7rem); }
@@ -131,3 +131,10 @@
 .keepersync-perspectives img { display: block; width: 100%; height: auto; }
 .keepersync-perspectives a:focus-visible { outline-offset: -4px; }
 @media (max-width: 760px) { .keepersync-perspectives { grid-template-columns: 1fr; } }
+
+/* Keep language controls legible on the dark product page. */
+.keepersync-theme .language-switcher { background: #303133; box-shadow: none; }
+.keepersync-theme .language-option { color: #e1e2e4; }
+.keepersync-theme .language-option.active,
+.keepersync-theme .language-option:hover { background: #e1e2e4; color: #202224; box-shadow: none; }
+.keepersync-theme .language-option:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }

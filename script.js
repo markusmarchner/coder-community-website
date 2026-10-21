@@ -1821,9 +1821,28 @@ const videoContent = {
   },
 };
 
-let currentLanguage = translations[localStorage.getItem("coder-language")]
-  ? localStorage.getItem("coder-language")
-  : "de";
+const sharedPageTranslations = {
+  de: { brandKicker: "Videoanalyse App", appLanguagesAria: "Verfügbare App-Sprachen", navContact: "Kontakt", footerTerms: "Nutzungsbedingungen" },
+  en: { brandKicker: "Video analysis app", appLanguagesAria: "Available app languages" },
+  fr: { brandKicker: "App d’analyse vidéo", appLanguagesAria: "Langues disponibles dans l’app" },
+  es: { brandKicker: "App de análisis de vídeo", appLanguagesAria: "Idiomas disponibles en la app" },
+};
+Object.keys(translations).forEach((language) => {
+  Object.assign(translations[language], sharedPageTranslations[language]);
+  if (typeof keepersyncTranslations !== "undefined") {
+    Object.assign(translations[language], keepersyncTranslations[language]);
+  }
+});
+
+function preferredLanguage() {
+  try {
+    const stored = localStorage.getItem("coder-language");
+    if (translations[stored]) return stored;
+  } catch { /* Language switching also works when storage is unavailable. */ }
+  const browser = navigator.language?.slice(0, 2).toLowerCase();
+  return translations[browser] ? browser : "de";
+}
+let currentLanguage = preferredLanguage();
 let currentVideo = "tagging";
 
 const featureVideoFrame = document.querySelector("#feature-video");
@@ -1970,7 +1989,7 @@ function setLanguage(language) {
   }
 
   currentLanguage = language;
-  localStorage.setItem("coder-language", language);
+  try { localStorage.setItem("coder-language", language); } catch { /* Optional preference storage. */ }
   applyText(language);
   selectVideo(currentVideo);
   selectModuleVideo(
