@@ -21,9 +21,15 @@
       </a>
       <nav class="main-nav" aria-label="Hauptnavigation">
         <a href="/performance/">Coder Performance</a>
-        <a href="/mobile/">Coder Mobile App</a>
-        <a href="/phone/">Coder Phone App</a>
-        <a href="/watch/">Coder Watch</a>
+        <details class="nav-dropdown">
+          <summary><span data-i18n="navIOS">Coder für iOS</span><span class="nav-chevron" aria-hidden="true"></span></summary>
+          <div class="nav-dropdown-panel">
+            <a href="/mobile/"><img src="/assets/icons/coder-mobile.png" width="36" height="36" alt="" /><span>Coder Mobile App<small>iPad</small></span></a>
+            <a href="/phone/"><img src="/assets/icons/coder-phone.png" width="36" height="36" alt="" /><span>Coder Phone App<small>iPhone</small></span></a>
+            <a href="/watch/"><img src="/assets/icons/coder-watch.png" width="36" height="36" alt="" /><span>Coder Watch<small>Apple Watch</small></span></a>
+          </div>
+        </details>
+        <a href="/light/">Coder light</a>
         <a href="/keepersync/" aria-current="page">KeeperSync Studio</a>
         <a href="#keepersync-download">Download</a>
         <a href="#keepersync-contact">Kontakt</a>
@@ -118,5 +124,6 @@
     <section class="section contact" id="keepersync-contact" aria-labelledby="contact-title"><div class="section-heading"><p class="eyebrow">Kontakt</p><h2 id="contact-title">Fragen zu KeeperSync Studio?</h2><p>Für Support, Feedback und Fragen zur App erreichst du mich direkt per E-Mail.</p></div><div class="contact-panel"><div><h3>Markus Marchner</h3><p>Nenne bei Supportfragen bitte deine App- und macOS-Version sowie die Schritte bis zum Problem. Sende zunächst keine vollständigen Spielaufnahmen oder personenbezogenen Daten.</p></div><a class="button primary" href="mailto:markusmarchner@coderapp.app">E-Mail schreiben</a></div></section>
   </main>
   <footer class="site-footer"><p>© 2026 Markus Marchner</p><nav aria-label="Rechtliches"><a href="../impressum.html">Impressum</a><a href="/keepersync/datenschutz">KeeperSync-Datenschutz</a><a href="../datenschutz.html">Website-Datenschutz</a><a href="../terms.html">Terms</a><a href="../cookies.html">Cookies</a></nav></footer>
-</body>
+  <script src="/navigation.js"></script>
+  </body>
 </html>

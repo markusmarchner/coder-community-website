@@ -22,9 +22,15 @@
       </a>
       <nav class="main-nav" aria-label="Hauptnavigation" data-i18n-attr="aria-label:mainNavAria">
         <a href="/performance/" data-i18n="navPerformance">Coder Performance</a>
-        <a href="/mobile/" data-i18n="navMobile">Coder Mobile App</a>
-        <a href="/phone/" data-i18n="navPhone">Coder Phone App</a>
-        <a href="/watch/" data-i18n="navWatch">Coder Watch</a>
+        <details class="nav-dropdown">
+          <summary><span data-i18n="navIOS">Coder für iOS</span><span class="nav-chevron" aria-hidden="true"></span></summary>
+          <div class="nav-dropdown-panel">
+            <a href="/mobile/"><img src="/assets/icons/coder-mobile.png" width="36" height="36" alt="" /><span>Coder Mobile App<small>iPad</small></span></a>
+            <a href="/phone/"><img src="/assets/icons/coder-phone.png" width="36" height="36" alt="" /><span>Coder Phone App<small>iPhone</small></span></a>
+            <a href="/watch/"><img src="/assets/icons/coder-watch.png" width="36" height="36" alt="" /><span>Coder Watch<small>Apple Watch</small></span></a>
+          </div>
+        </details>
+        <a href="/light/">Coder light</a>
         <a href="/keepersync/">KeeperSync Studio</a>
         <a href="/performance/#performance-store" data-i18n="navDownload">Download</a>
         <a href="/performance/#performance-contact" data-i18n="navContact">Contact</a>
@@ -257,5 +263,6 @@
     </footer>
 
     <script src="../script.js"></script>
+    <script src="/navigation.js"></script>
   </body>
 </html>
