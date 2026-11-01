@@ -2009,3 +2009,11 @@ h3 {
 .window-mode b { grid-column: span 2; width: 100%; height: 100%; background: repeating-linear-gradient(0deg,#344b64 0 4px,#222 4px 7px); }
 .tv-output-modes figcaption { font-size: .7rem; color: #bbb; text-align: center; }
 @media(max-width: 1000px) { .tv-workflow-grid { grid-template-columns: 1fr; max-width: 640px; } }
+
+/* Separate CoderTV setup and privacy into readable, stacked panels. */
+.tv-info-stack { display: grid; gap: 28px; width: min(1100px, 100%); margin: 0 auto; scroll-margin-top: 140px; }
+.tv-info-stack > div { padding: clamp(24px, 4vw, 44px); border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+.tv-info-stack > div + div { background: var(--surface-soft); border-left: 4px solid var(--graphite); }
+.tv-info-stack h2 { font-size: clamp(1.7rem, 3vw, 2.6rem); line-height: 1.15; margin: 0 0 20px; }
+.tv-info-stack p { max-width: 75ch; color: var(--muted); font-size: 1.05rem; line-height: 1.7; }
+.tv-info-stack .button { margin-top: 12px; }
