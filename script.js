@@ -1829,6 +1829,7 @@ const sharedPageTranslations = {
 };
 Object.keys(translations).forEach((language) => {
   Object.assign(translations[language], sharedPageTranslations[language]);
+  if (typeof coderTVTranslations !== "undefined") Object.assign(translations[language], coderTVTranslations[language]);
   if (typeof keepersyncTranslations !== "undefined") {
     Object.assign(translations[language], keepersyncTranslations[language]);
   }

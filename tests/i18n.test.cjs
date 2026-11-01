@@ -6,7 +6,7 @@ const path = require('node:path');
 const assert = require('node:assert/strict');
 const root = path.resolve(__dirname, '..');
 const languages = ['de', 'en', 'fr', 'es'];
-const pages = ['index.html', 'performance/index.html', 'mobile/index.html', 'phone/index.html', 'watch/index.html', 'light/index.html', 'keepersync/index.html', 'impressum.html', 'datenschutz.html', 'terms.html', 'cookies.html', 'light/privacy.html', 'keepersync/datenschutz.html'];
+const pages = ['tv/index.html', 'tv/datenschutz.html', 'index.html', 'performance/index.html', 'mobile/index.html', 'phone/index.html', 'watch/index.html', 'light/index.html', 'keepersync/index.html', 'impressum.html', 'datenschutz.html', 'terms.html', 'cookies.html', 'light/privacy.html', 'keepersync/datenschutz.html'];
 function load(page, language, blockedStorage = false, hash = '') {
   const dom = new JSDOM(fs.readFileSync(path.join(root, page), 'utf8'), { url: `https://coderapp.app/${page}${hash}`, runScripts: 'outside-only' });
   const { window } = dom;
@@ -62,7 +62,7 @@ for (const page of pages) {
     dom.window.close();
   }
 }
-for (const page of ['light/privacy.html', 'keepersync/datenschutz.html']) {
+for (const page of ['tv/datenschutz.html', 'light/privacy.html', 'keepersync/datenschutz.html']) {
   const dom = load(page, 'de', false, '#en');
   assert.equal(dom.window.document.documentElement.lang, 'en');
   dom.window.document.querySelector('[data-legal-lang="es"]').click();

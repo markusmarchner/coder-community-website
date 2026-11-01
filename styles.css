@@ -1979,3 +1979,15 @@ h3 {
 
 .light-highlights-preview { position: relative; }
 .light-highlights-preview .light-stadium-overlay { position: absolute; left: 43.28125%; top: 33.5%; width: 55.46875%; height: 49.875%; object-fit: cover; border: 0; border-radius: 0; box-shadow: none; }
+
+/* CoderTV follows the shared product-page layout. */
+.tv-hero { grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); }
+.tv-showcase { margin: 0; min-width: 0; }
+.tv-showcase img { display: block; width: 100%; height: auto; border: 10px solid #252525; border-radius: 18px; box-shadow: 0 28px 50px #0003; }
+.tv-showcase figcaption { margin-top: 24px; color: var(--muted); font-size: .85rem; text-align: center; }
+.tv-screen-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px; max-width: 1400px; margin: auto; }
+.tv-screen-grid img { display: block; width: 100%; height: auto; border-radius: 12px; border: 6px solid #252525; }
+.tv-screen-grid h3 { margin-top: 20px; }
+.tv-page .feature-list { row-gap: 36px; }
+@media (max-width: 1100px) { .tv-hero { grid-template-columns: 1fr; } }
+@media (max-width: 700px) { .tv-screen-grid { grid-template-columns: 1fr; } .tv-showcase img { border-width: 6px; } }
