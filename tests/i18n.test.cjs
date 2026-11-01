@@ -14,7 +14,7 @@ function load(page, language, blockedStorage = false, hash = '') {
   if (blockedStorage) Object.defineProperty(window, 'localStorage', { get() { throw new Error('Storage disabled'); } });
   else window.localStorage.setItem('coder-language', language);
   for (const script of window.document.querySelectorAll('script[src]')) {
-    const source = script.getAttribute('src');
+    const source = script.getAttribute('src').split('?')[0];
     if (/^https?:/.test(source)) continue;
     const filename = source.startsWith('/') ? path.join(root, source) : path.resolve(root, path.dirname(page), source);
     vm.runInContext(fs.readFileSync(filename, 'utf8'), dom.getInternalVMContext(), { filename });
