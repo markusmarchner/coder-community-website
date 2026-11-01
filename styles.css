@@ -2017,3 +2017,15 @@ h3 {
 .tv-info-stack h2 { font-size: clamp(1.7rem, 3vw, 2.6rem); line-height: 1.15; margin: 0 0 20px; }
 .tv-info-stack p { max-width: 75ch; color: var(--muted); font-size: 1.05rem; line-height: 1.7; }
 .tv-info-stack .button { margin-top: 12px; }
+
+.tv-store-link { display: inline-flex; align-items: center; gap: 16px; padding: 8px; border-radius: 18px; }
+.tv-store-link img { display: block; flex: 0 0 auto; width: 72px; height: 72px; }
+.tv-store-link span { display: grid; gap: 5px; }
+.tv-store-link strong { color: var(--ink); font-size: 1rem; }
+.tv-store-link small { color: var(--muted); font-size: .8rem; }
+.tv-store-link:hover { background: var(--surface-soft); }
+.tv-store-link:focus-visible { outline: 2px solid var(--graphite-dark); outline-offset: 4px; }
+.tv-page .mobile-download-panel .tv-store-link { min-width: 250px; }
+@media(max-width: 600px) { .tv-store-link { max-width: 100%; } }
+
+.tv-page .mobile-actions { align-items: center; }

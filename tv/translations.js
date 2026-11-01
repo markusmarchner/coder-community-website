@@ -31,8 +31,8 @@ const coderTVTranslations = {
     "tvPrivacy": "Datenschutz gehört dazu",
     "tvPrivacyText": "Besprechungen und Kamerastreams haben unterschiedliche Datenwege. Unsere eigenen CoderTV-Hinweise erklären lokale Sitzungen, gespeicherte Kameradaten, Schlüsselbund und Verbindungen zu deinen Stream-Anbietern.",
     "tvPrivacyCta": "CoderTV-Datenschutz lesen",
-    "tvAvailability": "CoderTV kennenlernen",
-    "tvAvailabilityText": "Fragen zur Einrichtung, zum Bezug oder zum Einsatz im Trainerteam? Melde dich bei uns.",
+    "tvAvailability": "CoderTV für Apple TV",
+    "tvAvailabilityText": "CoderTV ist zur Prüfung bei Apple eingereicht. Der Download ist nach Freigabe im App Store verfügbar.",
     "tvWorkflowTitle": "Vom Coder auf den Fernseher",
     "tvWorkflowIntro": "Sitzung anlegen, die Anzeige übernehmen und entscheiden, was dein Team sieht – direkt aus Coder auf dem Mac.",
     "tvStep1Title": "1. Sitzung anlegen",
@@ -48,7 +48,10 @@ const coderTVTranslations = {
     "tvModeVideoText": "Fokus auf Video und Präsentation",
     "tvModeWindowText": "Analyseoberfläche gemeinsam zeigen",
     "tvModeCaption": "Ausgabearten · schematische Darstellung",
-    "tvWorkflowNote": "Die Besprechung überträgt aktuell keinen Ton. „Vollbild“ meint hier die reine Video-/Präsentationsausgabe auf dem TV; ein macOS-Vollbildwechsel ist dafür nicht erforderlich."
+    "tvWorkflowNote": "Die Besprechung überträgt aktuell keinen Ton. „Vollbild“ meint hier die reine Video-/Präsentationsausgabe auf dem TV; ein macOS-Vollbildwechsel ist dafür nicht erforderlich.",
+    "tvStoreAria": "CoderTV im App Store öffnen",
+    "tvStoreLabel": "App Store · Apple TV",
+    "tvStoreStatus": "Wartet auf Apples Freigabe"
   },
   "en": {
     "tvTitle": "CoderTV for Apple TV",
@@ -82,8 +85,8 @@ const coderTVTranslations = {
     "tvPrivacy": "Privacy is part of the workflow",
     "tvPrivacyText": "Meetings and camera streams follow different data paths. Our dedicated CoderTV notice explains local sessions, saved camera data, Keychain storage and connections to your streaming providers.",
     "tvPrivacyCta": "Read CoderTV privacy notice",
-    "tvAvailability": "Discover CoderTV",
-    "tvAvailabilityText": "Questions about setup, availability or using CoderTV with your coaching team? Get in touch.",
+    "tvAvailability": "CoderTV for Apple TV",
+    "tvAvailabilityText": "CoderTV has been submitted for Apple review. Download will be available in the App Store after approval.",
     "tvWorkflowTitle": "From Coder to the television",
     "tvWorkflowIntro": "Create a session, take over the display and choose what your team sees – directly from Coder on your Mac.",
     "tvStep1Title": "1. Create a session",
@@ -99,7 +102,10 @@ const coderTVTranslations = {
     "tvModeVideoText": "Focus on video and presentation",
     "tvModeWindowText": "Share the analysis interface",
     "tvModeCaption": "Output modes · schematic illustration",
-    "tvWorkflowNote": "Meetings currently transmit no audio. Full-screen here means video/presentation output on the TV; switching macOS into full-screen mode is not required."
+    "tvWorkflowNote": "Meetings currently transmit no audio. Full-screen here means video/presentation output on the TV; switching macOS into full-screen mode is not required.",
+    "tvStoreAria": "Open CoderTV in the App Store",
+    "tvStoreLabel": "App Store · Apple TV",
+    "tvStoreStatus": "Awaiting Apple approval"
   },
   "fr": {
     "tvTitle": "CoderTV pour Apple TV",
@@ -133,8 +139,8 @@ const coderTVTranslations = {
     "tvPrivacy": "La confidentialité en fait partie",
     "tvPrivacyText": "Les réunions et les flux caméra suivent des chemins différents. Notre notice CoderTV décrit les sessions locales, les données caméra enregistrées, le trousseau et les connexions à vos fournisseurs de flux.",
     "tvPrivacyCta": "Lire la notice CoderTV",
-    "tvAvailability": "Découvrir CoderTV",
-    "tvAvailabilityText": "Des questions sur la configuration, la disponibilité ou l’utilisation en équipe ? Contactez-nous.",
+    "tvAvailability": "CoderTV pour Apple TV",
+    "tvAvailabilityText": "CoderTV a été soumis à Apple pour validation. Le téléchargement sera disponible sur l’App Store après approbation.",
     "tvWorkflowTitle": "De Coder au téléviseur",
     "tvWorkflowIntro": "Créez une session, prenez la main et choisissez ce que votre équipe voit – directement depuis Coder sur Mac.",
     "tvStep1Title": "1. Créer une session",
@@ -150,7 +156,10 @@ const coderTVTranslations = {
     "tvModeVideoText": "Se concentrer sur le contenu",
     "tvModeWindowText": "Partager l’interface d’analyse",
     "tvModeCaption": "Modes d’affichage · illustration schématique",
-    "tvWorkflowNote": "Les réunions ne transmettent actuellement pas de son. Plein écran désigne ici la sortie vidéo/présentation sur le TV ; le mode plein écran de macOS n’est pas nécessaire."
+    "tvWorkflowNote": "Les réunions ne transmettent actuellement pas de son. Plein écran désigne ici la sortie vidéo/présentation sur le TV ; le mode plein écran de macOS n’est pas nécessaire.",
+    "tvStoreAria": "Ouvrir CoderTV dans l’App Store",
+    "tvStoreLabel": "App Store · Apple TV",
+    "tvStoreStatus": "En attente de validation Apple"
   },
   "es": {
     "tvTitle": "CoderTV para Apple TV",
@@ -184,8 +193,8 @@ const coderTVTranslations = {
     "tvPrivacy": "La privacidad forma parte del proceso",
     "tvPrivacyText": "Las reuniones y las cámaras usan rutas de datos diferentes. Nuestro aviso de CoderTV explica las sesiones locales, los datos de cámaras, el llavero y las conexiones con tus proveedores de streaming.",
     "tvPrivacyCta": "Leer privacidad de CoderTV",
-    "tvAvailability": "Descubre CoderTV",
-    "tvAvailabilityText": "¿Preguntas sobre configuración, disponibilidad o uso con tu equipo? Contacta con nosotros.",
+    "tvAvailability": "CoderTV para Apple TV",
+    "tvAvailabilityText": "CoderTV se ha enviado a Apple para revisión. La descarga estará disponible en el App Store tras su aprobación.",
     "tvWorkflowTitle": "De Coder al televisor",
     "tvWorkflowIntro": "Crea una sesión, toma el control y elige lo que ve tu equipo, directamente desde Coder en el Mac.",
     "tvStep1Title": "1. Crear una sesión",
@@ -201,6 +210,9 @@ const coderTVTranslations = {
     "tvModeVideoText": "Centrarse en el contenido",
     "tvModeWindowText": "Compartir la interfaz de análisis",
     "tvModeCaption": "Modos de salida · ilustración esquemática",
-    "tvWorkflowNote": "Las reuniones aún no transmiten audio. Pantalla completa significa aquí la salida de vídeo/presentación en el TV; no requiere activar la pantalla completa de macOS."
+    "tvWorkflowNote": "Las reuniones aún no transmiten audio. Pantalla completa significa aquí la salida de vídeo/presentación en el TV; no requiere activar la pantalla completa de macOS.",
+    "tvStoreAria": "Abrir CoderTV en el App Store",
+    "tvStoreLabel": "App Store · Apple TV",
+    "tvStoreStatus": "Pendiente de aprobación de Apple"
   }
 };
